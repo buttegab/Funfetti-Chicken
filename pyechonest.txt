@@ -1,0 +1,1 @@
+The echonest repository can be found at https://github.com/echonest/pyechonest. This must be cloned in order for find_tempo to run.
