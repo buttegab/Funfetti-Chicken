@@ -13,6 +13,7 @@ Saved via the Pickle module.
 import pyechonest
 from pyechonest import config, song
 import pickle
+import string
 from os.path import exists
 
 config.ECHO_NEST_API_KEY = "NOLYZICKJ6J3JQ7LS"
@@ -22,6 +23,7 @@ class Song_data:
         self.artist = artist
         self.name = name
         current_song = song.search(artist = artist, title = name)[0]
+        self.id = current_song.id
         # self.id = current_song.id
         self.parameter_dict = {x: current_song.audio_summary[x] for x in ['tempo', 'mode', 'key', 'danceability', 'acousticness', 'speechiness', 'loudness', 'energy']}
 
@@ -35,12 +37,16 @@ def print_test_info():
 
 def add_song_to_database(artist, name):
     """
-    TODO: Make it not duplicate songs.
+    TODO: Make it not duplicate songs, in a more efficient manner.
     """
     if exists('pickled_songs.txt'):
         f = open('pickled_songs.txt', 'r+')
         song_list = pickle.load(f)
-        song_list.append(Song_data(artist, name))
+        current_entry = Song_data(artist, name);
+        if current_entry.id in [previous_entry.id for previous_entry in song_list]:
+            print "Song '" + name + "' already in database."
+            return
+        song_list.append(current_entry)
         f.seek(0,0)
         pickle.dump(song_list, f)
     else:
