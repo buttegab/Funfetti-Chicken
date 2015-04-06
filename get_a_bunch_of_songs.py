@@ -5,6 +5,7 @@ Gets a frikkin' *ton* of songs from Billboard. NOTE THAT THIS TAKES A WHILE TO R
 
 import requests
 import time
+import random
 from bs4 import BeautifulSoup
 
 
@@ -52,8 +53,7 @@ def get_three_years_of_billboard_songs():
             year += 1
 
         # waits a little while, because otherwise the billboard server identifies it as an attack, virus, or glitch (and stops answering):
-        if i%30 == 0:
-            time.sleep(90)
+        time.sleep(random.choice([i + j for j in range(10)]))
 
     condensed_list = []
 
