@@ -15,6 +15,8 @@ from pyechonest import config, song
 import pickle
 import string
 from os.path import exists
+import json
+import urllib2 
 
 config.ECHO_NEST_API_KEY = "NOLYZICKJ6J3JQ7LS"
 
@@ -25,10 +27,16 @@ class Song_data:
         current_song = song.search(artist = artist, title = name)[0]
         self.id = current_song.id
         # self.id = current_song.id
-        self.parameter_dict = {x: current_song.audio_summary[x] for x in ['tempo', 'mode', 'key', 'danceability', 'acousticness', 'speechiness', 'loudness', 'energy']}
+        self.parameter_dict = {'mood': 'when the api key works, this will return the mood via get_mood(self.name)'},{x: current_song.audio_summary[x] for x in ['tempo', 'mode', 'key', 'danceability', 'acousticness', 'speechiness', 'loudness', 'energy']}
 
     def __str__(self):
         return self.name + " - " + self.artist
+
+def get_mood(name):
+    title = 'name'
+    url = str('http://api.rovicorp.com/data/v1.1/song/info?track='+title+'&country=US&language=en&format=json&apikey=a4779rmf2wq6h9w4af6hryzh&sig=890aca71f1beff8562793e1c170ce4c2')
+    data = json.load(urllib2.urlopen(url))
+    return data
 
 def print_test_info():
     like_a_rolling_stone = Song_data('Bob Dylan', 'Like a Rolling Stone')
@@ -56,9 +64,9 @@ def add_song_to_database(artist, name):
         pickle.dump(song_list, f)
 
 if __name__ == "__main__":
-    # for (x,y) in [('Bob Dylan', 'Like a Rolling Stone'), ('Maroon 5', 'Sugar'), ('Ellie Goulding', 'Love Me Like You Do'), ('Taylor Swift', 'Style'), ('Taylor Swift', 'Blank Space'), ('Hozier', 'Take Me to Church'), ('WALK THE MOON', 'Shut Up And Dance'), ('Ariana Grande', 'One Last Time'), ('Sia', 'Chandelier'), ('Eric Paslay', 'She Don\'t Love You'), ('Red Hot Chili Peppers', 'Under the Bridge'), ('Rihanna', 'Stay'), ('A Great Big World', 'Say Something')]:
-        # add_song_to_database(x, y)
-        pass
+    for (x,y) in [('Bob Dylan', 'Like a Rolling Stone'), ('Maroon 5', 'Sugar'), ('Ellie Goulding', 'Love Me Like You Do'), ('Taylor Swift', 'Style'), ('Taylor Swift', 'Blank Space'), ('Hozier', 'Take Me to Church'), ('WALK THE MOON', 'Shut Up And Dance'), ('Ariana Grande', 'One Last Time'), ('Sia', 'Chandelier'), ('Eric Paslay', 'She Don\'t Love You'), ('Red Hot Chili Peppers', 'Under the Bridge'), ('Rihanna', 'Stay'), ('A Great Big World', 'Say Something')]:
+        add_song_to_database(x, y)
+        #pass
     # print_test_info();
     # if exists('pickled_songs.txt'):
     #     f = open('pickled_songs.txt', 'r+')
