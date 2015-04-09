@@ -1,0 +1,6412 @@
+(lp0
+(S'fun. Featuring Janelle Monae'
+p1
+S'We Are Young'
+p2
+tp3
+a(S'Kelly Clarkson'
+p4
+S"Stronger (What Doesn't Kill You)"
+p5
+tp6
+a(S'The Wanted'
+p7
+S'Glad You Came'
+p8
+tp9
+a(S'Gotye Featuring Kimbra'
+p10
+S'Somebody That I Used To Know'
+p11
+tp12
+a(S'Nicki Minaj'
+p13
+S'Starships'
+p14
+tp15
+a(S'Adele'
+p16
+S'Set Fire To The Rain'
+p17
+tp18
+a(S'Flo Rida Featuring Sia'
+p19
+S'Wild Ones'
+p20
+tp21
+a(S'Katy Perry'
+p22
+S'Part Of Me'
+p23
+tp24
+a(S'Drake Featuring Rihanna'
+p25
+S'Take Care'
+p26
+tp27
+a(S'David Guetta Featuring Nicki Minaj'
+p28
+S'Turn Me On'
+p29
+tp30
+a(S'One Direction'
+p31
+S'What Makes You Beautiful'
+p32
+tp33
+a(S'Snoop Dogg & Wiz Khalifa Featuring Bruno Mars'
+p34
+S'Young, Wild & Free'
+p35
+tp36
+a(S'Train'
+p37
+S'Drive By'
+p38
+tp39
+a(S'Rihanna Featuring Calvin Harris'
+p40
+S'We Found Love'
+p41
+tp42
+a(S'Calvin Harris'
+p43
+S'Feel So Close'
+p44
+tp45
+a(S'Gym Class Heroes Featuring Neon Hitch'
+p46
+S'Ass Back Home'
+p47
+tp48
+a(S'Drake Featuring Lil Wayne'
+p49
+S'The Motto'
+p50
+tp51
+a(S'Carly Rae Jepsen'
+p52
+S'Call Me Maybe'
+p53
+tp54
+a(S'Taylor Swift'
+p55
+S'Eyes Open'
+p56
+tp57
+a(S'Flo Rida'
+p58
+S'Good Feeling'
+p59
+tp60
+a(S'Pitbull Featuring Chris Brown'
+p61
+S'International Love'
+p62
+tp63
+a(S'Tyga'
+p64
+S'Rack City'
+p65
+tp66
+a(S'Jessie J'
+p67
+S'Domino'
+p68
+tp69
+a(S'LMFAO'
+p70
+S'Sexy And I Know It'
+p71
+tp72
+a(S'Chris Brown'
+p73
+S'Turn Up The Music'
+p74
+tp75
+a(S'Bruno Mars'
+p76
+S'It Will Rain'
+p77
+tp78
+a(S'B.o.B'
+p79
+S'So Good'
+p80
+tp81
+a(S'Jay Z  Kanye West'
+p82
+S'Ni**as in Paris'
+p83
+tp84
+a(S'LMFAO Featuring Lauren Bennett & GoonRock'
+p85
+S'Party Rock Anthem'
+p86
+tp87
+a(S'Gavin DeGraw'
+p88
+S'Not Over You'
+p89
+tp90
+a(S'Maroon 5 Featuring Christina Aguilera'
+p91
+S'Moves Like Jagger'
+p92
+tp93
+a(S'Carrie Underwood'
+p94
+S'Good Girl'
+p95
+tp96
+a(S'Lee Brice'
+p97
+S'A Woman Like You'
+p98
+tp99
+a(S'Rihanna Featuring Chris Brown'
+p100
+S'Birthday Cake'
+p101
+tp102
+a(S'Taylor Swift Featuring The Civil Wars'
+p103
+S'Safe & Sound'
+p104
+tp105
+a(S'Christina Perri'
+p106
+S'A Thousand Years'
+p107
+tp108
+a(S'Rihanna Featuring Jay-Z'
+p109
+S'Talk That Talk'
+p110
+tp111
+a(S'Coldplay'
+p112
+S'Paradise'
+p113
+tp114
+a(S'Adele'
+p115
+S'Someone Like You'
+p116
+tp117
+a(S'Usher'
+p118
+S'Climax'
+p119
+tp120
+a(S'Jake Owen'
+p121
+S'Alone With You'
+p122
+tp123
+a(S'Taylor Swift'
+p124
+S'Ours'
+p125
+tp126
+a(S'Adele'
+p127
+S'Rolling In The Deep'
+p128
+tp129
+a(S'Adele'
+p130
+S'Rumour Has It'
+p131
+tp132
+a(S'Outasight'
+p133
+S'Tonight Is The Night'
+p134
+tp135
+a(S'Eric Church'
+p136
+S'Springsteen'
+p137
+tp138
+a(S'Blake Shelton'
+p139
+S'Drink On It'
+p140
+tp141
+a(S'Katy Perry'
+p142
+S'The One That Got Away'
+p143
+tp144
+a(S'Miranda Lambert'
+p145
+S'Over You'
+p146
+tp147
+a(S'David Guetta Featuring Usher'
+p148
+S'Without You'
+p149
+tp150
+a(S'Chris Brown Featuring Kevin K-MAC McCall'
+p151
+S'Strip'
+p152
+tp153
+a(S'Karmin'
+p154
+S'Brokenhearted'
+p155
+tp156
+a(S'Lady Antebellum'
+p157
+S"Dancin' Away With My Heart"
+p158
+tp159
+a(S'Beyonce'
+p160
+S'Love On Top'
+p161
+tp162
+a(S'Jason Mraz'
+p163
+S"I Won't Give Up"
+p164
+tp165
+a(S'Jason Aldean'
+p166
+S'Fly Over States'
+p167
+tp168
+a(S'Kirko Bangz'
+p169
+S'Drank In My Cup'
+p170
+tp171
+a(S'Kip Moore'
+p172
+S"Somethin' 'Bout A Truck"
+p173
+tp174
+a(S'LoveRance Featuring IamSu & Skipper or 50 Cent'
+p175
+S'UP!'
+p176
+tp177
+a(S'Luke Bryan'
+p178
+S'Drunk On You'
+p179
+tp180
+a(S'J. Cole Featuring Trey Songz'
+p181
+S"Can't Get Enough"
+p182
+tp183
+a(S'Travis Porter Featuring Tyga'
+p184
+S'Ayy Ladies'
+p185
+tp186
+a(S'Rascal Flatts'
+p187
+S'Banjo'
+p188
+tp189
+a(S'Tyga Featuring Lil Wayne'
+p190
+S'Faded'
+p191
+tp192
+a(S'Neon Trees'
+p193
+S'Everybody Talks'
+p194
+tp195
+a(S'Ellie Goulding'
+p196
+S'Lights'
+p197
+tp198
+a(S'Tim McGraw'
+p199
+S'Better Than I Used To Be'
+p200
+tp201
+a(S'Alex Clare'
+p202
+S'Too Close'
+p203
+tp204
+a(S'Avicii'
+p205
+S'Levels'
+p206
+tp207
+a(S'fun.'
+p208
+S'Some Nights'
+p209
+tp210
+a(S'Future Featuring T.I.'
+p211
+S'Magic'
+p212
+tp213
+a(S'Montgomery Gentry'
+p214
+S'Where I Come From'
+p215
+tp216
+a(S'Dierks Bentley'
+p217
+S'Home'
+p218
+tp219
+a(S'George Strait'
+p220
+S"Love's Gonna Make It Alright"
+p221
+tp222
+a(S'M83.'
+p223
+S'Midnight City'
+p224
+tp225
+a(S'Skrillex Featuring Sirah'
+p226
+S'Bangarang'
+p227
+tp228
+a(S'Coldplay Featuring Rihanna'
+p229
+S'Princess Of China'
+p230
+tp231
+a(S'Brantley Gilbert'
+p232
+S"You Don't Know Her Like I Do"
+p233
+tp234
+a(S'Zac Brown Band'
+p235
+S'No Hurry'
+p236
+tp237
+a(S'Diggy Featuring Jeremih'
+p238
+S'Do It Like You'
+p239
+tp240
+a(S'Melanie Fiona'
+p241
+S'4 AM'
+p242
+tp243
+a(S'Eli Young Band'
+p244
+S'Even If It Breaks Your Heart'
+p245
+tp246
+a(S'Maroon 5 Featuring Rozzi Crane'
+p247
+S'Come Away To The Water'
+p248
+tp249
+a(S'Keith Urban'
+p250
+S'You Gonna Fly'
+p251
+tp252
+a(S'Rihanna'
+p253
+S'You Da One'
+p254
+tp255
+a(S'Skrillex'
+p256
+S'Scary Monsters And Nice Sprites'
+p257
+tp258
+a(S'LMFAO'
+p259
+S'Sorry For Party Rocking'
+p260
+tp261
+a(S'Young Jeezy Featuring Ne-Yo'
+p262
+S'Leave You Alone'
+p263
+tp264
+a(S'The Black Keys'
+p265
+S'Lonely Boy'
+p266
+tp267
+a(S'Lil Wayne Featuring Bruno Mars'
+p268
+S'Mirror'
+p269
+tp270
+a(S'Trey Songz'
+p271
+S"Sex Ain't Better Than Love"
+p272
+tp273
+a(S'Craig Morgan'
+p274
+S'This Ole Boy'
+p275
+tp276
+a(S'Kenny Chesney'
+p277
+S'Reality'
+p278
+tp279
+a(S'Shinedown'
+p280
+S'Bully'
+p281
+tp282
+a(S'Mary J. Blige Featuring Drake'
+p283
+S'Mr. Wrong'
+p284
+tp285
+a(S'Drake Featuring Lil Wayne'
+p286
+S'HYFR (Hell Yeah F*****g Right)'
+p287
+tp288
+a(S'Bella Thorne'
+p289
+S'TTYLXOX'
+p290
+tp291
+a(S'Young Jeezy Featuring Jay-Z & Andre 3000'
+p292
+S'I Do'
+p293
+tp294
+a(S'Havana Brown Featuring Pitbull'
+p295
+S'We Run The Night'
+p296
+tp297
+a(S'Drake Featuring The Weekend'
+p298
+S'Crew Love'
+p299
+tp300
+a(S'Justin Bieber'
+p301
+S'Boyfriend'
+p302
+tp303
+a(S'Waka Flocka Flame Featuring Trey Songz'
+p304
+S'I Dont Really Care'
+p305
+tp306
+a(S'Trey Songz'
+p307
+S'Heart Attack'
+p308
+tp309
+a(S'Sean Paul'
+p310
+S"She Doesn't Mind"
+p311
+tp312
+a(S'Pitbull'
+p313
+S'Back In Time'
+p314
+tp315
+a(S'Madonna Featuring Nicki Minaj & M.I.A.'
+p316
+S"Give Me All Your Luvin'"
+p317
+tp318
+a(S'Josh Turner'
+p319
+S'Time Is Love'
+p320
+tp321
+a(S'Michel Telo'
+p322
+S'Ai Se Eu Te Pego'
+p323
+tp324
+a(S'Chris Cagle'
+p325
+S'Got My Country On'
+p326
+tp327
+a(S'Dev & Enrique Iglesias'
+p328
+S'Naked'
+p329
+tp330
+a(S'Jennifer Lopez Featuring Pitbull'
+p331
+S'Dance Again'
+p332
+tp333
+a(S'Kanye West, Big Sean, Pusha T, 2 Chainz'
+p334
+S'Mercy'
+p335
+tp336
+a(S'Kenny Chesney & Tim McGraw'
+p337
+S'Feel Like A Rock Star'
+p338
+tp339
+a(S'Nicki Minaj Featuring Chris Brown'
+p340
+S'Right By My Side'
+p341
+tp342
+a(S'DJ Khaled Featuring Chris Brown, Rick Ross, Nicki Minaj & Lil Wayne'
+p343
+S'Take It To The Head'
+p344
+tp345
+a(S'Demi Lovato'
+p346
+S'Give Your Heart A Break'
+p347
+tp348
+a(S'One Direction'
+p349
+S'One Thing'
+p350
+tp351
+a(S'Nicki Minaj Featuring 2 Chainz'
+p352
+S'Beez In The Trap'
+p353
+tp354
+a(S'Nicki Minaj'
+p355
+S'Va Va Voom'
+p356
+tp357
+a(S'T.I.'
+p358
+S'Love This Life'
+p359
+tp360
+a(S'Fat Joe Featuring Chris Brown'
+p361
+S'Another Round'
+p362
+tp363
+a(S'Andy Grammer'
+p364
+S'Fine By Me'
+p365
+tp366
+a(S'Of Monsters And Men'
+p367
+S'Little Talks'
+p368
+tp369
+a(S'Gloriana'
+p370
+S'(Kissed You) Good Night'
+p371
+tp372
+a(S"K'Naan Featuring Nelly Furtado"
+p373
+S'Is Anybody Out There?'
+p374
+tp375
+a(S'Glee Cast'
+p376
+S'Somebody That I Used To Know'
+p377
+tp378
+a(S'Ca$hOut'
+p379
+S'Cashin Out'
+p380
+tp381
+a(S'Juliet Simms'
+p382
+S'Roxanne'
+p383
+tp384
+a(S'Jennifer Hudson & Ne-Yo Featuring Rick Ross'
+p385
+S'Think Like A Man'
+p386
+tp387
+a(S'Glee Cast'
+p388
+S'Hungry Like The Wolf / Rio'
+p389
+tp390
+a(S'Maroon 5 Featuring Wiz Khalifa'
+p391
+S'Payphone'
+p392
+tp393
+a(S'Linkin Park'
+p394
+S'Burn It Down'
+p395
+tp396
+a(S'Mac Miller'
+p397
+S'Loud'
+p398
+tp399
+a(S'Rick Ross Featuring Drake & French Montana'
+p400
+S'Stay Schemin'
+p401
+tp402
+a(S'David Guetta Featuring Sia'
+p403
+S'Titanium'
+p404
+tp405
+a(S'Kanye West Featuring DJ Khaled'
+p406
+S'Way Too Cold'
+p407
+tp408
+a(S'Chris Brown'
+p409
+S'Sweet Love'
+p410
+tp411
+a(S'Toby Keith'
+p412
+S'Beers Ago'
+p413
+tp414
+a(S'Gotye'
+p415
+S'Eyes Wide Open'
+p416
+tp417
+a(S'John Legend Featuring Ludacris'
+p418
+S'Tonight (Best You Ever Had)'
+p419
+tp420
+a(S'Future'
+p421
+S'Same Damn Time'
+p422
+tp423
+a(S'Wiz Khalifa'
+p424
+S'Work Hard, Play Hard'
+p425
+tp426
+a(S'Flo Rida'
+p427
+S'Whistle'
+p428
+tp429
+a(S'Glee Cast'
+p430
+S'How Will I Know'
+p431
+tp432
+a(S'Usher'
+p433
+S'Scream'
+p434
+tp435
+a(S'Rihanna'
+p436
+S'Where Have You Been'
+p437
+tp438
+a(S'Calvin Harris Featuring Ne-Yo'
+p439
+S"Let's Go"
+p440
+tp441
+a(S'Glee Cast'
+p442
+S"It's Not Right But It's Okay"
+p443
+tp444
+a(S'Hunter Hayes'
+p445
+S'Wanted'
+p446
+tp447
+a(S'B.o.B Featuring Taylor Swift'
+p448
+S'Both Of Us'
+p449
+tp450
+a(S'Carrie Underwood'
+p451
+S'Blown Away'
+p452
+tp453
+a(S'Juliet Simms'
+p454
+S"It's A Man's, Man's, Man's World"
+p455
+tp456
+a(S'Glee Cast'
+p457
+S'Shake It Out'
+p458
+tp459
+a(S'Jana Kramer'
+p460
+S'Why Ya Wanna'
+p461
+tp462
+a(S'The Band Perry'
+p463
+S'Postcard From Paris'
+p464
+tp465
+a(S'2 Chainz Featuring Drake'
+p466
+S'No Lie'
+p467
+tp468
+a(S'Ca$h Out'
+p469
+S"Cashin' Out"
+p470
+tp471
+a(S'Tony Lucca'
+p472
+S'99 Problems'
+p473
+tp474
+a(S'Justin Bieber'
+p475
+S"Turn To You (Mother's Day Dedication)"
+p476
+tp477
+a(S'Adam Levine & Tony Lucca'
+p478
+S'Yesterday'
+p479
+tp480
+a(S'Jermaine Paul'
+p481
+S'I Believe I Can Fly'
+p482
+tp483
+a(S'Christina Aguilera & Chris Mann'
+p484
+S'The Prayer'
+p485
+tp486
+a(S'Drake Featuring The Weeknd'
+p487
+S'Crew Love'
+p488
+tp489
+a(S'Dierks Bentley'
+p490
+S'5-1-5-0'
+p491
+tp492
+a(S'Usher Featuring Rick Ross'
+p493
+S'Lemme See'
+p494
+tp495
+a(S'Kenny Chesney'
+p496
+S'Come Over'
+p497
+tp498
+a(S'Grouplove'
+p499
+S'Tongue Tied'
+p500
+tp501
+a(S'J. Cole Featuring Missy Elliott'
+p502
+S"Nobody's Perfect"
+p503
+tp504
+a(S'Gym Class Heroes Featuring Ryan Tedder'
+p505
+S'The Fighter'
+p506
+tp507
+a(S'Love And Theft'
+p508
+S'Angel Eyes'
+p509
+tp510
+a(S'Dustin Lynch'
+p511
+S'Cowboys And Angels'
+p512
+tp513
+a(S'Phillip Phillips'
+p514
+S'Home'
+p515
+tp516
+a(S'Katy Perry'
+p517
+S'Wide Awake'
+p518
+tp519
+a(S'Linkin Park'
+p520
+S'BURN IT DOWN'
+p521
+tp522
+a(S'Lupe Fiasco'
+p523
+S"Around My Way (Freedom Ain't Free)"
+p524
+tp525
+a(S'Chris Brown'
+p526
+S"Don't Wake Me Up"
+p527
+tp528
+a(S'Jason Derulo'
+p529
+S'Undefeated'
+p530
+tp531
+a(S'Rita Ora'
+p532
+S'How We Do (Party)'
+p533
+tp534
+a(S'Phillip Phillips'
+p535
+S"We've Got Tonight"
+p536
+tp537
+a(S'Justin Bieber'
+p538
+S'Die In Your Arms'
+p539
+tp540
+a(S'Jay Sean Featuring Pitbull'
+p541
+S"I'm All Yours"
+p542
+tp543
+a(S'John Mayer'
+p544
+S'Shadow Days'
+p545
+tp546
+a(S'The Wanted'
+p547
+S'Chasing The Sun'
+p548
+tp549
+a(S'Keith Urban'
+p550
+S'For You'
+p551
+tp552
+a(S'Justin Bieber Featuring Ludacris'
+p553
+S'All Around The World'
+p554
+tp555
+a(S'Lil Wayne Featuring Big Sean'
+p556
+S'My Homies Still'
+p557
+tp558
+a(S'Little Big Town'
+p559
+S'Pontoon'
+p560
+tp561
+a(S'Waka Flocka Flame Featuring Nicki Minaj, Tyga & Flo Rida'
+p562
+S'Get Low'
+p563
+tp564
+a(S'The Lumineers'
+p565
+S'Ho Hey'
+p566
+tp567
+a(S'Imagine Dragons'
+p568
+S"It's Time"
+p569
+tp570
+a(S'The Black Keys'
+p571
+S'Gold On The Ceiling'
+p572
+tp573
+a(S'Thompson Square'
+p574
+S'Glass'
+p575
+tp576
+a(S'Justin Bieber Featuring Big Sean'
+p577
+S'As Long As You Love Me'
+p578
+tp579
+a(S'Cher Lloyd'
+p580
+S'Want U Back'
+p581
+tp582
+a(S'Blake Shelton'
+p583
+S'Over'
+p584
+tp585
+a(S'matchbox twenty'
+p586
+S"She's So Mean"
+p587
+tp588
+a(S'Lee Brice'
+p589
+S'Hard To Love'
+p590
+tp591
+a(S'Driicky Graham'
+p592
+S'Snap Backs & Tattoos'
+p593
+tp594
+a(S'Maroon 5'
+p595
+S'One More Night'
+p596
+tp597
+a(S'Justin Bieber Featuring Nicki Minaj'
+p598
+S'Beauty And A Beat'
+p599
+tp600
+a(S'Meek Mill Featuring Drake'
+p601
+S'Amen'
+p602
+tp603
+a(S'Kelly Clarkson'
+p604
+S'Dark Side'
+p605
+tp606
+a(S'Justin Bieber Featuring Drake'
+p607
+S'Right Here'
+p608
+tp609
+a(S'Easton Corbin'
+p610
+S"Lovin' You Is Fun"
+p611
+tp612
+a(S'Owl City & Carly Rae Jepsen'
+p613
+S'Good Time'
+p614
+tp615
+a(S'Maroon 5'
+p616
+S'Wipe Your Eyes'
+p617
+tp618
+a(S'Nero'
+p619
+S'Promises'
+p620
+tp621
+a(S'Wale Featuring Rick Ross, Meek Mill, & T-Pain'
+p622
+S'Bag Of Money'
+p623
+tp624
+a(S'Linkin Park'
+p625
+S'Lost In The Echo'
+p626
+tp627
+a(S'BTR'
+p628
+S'Windows Down'
+p629
+tp630
+a(S'Zac Brown Band'
+p631
+S'The Wind'
+p632
+tp633
+a(S'P!nk'
+p634
+S'Blow Me (One Last Kiss)'
+p635
+tp636
+a(S'Tim McGraw'
+p637
+S'Truck Yeah'
+p638
+tp639
+a(S'DJ Khaled Featuring Kanye West & Rick Ross'
+p640
+S'I Wish You Would'
+p641
+tp642
+a(S'Wale Featuring Rick Ross, Meek Mill & T-Pain'
+p643
+S'Bag Of Money'
+p644
+tp645
+a(S'Trey Songz Featuring T.I.'
+p646
+S'2 Reasons'
+p647
+tp648
+a(S'Pitbull Featuring Shakira'
+p649
+S'Get It Started'
+p650
+tp651
+a(S'Frank Ocean'
+p652
+S'Thinkin Bout You'
+p653
+tp654
+a(S'French Montana Featuring Rick Ross, Drake, Lil Wayne'
+p655
+S'Pop That'
+p656
+tp657
+a(S'Thomas Rhett'
+p658
+S'Something To Do With My Hands'
+p659
+tp660
+a(S'Ed Sheeran'
+p661
+S'The A Team'
+p662
+tp663
+a(S'Train'
+p664
+S'50 Ways To Say Goodbye'
+p665
+tp666
+a(S'Big & Rich'
+p667
+S"That's Why I Pray"
+p668
+tp669
+a(S'Jason Aldean'
+p670
+S'Take A Little Ride'
+p671
+tp672
+a(S'No Doubt'
+p673
+S'Settle Down'
+p674
+tp675
+a(S'T.I.'
+p676
+S'Go Get It'
+p677
+tp678
+a(S'The Killers'
+p679
+S'Runaways'
+p680
+tp681
+a(S'Dave Matthews Band'
+p682
+S'Mercy'
+p683
+tp684
+a(S'Pusha T   Kanye West'
+p685
+S'New God Flow'
+p686
+tp687
+a(S'2 Chainz Featuring Kanye West'
+p688
+S'Birthday Song'
+p689
+tp690
+a(S'Nicki Minaj'
+p691
+S'Pound The Alarm'
+p692
+tp693
+a(S'Miranda Lambert'
+p694
+S'Fastest Girl In Town'
+p695
+tp696
+a(S'Rascal Flatts'
+p697
+S'Come Wake Me Up'
+p698
+tp699
+a(S'Chris Young'
+p700
+S'Neon'
+p701
+tp702
+a(S'50 Cent Featuring Dr. Dre & Alicia Keys'
+p703
+S'New Day'
+p704
+tp705
+a(S'Miguel'
+p706
+S'Adorn'
+p707
+tp708
+a(S'Rick Ross Featuring Wale & Drake'
+p709
+S'Diced Pineapples'
+p710
+tp711
+a(S'Imagine Dragons'
+p712
+S'Radioactive'
+p713
+tp714
+a(S'Keyshia Cole Featuring Lil Wayne'
+p715
+S'Enough Of No Love'
+p716
+tp717
+a(S'Ne-Yo'
+p718
+S'Let Me Love You (Until You Learn To Love Yourself)'
+p719
+tp720
+a(S'Kendrick Lamar'
+p721
+S'Swimming Pools (Drank)'
+p722
+tp723
+a(S'Mumford & Sons'
+p724
+S'I Will Wait'
+p725
+tp726
+a(S'Taylor Swift'
+p727
+S'We Are Never Ever Getting Back Together'
+p728
+tp729
+a(S'Future'
+p730
+S'Turn On The Lights'
+p731
+tp732
+a(S'Jake Owen'
+p733
+S'The One That Got Away'
+p734
+tp735
+a(S'Lady Antebellum'
+p736
+S'Wanted You More'
+p737
+tp738
+a(S'Green Day'
+p739
+S'Oh Love'
+p740
+tp741
+a(S'2 Chainz Featuring Lil Wayne'
+p742
+S'Yuck!'
+p743
+tp744
+a(S'David Guetta Featuring Chris Brown & Lil Wayne'
+p745
+S'I Can Only Imagine'
+p746
+tp747
+a(S'Lupe Fiasco'
+p748
+S'Lamborghini Angels'
+p749
+tp750
+a(S'Brandy Featuring Chris Brown'
+p751
+S'Put It Down'
+p752
+tp753
+a(S'Florida Georgia Line'
+p754
+S'Cruise'
+p755
+tp756
+a(S'Muse'
+p757
+S'Madness'
+p758
+tp759
+a(S'The Script Featuring will.i.am'
+p760
+S'Hall Of Fame'
+p761
+tp762
+a(S'Luke Bryan'
+p763
+S'Kiss Tomorrow Goodbye'
+p764
+tp765
+a(S'Trey Songz'
+p766
+S'Dive In'
+p767
+tp768
+a(S'Eric Church'
+p769
+S"Creepin'"
+p770
+tp771
+a(S'Slaughterhouse Featuring Eminem'
+p772
+S'Throw That'
+p773
+tp774
+a(S'Chief Keef Featuring Lil Reese'
+p775
+S"I Don't Like"
+p776
+tp777
+a(S'OneRepublic'
+p778
+S'Feel Again'
+p779
+tp780
+a(S'Lupe Fiasco & Guy Sebastian'
+p781
+S'Battle Scars'
+p782
+tp783
+a(S'Karmin'
+p784
+S'Hello'
+p785
+tp786
+a(S'Jerrod Niemann'
+p787
+S"Shinin' On Me"
+p788
+tp789
+a(S'Macklemore & Ryan Lewis Featuring Wanz'
+p790
+S'Thrift Shop'
+p791
+tp792
+a(S'Passion Pit'
+p793
+S'Take A Walk'
+p794
+tp795
+a(S'Kelly Rowland Featuring Lil Wayne'
+p796
+S'Ice'
+p797
+tp798
+a(S'Taylor Swift'
+p799
+S'Ronan'
+p800
+tp801
+a(S'Alicia Keys Featuring Nicki Minaj'
+p802
+S'Girl On Fire'
+p803
+tp804
+a(S'Kanye West  Jay-Z  Big Sean'
+p805
+S'Clique'
+p806
+tp807
+a(S'Psy'
+p808
+S'Gangnam Style'
+p809
+tp810
+a(S'Lil Wayne Featuring Detail'
+p811
+S'No Worries'
+p812
+tp813
+a(S'Beyonce'
+p814
+S'Dance For You'
+p815
+tp816
+a(S'Juicy J Featuring Lil Wayne & 2 Chainz'
+p817
+S'Bandz A Make Her Dance'
+p818
+tp819
+a(S'Lifehouse Featuring Natasha Bedingfield'
+p820
+S'Between The Raindrops'
+p821
+tp822
+a(S'Carly Rae Jepsen'
+p823
+S'This Kiss'
+p824
+tp825
+a(S'Enrique Iglesias Featuring Sammy Adams'
+p826
+S'Finally Found You'
+p827
+tp828
+a(S'Glee Cast'
+p829
+S"It's Time"
+p830
+tp831
+a(S'Olly Murs Featuring Chiddy Bang'
+p832
+S'Heart Skips A Beat'
+p833
+tp834
+a(S'Justin Moore'
+p835
+S'Til My Last Day'
+p836
+tp837
+a(S'PSY'
+p838
+S'Gangnam Style'
+p839
+tp840
+a(S'Kanye West, Jay-Z, Big Sean'
+p841
+S'Clique'
+p842
+tp843
+a(S'Christina Aguilera'
+p844
+S'Your Body'
+p845
+tp846
+a(S'P!nk'
+p847
+S'Try'
+p848
+tp849
+a(S'Swedish House Mafia Featuring John Martin'
+p850
+S"Don't You Worry Child"
+p851
+tp852
+a(S'Kanye West, R. Kelly'
+p853
+S'To The World'
+p854
+tp855
+a(S'Game Featuring Chris Brown, Tyga, Wiz Khalifa & Lil Wayne'
+p856
+S'Celebration'
+p857
+tp858
+a(S'Carly Rae Jepsen Featuring Justin Bieber'
+p859
+S'Beautiful'
+p860
+tp861
+a(S'Usher'
+p862
+S'Numb'
+p863
+tp864
+a(S'Kip Moore'
+p865
+S'Beer Money'
+p866
+tp867
+a(S'Greg Bates'
+p868
+S'Did It For The Girl'
+p869
+tp870
+a(S'Taylor Swift'
+p871
+S'Begin Again'
+p872
+tp873
+a(S'Ke$ha'
+p874
+S'Die Young'
+p875
+tp876
+a(S'Rihanna'
+p877
+S'Diamonds'
+p878
+tp879
+a(S'Mumford & Sons'
+p880
+S'Babel'
+p881
+tp882
+a(S'Flo Rida'
+p883
+S'I Cry'
+p884
+tp885
+a(S'Mumford & Sons'
+p886
+S"Lover's Eyes"
+p887
+tp888
+a(S'Mumford & Sons'
+p889
+S'Whispers In The Dark'
+p890
+tp891
+a(S'Pitbull Featuring TJR'
+p892
+S"Don't Stop The Party"
+p893
+tp894
+a(S'Mumford & Sons'
+p895
+S'Holland Road'
+p896
+tp897
+a(S'Mumford & Sons'
+p898
+S'Ghosts That We Knew'
+p899
+tp900
+a(S'One Direction'
+p901
+S"Live While We're Young"
+p902
+tp903
+a(S'Taylor Swift'
+p904
+S'Red'
+p905
+tp906
+a(S'Adele'
+p907
+S'Skyfall'
+p908
+tp909
+a(S'Bruno Mars'
+p910
+S'Locked Out Of Heaven'
+p911
+tp912
+a(S'Brad Paisley'
+p913
+S'Southern Comfort Zone'
+p914
+tp915
+a(S'Kid Cudi Featuring King Chip'
+p916
+S'Just What I Am'
+p917
+tp918
+a(S'Gary Allan'
+p919
+S'Every Storm (Runs Out Of Rain)'
+p920
+tp921
+a(S'Glee Cast'
+p922
+S'The Scientist'
+p923
+tp924
+a(S'Mumford & Sons'
+p925
+S'Lover Of The Light'
+p926
+tp927
+a(S'DJ Drama, 2 Chainz, Meek Mill, Jeremih'
+p928
+S'My Moment'
+p929
+tp930
+a(S'Randy Houser'
+p931
+S'How Country Feels'
+p932
+tp933
+a(S'Taylor Swift'
+p934
+S'I Knew You Were Trouble.'
+p935
+tp936
+a(S'Ellie Goulding'
+p937
+S'Anything Could Happen'
+p938
+tp939
+a(S'Kenny Chesney'
+p940
+S'El Cerrito Place'
+p941
+tp942
+a(S'Zac Brown Band'
+p943
+S'Goodbye In Her Eyes'
+p944
+tp945
+a(S'Taylor Swift'
+p946
+S'State Of Grace'
+p947
+tp948
+a(S'T.I. Featuring Lil Wayne'
+p949
+S'Ball'
+p950
+tp951
+a(S'Kelly Clarkson'
+p952
+S'Catch My Breath'
+p953
+tp954
+a(S'Jason Aldean'
+p955
+S'Night Train'
+p956
+tp957
+a(S'Calvin Harris Featuring Florence Welch'
+p958
+S'Sweet Nothing'
+p959
+tp960
+a(S'Bridgit Mendler'
+p961
+S'Ready Or Not'
+p962
+tp963
+a(S'Taylor Swift'
+p964
+S'22'
+p965
+tp966
+a(S'Taylor Swift'
+p967
+S'I Almost Do'
+p968
+tp969
+a(S'Taylor Swift Featuring Ed Sheeran'
+p970
+S'Everything Has Changed'
+p971
+tp972
+a(S'Kendrick Lamar Featuring Drake'
+p973
+S'Poetic Justice'
+p974
+tp975
+a(S'Taylor Swift'
+p976
+S'All Too Well'
+p977
+tp978
+a(S'Taylor Swift'
+p979
+S'Stay Stay Stay'
+p980
+tp981
+a(S'Sam Palladio & Clare Bowen'
+p982
+S'Fade Into You'
+p983
+tp984
+a(S'Kendrick Lamar Featuring MC Eiht'
+p985
+S'm.A.A.d City'
+p986
+tp987
+a(S'Meek Mill Featuring Kirko Bangz'
+p988
+S"Young & Gettin' It"
+p989
+tp990
+a(S'The Band Perry'
+p991
+S'Better Dig Two'
+p992
+tp993
+a(S'A$AP Rocky Featuring Drake, 2 Chainz & Kendrick Lamar'
+p994
+S'F**kin Problems'
+p995
+tp996
+a(S'Chris Brown'
+p997
+S"Don't Judge Me"
+p998
+tp999
+a(S'The Weeknd'
+p1000
+S'Wicked Games'
+p1001
+tp1002
+a(S'Kelly Clarkson Featuring Vince Gill'
+p1003
+S"Don't Rush"
+p1004
+tp1005
+a(S'Thompson Square'
+p1006
+S"If I Didn't Have You"
+p1007
+tp1008
+a(S'Dierks Bentley'
+p1009
+S'Tip It On Back'
+p1010
+tp1011
+a(S'Swedish House Mafia Feat. John Martin'
+p1012
+S"Don't You Worry Child"
+p1013
+tp1014
+a(S'Ludacris Featuring Usher & David Guetta'
+p1015
+S'Rest Of My Life'
+p1016
+tp1017
+a(S'Jason Aldean With Luke Bryan & Eric Church'
+p1018
+S'The Only Way I Know'
+p1019
+tp1020
+a(S'The Wanted'
+p1021
+S'I Found You'
+p1022
+tp1023
+a(S'Little Big Town'
+p1024
+S'Tornado'
+p1025
+tp1026
+a(S'One Direction'
+p1027
+S'Little Things'
+p1028
+tp1029
+a(S'Christina Perri Featuring Steve Kazee'
+p1030
+S'A Thousand Years (Part 2)'
+p1031
+tp1032
+a(S'Christina Aguilera With Blake Shelton'
+p1033
+S'Just A Fool'
+p1034
+tp1035
+a(S'One Direction'
+p1036
+S'Kiss You'
+p1037
+tp1038
+a(S'2 Chainz'
+p1039
+S"I'm Different"
+p1040
+tp1041
+a(S'Cassadee Pope'
+p1042
+S'Over You'
+p1043
+tp1044
+a(S'Melanie Martinez'
+p1045
+S'Seven Nation Army'
+p1046
+tp1047
+a(S'George Strait'
+p1048
+S'Give It All We Got Tonight'
+p1049
+tp1050
+a(S'Grace Potter & The Nocturnals'
+p1051
+S'Stars'
+p1052
+tp1053
+a(S'Amanda Brown'
+p1054
+S'Stars'
+p1055
+tp1056
+a(S'Wiz Khalifa Featuring The Weeknd'
+p1057
+S'Remember You'
+p1058
+tp1059
+a(S'Hunter Hayes'
+p1060
+S"Somebody's Heartbreak"
+p1061
+tp1062
+a(S'will.i.am Featuring Britney Spears'
+p1063
+S'Scream & Shout'
+p1064
+tp1065
+a(S'50 Cent Featuring Eminem & Adam Levine'
+p1066
+S'My Life'
+p1067
+tp1068
+a(S'Melanie Martinez'
+p1069
+S'Too Close'
+p1070
+tp1071
+a(S'Cassadee Pope'
+p1072
+S'Are You Happy Now?'
+p1073
+tp1074
+a(S'Tim McGraw'
+p1075
+S'One Of Those Nights'
+p1076
+tp1077
+a(S'Ludacris Featuring Kelly Rowland'
+p1078
+S"Representin'"
+p1079
+tp1080
+a(S'Cher Lloyd Featuring Becky G'
+p1081
+S'Oath'
+p1082
+tp1083
+a(S'Mariah Carey'
+p1084
+S'All I Want For Christmas Is You'
+p1085
+tp1086
+a(S'Tamar Braxton'
+p1087
+S'Love And War'
+p1088
+tp1089
+a(S'Bruno Mars'
+p1090
+S'When I Was Your Man'
+p1091
+tp1092
+a(S'Maroon 5'
+p1093
+S'Daylight'
+p1094
+tp1095
+a(S'Terry McDermott'
+p1096
+S'I Want To Know What Love Is'
+p1097
+tp1098
+a(S'The Lumineers'
+p1099
+S'Stubborn Love'
+p1100
+tp1101
+a(S'Wiz Khalifa Featuring Akon'
+p1102
+S'Let It Go'
+p1103
+tp1104
+a(S'Nicholas David'
+p1105
+S'Somewhere Over The Rainbow'
+p1106
+tp1107
+a(S'Future'
+p1108
+S'Neva End'
+p1109
+tp1110
+a(S'Cassadee Pope'
+p1111
+S'Stupid Boy'
+p1112
+tp1113
+a(S'Terry McDermott'
+p1114
+S'Let It Be'
+p1115
+tp1116
+a(S'Chief Keef'
+p1117
+S'Love Sosa'
+p1118
+tp1119
+a(S'Kacey Musgraves'
+p1120
+S"Merry Go 'Round"
+p1121
+tp1122
+a(S'Big Sean'
+p1123
+S'Guap'
+p1124
+tp1125
+a(S'Carrie Underwood'
+p1126
+S'Two Black Cadillacs'
+p1127
+tp1128
+a(S'Jonn Hart Featuring iamSU'
+p1129
+S'Who Booty'
+p1130
+tp1131
+a(S'Trinidad James'
+p1132
+S'All Gold Everything'
+p1133
+tp1134
+a(S'will.i.am & Britney Spears'
+p1135
+S'Scream & Shout'
+p1136
+tp1137
+a(S'Cassadee Pope'
+p1138
+S'Cry'
+p1139
+tp1140
+a(S'Kid Cudi'
+p1141
+S'King Wizard'
+p1142
+tp1143
+a(S'Ke$ha'
+p1144
+S"C'mon"
+p1145
+tp1146
+a(S'Casey James'
+p1147
+S'Crying On A Suitcase'
+p1148
+tp1149
+a(S'Anne Hathaway'
+p1150
+S'I Dreamed A Dream'
+p1151
+tp1152
+a(S'Anna Kendrick'
+p1153
+S'Cups'
+p1154
+tp1155
+a(S'The Barden Bellas'
+p1156
+S"Bellas Finals: Price Tag/Don't You (Forget About Me)..."
+p1157
+tp1158
+a(S'Ke$ha'
+p1159
+S"C'Mon"
+p1160
+tp1161
+a(S'One Direction'
+p1162
+S'Rock Me'
+p1163
+tp1164
+a(S'The Barden Bellas'
+p1165
+S"Bellas Finals: Price Tag / Don't You (Forget About Me)..."
+p1166
+tp1167
+a(S'Rihanna'
+p1168
+S'Pour It Up'
+p1169
+tp1170
+a(S'Lee Brice'
+p1171
+S'I Drive Your Truck'
+p1172
+tp1173
+a(S'The Barden Bellas, The Treblemakers & The BU Harmonics'
+p1174
+S'Riff Off: Mickey / Like A Virgin / Hit Me With Your Best Shot...'
+p1175
+tp1176
+a(S'Samantha Barks'
+p1177
+S'On My Own'
+p1178
+tp1179
+a(S'fun.'
+p1180
+S'Carry On'
+p1181
+tp1182
+a(S'Blake Shelton'
+p1183
+S'Sure Be Cool If You Did'
+p1184
+tp1185
+a(S'Taylor Swift'
+p1186
+S'The Moment I Knew'
+p1187
+tp1188
+a(S'OneRepublic'
+p1189
+S'If I Lose Myself'
+p1190
+tp1191
+a(S'Justin Timberlake Featuring Jay Z'
+p1192
+S'Suit & Tie'
+p1193
+tp1194
+a(S'B.o.B Featuring T.I. & Juicy J'
+p1195
+S'We Still In This B****'
+p1196
+tp1197
+a(S'Imagine Dragons'
+p1198
+S'Demons'
+p1199
+tp1200
+a(S'Kendrick Lamar'
+p1201
+S"Bitch, Don't Kill My Vibe"
+p1202
+tp1203
+a(S'Lil Wayne Featuring Drake & Future'
+p1204
+S'Love Me'
+p1205
+tp1206
+a(S'A$AP Rocky Featuring Skrillex & Birdy Nam Nam'
+p1207
+S'Wild For The Night'
+p1208
+tp1209
+a(S'A$AP Rocky'
+p1210
+S'Long Live A$AP'
+p1211
+tp1212
+a(S'Olly Murs Featuring Flo Rida'
+p1213
+S'Troublemaker'
+p1214
+tp1215
+a(S'Darius Rucker'
+p1216
+S'Wagon Wheel'
+p1217
+tp1218
+a(S'AWOLNATION'
+p1219
+S'Sail'
+p1220
+tp1221
+a(S'Tyga Featuring Rick Ross'
+p1222
+S'Dope'
+p1223
+tp1224
+a(S'Jonn Hart Featuring IamSU!'
+p1225
+S'Who Booty'
+p1226
+tp1227
+a(S'Miranda Lambert'
+p1228
+S"Mama's Broken Heart"
+p1229
+tp1230
+a(S'Kid Ink Featuring Meek Mill & Wale'
+p1231
+S'Bad Ass'
+p1232
+tp1233
+a(S'A$AP Rocky Featuring Skrillex'
+p1234
+S'Wild For The Night'
+p1235
+tp1236
+a(S'Florida Georgia Line'
+p1237
+S'Get Your Shine On'
+p1238
+tp1239
+a(S'Chris Cagle'
+p1240
+S'Let There Be Cowgirls'
+p1241
+tp1242
+a(S'Pitbull Featuring Christina Aguilera'
+p1243
+S'Feel This Moment'
+p1244
+tp1245
+a(S'Justin Bieber'
+p1246
+S'Nothing Like Us'
+p1247
+tp1248
+a(S'The Lonely Island Featuring Adam Levine & Kendrick Lamar'
+p1249
+S'YOLO'
+p1250
+tp1251
+a(S'Icona Pop Featuring Charli XCX'
+p1252
+S'I Love It'
+p1253
+tp1254
+a(S'Glee Cast'
+p1255
+S'Let Me Love You (Until You Learn To Love Yoursel)'
+p1256
+tp1257
+a(S'Macklemore & Ryan Lewis Featuring Ray Dalton'
+p1258
+S"Can't Hold Us"
+p1259
+tp1260
+a(S'Justin Bieber'
+p1261
+S'As Long As You Love Me (Acoustic)'
+p1262
+tp1263
+a(S'Macklemore & Ryan Lewis Featuring Mary Lambert'
+p1264
+S'Same Love'
+p1265
+tp1266
+a(S'Rihanna Featuring Future'
+p1267
+S'Loveeeeeee Song'
+p1268
+tp1269
+a(S'Fall Out Boy'
+p1270
+S'My Songs Know What You Did In The Dark (Light Em Up)'
+p1271
+tp1272
+a(S'Lady Antebellum'
+p1273
+S'Downtown'
+p1274
+tp1275
+a(S'Rihanna Featuring Mikky Ekko'
+p1276
+S'Stay'
+p1277
+tp1278
+a(S'Tim McGraw & Taylor Swift'
+p1279
+S"Highway Don't Care"
+p1280
+tp1281
+a(S'Drake'
+p1282
+S'Started From The Bottom'
+p1283
+tp1284
+a(S'Kenny Chesney'
+p1285
+S'Pirate Flag'
+p1286
+tp1287
+a(S'Young Jeezy Featuring 2 Chainz'
+p1288
+S'R.I.P.'
+p1289
+tp1290
+a(S'Chris Young'
+p1291
+S'I Can Take It From There'
+p1292
+tp1293
+a(S'Wale Featuring Tiara Thomas'
+p1294
+S'Bad'
+p1295
+tp1296
+a(S'Baauer'
+p1297
+S'Harlem Shake'
+p1298
+tp1299
+a(S'Justin Timberlake'
+p1300
+S'Mirrors'
+p1301
+tp1302
+a(S'One Direction'
+p1303
+S'One Way Or Another (Teenage Kicks)'
+p1304
+tp1305
+a(S'Ace Hood Featuring Future & Rick Ross'
+p1306
+S'Bugatti'
+p1307
+tp1308
+a(S'P!nk Featuring Nate Ruess'
+p1309
+S'Just Give Me A Reason'
+p1310
+tp1311
+a(S'J. Cole Featuring Miguel'
+p1312
+S'Power Trip'
+p1313
+tp1314
+a(S'Joe Budden Featuring Lil Wayne & Tank'
+p1315
+S"She Don't Put It Down"
+p1316
+tp1317
+a(S'Krewella'
+p1318
+S'Alive'
+p1319
+tp1320
+a(S'Alabama Shakes'
+p1321
+S'Hold On'
+p1322
+tp1323
+a(S'Nelly'
+p1324
+S'Hey Porsche'
+p1325
+tp1326
+a(S'Afrojack Featuring Chris Brown'
+p1327
+S'As Your Friend'
+p1328
+tp1329
+a(S'Emeli Sande'
+p1330
+S'Next To Me'
+p1331
+tp1332
+a(S'Eric Church'
+p1333
+S'Like Jesus Does'
+p1334
+tp1335
+a(S'Future Featuring Lil Wayne'
+p1336
+S'Karate Chop (Remix)'
+p1337
+tp1338
+a(S'Demi Lovato'
+p1339
+S'Heart Attack'
+p1340
+tp1341
+a(S'Britt Nicole'
+p1342
+S'Gold'
+p1343
+tp1344
+a(S'Rascal Flatts'
+p1345
+S'Changed'
+p1346
+tp1347
+a(S'Michael Buble'
+p1348
+S"It's A Beautiful Day"
+p1349
+tp1350
+a(S'Brantley Gilbert'
+p1351
+S'More Than Miles'
+p1352
+tp1353
+a(S'Hadouken!'
+p1354
+S'Levitate'
+p1355
+tp1356
+a(S'Luke Bryan'
+p1357
+S'Buzzkill'
+p1358
+tp1359
+a(S'Tim McGraw With Taylor Swift'
+p1360
+S"Highway Don't Care"
+p1361
+tp1362
+a(S'Kelly Rowland'
+p1363
+S'Kisses Down Low'
+p1364
+tp1365
+a(S'Brad Paisley'
+p1366
+S'Beat This Summer'
+p1367
+tp1368
+a(S'Juicy J Featuring Big Sean And Young Jeezy'
+p1369
+S'Show Out'
+p1370
+tp1371
+a(S'Phillip Phillips'
+p1372
+S'Gone, Gone, Gone'
+p1373
+tp1374
+a(S'French Montana Featuring Nicki Minaj'
+p1375
+S'Freaks'
+p1376
+tp1377
+a(S'The Band Perry'
+p1378
+S'DONE.'
+p1379
+tp1380
+a(S'DJ Drama Featuring Wale, Tyga & Roscoe Dash'
+p1381
+S'So Many Girls'
+p1382
+tp1383
+a(S'Jason Aldean'
+p1384
+S'1994'
+p1385
+tp1386
+a(S'will.i.am Featuring Justin Bieber'
+p1387
+S'#thatPOWER'
+p1388
+tp1389
+a(S'Justin Timberlake'
+p1390
+S'Pusher Love Girl'
+p1391
+tp1392
+a(S'Tyga Featuring Cedric Gervais, Wiz Khalifa & Mally Mall'
+p1393
+S'Molly'
+p1394
+tp1395
+a(S'Lil Wayne Featuring 2 Chainz'
+p1396
+S'Rich As F**k'
+p1397
+tp1398
+a(S'J. Dash'
+p1399
+S'Wop'
+p1400
+tp1401
+a(S'Zedd Featuring Foxes'
+p1402
+S'Clarity'
+p1403
+tp1404
+a(S'Anna Kendrick'
+p1405
+S"Cups (Pitch Perfect's When I'm Gone)"
+p1406
+tp1407
+a(S'Jake Owen'
+p1408
+S'Anywhere With You'
+p1409
+tp1410
+a(S'Kip Moore'
+p1411
+S'Hey Pretty Girl'
+p1412
+tp1413
+a(S'Ariana Grande Featuring Mac Miller'
+p1414
+S'The Way'
+p1415
+tp1416
+a(S'Blake Shelton Featuring Pistol Annies & Friends'
+p1417
+S"Boys 'Round Here"
+p1418
+tp1419
+a(S'Fall Out Boy'
+p1420
+S'The Phoenix'
+p1421
+tp1422
+a(S'Ed Sheeran'
+p1423
+S'Lego House'
+p1424
+tp1425
+a(S'Florida Georgia Line Featuring Nelly'
+p1426
+S'Cruise'
+p1427
+tp1428
+a(S'Chris Brown'
+p1429
+S'Fine China'
+p1430
+tp1431
+a(S'Jonas Brothers'
+p1432
+S'Pom Poms'
+p1433
+tp1434
+a(S'Nicki Minaj Featuring Lil Wayne'
+p1435
+S'High School'
+p1436
+tp1437
+a(S'Jana Kramer'
+p1438
+S'Whiskey'
+p1439
+tp1440
+a(S'Little Mix'
+p1441
+S'Wings'
+p1442
+tp1443
+a(S'PSY'
+p1444
+S'Gentleman'
+p1445
+tp1446
+a(S'Luke Bryan'
+p1447
+S'Crash My Party'
+p1448
+tp1449
+a(S'Hunter Hayes'
+p1450
+S'I Want Crazy'
+p1451
+tp1452
+a(S'Selena Gomez'
+p1453
+S'Come & Get It'
+p1454
+tp1455
+a(S'Ray J Featuring Bobby Brackins'
+p1456
+S'I Hit It First'
+p1457
+tp1458
+a(S'Avril Lavigne'
+p1459
+S"Here's To Never Growing Up"
+p1460
+tp1461
+a(S'Brad Paisley Featuring LL Cool J'
+p1462
+S'Accidental Racist'
+p1463
+tp1464
+a(S'Paramore'
+p1465
+S'Still Into You'
+p1466
+tp1467
+a(S'WE the Kings'
+p1468
+S'Just Keep Breathing'
+p1469
+tp1470
+a(S'Scotty McCreery'
+p1471
+S'See You Tonight'
+p1472
+tp1473
+a(S'Fabolous Featuring Chris Brown'
+p1474
+S'Ready'
+p1475
+tp1476
+a(S'Rocko Featuring Future & Rick Ross'
+p1477
+S'U.O.E.N.O.'
+p1478
+tp1479
+a(S'Daft Punk Featuring Pharrell Williams'
+p1480
+S'Get Lucky'
+p1481
+tp1482
+a(S'will.i.am Featuring Miley Cyrus'
+p1483
+S'Fall Down'
+p1484
+tp1485
+a(S'Jason Derulo'
+p1486
+S'The Other Side'
+p1487
+tp1488
+a(S'Calvin Harris Featuring Ellie Goulding'
+p1489
+S'I Need Your Love'
+p1490
+tp1491
+a(S'Miguel'
+p1492
+S'How Many Drinks?'
+p1493
+tp1494
+a(S'Robin Thicke Featuring T.I. & Pharrell'
+p1495
+S'Blurred Lines'
+p1496
+tp1497
+a(S'Sean Kingston Featuring Chris Brown & Wiz Khalifa'
+p1498
+S'Beat It'
+p1499
+tp1500
+a(S'Ciara'
+p1501
+S'Body Party'
+p1502
+tp1503
+a(S'DJ Khaled Featuring Drake, Rick Ross & Lil Wayne'
+p1504
+S'No New Friends'
+p1505
+tp1506
+a(S'Sara Bareilles'
+p1507
+S'Brave'
+p1508
+tp1509
+a(S'Lana Del Rey'
+p1510
+S'Young And Beautiful'
+p1511
+tp1512
+a(S'Hustle Gang Featuring T.I., B.o.B, Kendrick Lamar & Kris Stephens'
+p1513
+S'Memories Back Then'
+p1514
+tp1515
+a(S'Robin Thicke Featuring T.I. + Pharrell'
+p1516
+S'Blurred Lines'
+p1517
+tp1518
+a(S'Zac Brown Band'
+p1519
+S'Jump Right In'
+p1520
+tp1521
+a(S'Billy Currington'
+p1522
+S'Hey Girl'
+p1523
+tp1524
+a(S'Carrie Underwood'
+p1525
+S'See You Again'
+p1526
+tp1527
+a(S'Fabolous Feat. Chris Brown'
+p1528
+S'Ready'
+p1529
+tp1530
+a(S'Arianna Featuring Pitbull'
+p1531
+S'Sexy People (The Fiat Song)'
+p1532
+tp1533
+a(S'Capital Cities'
+p1534
+S'Safe And Sound'
+p1535
+tp1536
+a(S'Mariah Carey Featuring Miguel'
+p1537
+S'#Beautiful'
+p1538
+tp1539
+a(S'Jennifer Lopez Featuring Pitbull'
+p1540
+S'Live It Up'
+p1541
+tp1542
+a(S'Gloriana'
+p1543
+S"Can't Shake You"
+p1544
+tp1545
+a(S'Carly Rae Jepsen Featuring Nicki Minaj'
+p1546
+S"Tonight I'm Getting Over You"
+p1547
+tp1548
+a(S'Randy Houser'
+p1549
+S"Runnin' Outta Moonlight"
+p1550
+tp1551
+a(S'Danielle Bradbery'
+p1552
+S'Maybe It Was Memphis'
+p1553
+tp1554
+a(S'Easton Corbin'
+p1555
+S'All Over The Road'
+p1556
+tp1557
+a(S'Rich Gang Featuring Lil Wayne, Birdman, Future, Mack Maine, Nicki Minaj'
+p1558
+S'Tapout'
+p1559
+tp1560
+a(S'Bruno Mars'
+p1561
+S'Treasure'
+p1562
+tp1563
+a(S'Fergie, Q-Tip & GoonRock'
+p1564
+S'A Little Party Never Killed Nobody (All We Got)'
+p1565
+tp1566
+a(S'Candice Glover'
+p1567
+S'I Am Beautiful'
+p1568
+tp1569
+a(S'Keith Urban'
+p1570
+S'Little Bit Of Everything'
+p1571
+tp1572
+a(S'Demi Lovato Featuring Cher Lloyd'
+p1573
+S"Really Don't Care"
+p1574
+tp1575
+a(S'Kelly Clarkson'
+p1576
+S'People Like Us'
+p1577
+tp1578
+a(S'Zach Sobiech'
+p1579
+S'Clouds'
+p1580
+tp1581
+a(S'Maroon 5'
+p1582
+S'Love Somebody'
+p1583
+tp1584
+a(S'2 Chainz & Wiz Khalifa'
+p1585
+S'We Own It (Fast & Furious)'
+p1586
+tp1587
+a(S'B.o.B Featuring 2 Chainz'
+p1588
+S'HeadBand'
+p1589
+tp1590
+a(S'David Guetta Featuring Ne-Yo & Akon'
+p1591
+S'Play Hard'
+p1592
+tp1593
+a(S'Labrinth Featuring Emeli Sande'
+p1594
+S'Beneath Your Beautiful'
+p1595
+tp1596
+a(S'Danielle Bradbery'
+p1597
+S'Heads Carolina, Tails California'
+p1598
+tp1599
+a(S'T.I. Featuring Lil Wayne'
+p1600
+S'Wit Me'
+p1601
+tp1602
+a(S'Brett Eldredge'
+p1603
+S"Don't Ya"
+p1604
+tp1605
+a(S'A$AP Ferg'
+p1606
+S'Work'
+p1607
+tp1608
+a(S'Ke$ha Featuring will.i.am or Juicy J'
+p1609
+S'Crazy Kids'
+p1610
+tp1611
+a(S'Danielle Bradberry'
+p1612
+S"Grandpa (Tell Me 'Bout The Good Old Days)"
+p1613
+tp1614
+a(S'Tyler Farr'
+p1615
+S'Redneck Crazy'
+p1616
+tp1617
+a(S'Justin Moore'
+p1618
+S'Point At You'
+p1619
+tp1620
+a(S'Miley Cyrus'
+p1621
+S"We Can't Stop"
+p1622
+tp1623
+a(S'Wale Featuring Tiara Thomas Or Rihanna'
+p1624
+S'Bad'
+p1625
+tp1626
+a(S'Cassadee Pope'
+p1627
+S'Wasting All These Tears'
+p1628
+tp1629
+a(S'Selena Gomez'
+p1630
+S'Slow Down'
+p1631
+tp1632
+a(S'Michelle Chamuel'
+p1633
+S'I Knew You Were Trouble'
+p1634
+tp1635
+a(S'The Neighbourhood'
+p1636
+S'Sweater Weather'
+p1637
+tp1638
+a(S'DJ Khaled Featuring Drake, Rick Ross & Lil Wayne'
+p1639
+S'No New Friends (SFTB Remix)'
+p1640
+tp1641
+a(S'Ke$ha Featuring will.i.am Or Juicy J'
+p1642
+S'Crazy Kids'
+p1643
+tp1644
+a(S'The Swon Brothers'
+p1645
+S"Danny's Song"
+p1646
+tp1647
+a(S'Austin Mahone'
+p1648
+S'What About Love'
+p1649
+tp1650
+a(S'Danielle Bradbery'
+p1651
+S'Who I Am'
+p1652
+tp1653
+a(S'Jack Johnson'
+p1654
+S'I Got You'
+p1655
+tp1656
+a(S'Florida Georgia Line'
+p1657
+S'Round Here'
+p1658
+tp1659
+a(S'The Swon Brothers'
+p1660
+S'Turn The Page'
+p1661
+tp1662
+a(S'Danielle Bradbery'
+p1663
+S'Please Remember Me'
+p1664
+tp1665
+a(S'Amber Carrington'
+p1666
+S'Sad'
+p1667
+tp1668
+a(S'Thomas Rhett'
+p1669
+S'It Goes Like This'
+p1670
+tp1671
+a(S'Major Lazer Featuring Bruno Mars, Tyga & Mystic'
+p1672
+S'Bubble Butt'
+p1673
+tp1674
+a(S'OneRepublic'
+p1675
+S'Counting Stars'
+p1676
+tp1677
+a(S'Kanye West'
+p1678
+S'New Slaves'
+p1679
+tp1680
+a(S'Kanye West'
+p1681
+S'Black Skinhead'
+p1682
+tp1683
+a(S'J. Cole Featuring TLC'
+p1684
+S'Crooked Smile'
+p1685
+tp1686
+a(S'Danielle Bradbery'
+p1687
+S'Born To Fly'
+p1688
+tp1689
+a(S'John Mayer'
+p1690
+S'Paper Doll'
+p1691
+tp1692
+a(S'Britney Spears'
+p1693
+S'Ooh La La'
+p1694
+tp1695
+a(S'Rihanna Featuring David Guetta'
+p1696
+S'Right Now'
+p1697
+tp1698
+a(S'Kanye West'
+p1699
+S'Blood On The Leaves'
+p1700
+tp1701
+a(S'Michelle Chamuel'
+p1702
+S'Why'
+p1703
+tp1704
+a(S'French Montana'
+p1705
+S"Ain't Worried About Nothin"
+p1706
+tp1707
+a(S'Usher & Michelle Chamuel'
+p1708
+S'One'
+p1709
+tp1710
+a(S'The Swon Brothers'
+p1711
+S"I Can't Tell You Why"
+p1712
+tp1713
+a(S'Eli Young Band'
+p1714
+S'Drunk Last Night'
+p1715
+tp1716
+a(S'Avicii'
+p1717
+S'Wake Me Up!'
+p1718
+tp1719
+a(S'Chris Brown Featuring Aaliyah'
+p1720
+S"Don't Think They Know"
+p1721
+tp1722
+a(S'Lee Brice'
+p1723
+S'Parking Lot Party'
+p1724
+tp1725
+a(S'Lady Antebellum'
+p1726
+S'Goodbye Town'
+p1727
+tp1728
+a(S'Big Sean Featuring Lil Wayne & Jhene Aiko'
+p1729
+S'Beware'
+p1730
+tp1731
+a(S'Ciara Featuring Nicki Minaj'
+p1732
+S"I'm Out"
+p1733
+tp1734
+a(S'2 Chainz Featuring Pharrell'
+p1735
+S'Feds Watching'
+p1736
+tp1737
+a(S'Fantasia Featuring Kelly Rowland & Missy Elliott'
+p1738
+S'Without Me'
+p1739
+tp1740
+a(S'Wale Featuring Sam Dew'
+p1741
+S'LoveHate Thing'
+p1742
+tp1743
+a(S'Lorde'
+p1744
+S'Royals'
+p1745
+tp1746
+a(S'Sheryl Crow'
+p1747
+S'Easy'
+p1748
+tp1749
+a(S'Krewella'
+p1750
+S'Live For The Night'
+p1751
+tp1752
+a(S'Jay Z Featuring Justin Timberlake'
+p1753
+S'Holy Grail'
+p1754
+tp1755
+a(S'Jay Z'
+p1756
+S'Tom Ford'
+p1757
+tp1758
+a(S'Justin Timberlake'
+p1759
+S'Take Back The Night'
+p1760
+tp1761
+a(S'Jay Z Featuring Rick Ross'
+p1762
+S'F*ckwithmeyouknowigotit'
+p1763
+tp1764
+a(S'Lana Del Rey'
+p1765
+S'Summertime Sadness'
+p1766
+tp1767
+a(S'Jay Z Featuring Beyonce'
+p1768
+S'Part II (On The Run)'
+p1769
+tp1770
+a(S'Jay Z Featuring Frank Ocean'
+p1771
+S'Oceans'
+p1772
+tp1773
+a(S'The FiNATTiCZ'
+p1774
+S"Don't Drop That Thun Thun!"
+p1775
+tp1776
+a(S'Jay Z'
+p1777
+S'Picasso Baby'
+p1778
+tp1779
+a(S'Karmin'
+p1780
+S'Acapella'
+p1781
+tp1782
+a(S'Jay Z'
+p1783
+S'Crown'
+p1784
+tp1785
+a(S'Danielle Bradbery'
+p1786
+S'The Heart Of Dixie'
+p1787
+tp1788
+a(S'Sage The Gemini'
+p1789
+S'Red Nose'
+p1790
+tp1791
+a(S'Panic! At The Disco Featuring LoLo'
+p1792
+S'Miss Jackson'
+p1793
+tp1794
+a(S'Demi Lovato'
+p1795
+S'Made In The USA'
+p1796
+tp1797
+a(S'Avenged Sevenfold'
+p1798
+S'Hail To The King'
+p1799
+tp1800
+a(S'Fifth Harmony'
+p1801
+S"Miss Movin' On"
+p1802
+tp1803
+a(S'John Mayer'
+p1804
+S'Wildfire'
+p1805
+tp1806
+a(S'Chris Young'
+p1807
+S'Aw Naw'
+p1808
+tp1809
+a(S'Rich Homie Quan'
+p1810
+S'Type Of Way'
+p1811
+tp1812
+a(S'One Direction'
+p1813
+S'Best Song Ever'
+p1814
+tp1815
+a(S'Ariana Grande'
+p1816
+S'Baby I'
+p1817
+tp1818
+a(S'Lil Wayne, Birdman, Future, Mack Maine, Nicki Minaj'
+p1819
+S'Tapout'
+p1820
+tp1821
+a(S'Ellie Goulding'
+p1822
+S'Burn'
+p1823
+tp1824
+a(S'Chris Brown Featuring Nicki Minaj'
+p1825
+S'Love More'
+p1826
+tp1827
+a(S'Sage The Gemini Featuring IamSu'
+p1828
+S'Gas Pedal'
+p1829
+tp1830
+a(S'Ross Lynch, Grace Phipps And Jason Evigan'
+p1831
+S"Cruisin' For A Bruisin'"
+p1832
+tp1833
+a(S'Marc Anthony'
+p1834
+S'Vivir Mi Vida'
+p1835
+tp1836
+a(S'Kenny Chesney'
+p1837
+S'When I See This Bar'
+p1838
+tp1839
+a(S'Emblem3'
+p1840
+S"Chloe (You're The One I Want)"
+p1841
+tp1842
+a(S'Tim McGraw'
+p1843
+S'Southern Girl'
+p1844
+tp1845
+a(S'Lana Del Rey & Cedric Gervais'
+p1846
+S'Summertime Sadness'
+p1847
+tp1848
+a(S'Enrique Iglesias'
+p1849
+S'Turn The Night Up'
+p1850
+tp1851
+a(S'P!nk Featuring Lily Allen'
+p1852
+S'True Love'
+p1853
+tp1854
+a(S'Passenger'
+p1855
+S'Let Her Go'
+p1856
+tp1857
+a(S'Blake Shelton'
+p1858
+S'Mine Would Be You'
+p1859
+tp1860
+a(S'Drake Featuring Majid Jordan'
+p1861
+S"Hold On, We're Going Home"
+p1862
+tp1863
+a(S'Mumford & Sons'
+p1864
+S'Hopeless Wanderer'
+p1865
+tp1866
+a(S'Ariana Grande Featuring Big Sean'
+p1867
+S'Right There'
+p1868
+tp1869
+a(S'Katy Perry'
+p1870
+S'Roar'
+p1871
+tp1872
+a(S'Lady Gaga'
+p1873
+S'Applause'
+p1874
+tp1875
+a(S'Luke Bryan'
+p1876
+S"That's My Kind Of Night"
+p1877
+tp1878
+a(S'Panic! At The Disco'
+p1879
+S'This Is Gospel'
+p1880
+tp1881
+a(S'The Wanted'
+p1882
+S'We Own The Night'
+p1883
+tp1884
+a(S'Bastille'
+p1885
+S'Pompeii'
+p1886
+tp1887
+a(S'Little Big Town'
+p1888
+S'Your Side Of The Bed'
+p1889
+tp1890
+a(S'Train Featuring Ashley Monroe'
+p1891
+S'Bruises'
+p1892
+tp1893
+a(S'Miley Cyrus'
+p1894
+S'Wrecking Ball'
+p1895
+tp1896
+a(S'Zendaya'
+p1897
+S'Replay'
+p1898
+tp1899
+a(S'Prince Royce'
+p1900
+S'Darte Un Beso'
+p1901
+tp1902
+a(S'Robin Thicke Featuring Kendrick Lamar'
+p1903
+S'Give It 2 U'
+p1904
+tp1905
+a(S'Ariana Grande Featuring Nathan Sykes'
+p1906
+S'Almost Is Never Enough'
+p1907
+tp1908
+a(S'Ludacris'
+p1909
+S'Helluva Night'
+p1910
+tp1911
+a(S'Bonnie McKee'
+p1912
+S'American Girl'
+p1913
+tp1914
+a(S'Eminem'
+p1915
+S'Berzerk'
+p1916
+tp1917
+a(S'Green Shoe Studio Featuring Jacob Colgan & Fred Stobaugh'
+p1918
+S'Oh Sweet Lorraine'
+p1919
+tp1920
+a(S'Bruno Mars'
+p1921
+S'Gorilla'
+p1922
+tp1923
+a(S'Enrique Iglesias Featuring Romeo Santos'
+p1924
+S'Loco'
+p1925
+tp1926
+a(S'Avril Lavigne'
+p1927
+S'Rock N Roll'
+p1928
+tp1929
+a(S'Juicy J Featuring Wale And Trey Songz'
+p1930
+S'Bounce It'
+p1931
+tp1932
+a(S'Joe Nichols'
+p1933
+S'Sunny And 75'
+p1934
+tp1935
+a(S'Ylvis'
+p1936
+S'The Fox'
+p1937
+tp1938
+a(S'Coldplay'
+p1939
+S'Atlas'
+p1940
+tp1941
+a(S'August Alsina/Trinidad James'
+p1942
+S'I Luv This Sh*t'
+p1943
+tp1944
+a(S'MIKA Featuring Ariana Grande'
+p1945
+S'Popular Song'
+p1946
+tp1947
+a(S'John Legend'
+p1948
+S'All Of Me'
+p1949
+tp1950
+a(S'Migos'
+p1951
+S'Versace'
+p1952
+tp1953
+a(S'Yo Gotti Featuring Jeezy & YG'
+p1954
+S'Act Right'
+p1955
+tp1956
+a(S'Zedd featuring Hayley Williams Of Paramore'
+p1957
+S'Stay The Night'
+p1958
+tp1959
+a(S'Mike Will Made It Featuring Miley Cyrus, Wiz Khalifa & Juicy J'
+p1960
+S'23'
+p1961
+tp1962
+a(S'Future'
+p1963
+S'Honest'
+p1964
+tp1965
+a(S'Romeo Santos'
+p1966
+S'Propuesta Indecente'
+p1967
+tp1968
+a(S'Keith Urban And Miranda Lambert'
+p1969
+S'We Were Us'
+p1970
+tp1971
+a(S'Drake'
+p1972
+S'Wu-Tang Forever'
+p1973
+tp1974
+a(S'2 Chainz Featuring Drake & Lil Wayne'
+p1975
+S'I Do It'
+p1976
+tp1977
+a(S'Craig Campbell'
+p1978
+S'Outta My Head'
+p1979
+tp1980
+a(S'Charlie Worsham'
+p1981
+S'Could It Be'
+p1982
+tp1983
+a(S'Arcade Fire'
+p1984
+S'Reflektor'
+p1985
+tp1986
+a(S'Britney Spears'
+p1987
+S'Work B**ch!'
+p1988
+tp1989
+a(S'Katy Perry Featuring Juicy J'
+p1990
+S'Dark Horse'
+p1991
+tp1992
+a(S'Maejor Ali Featuring Juicy J & Justin Bieber'
+p1993
+S'Lolly'
+p1994
+tp1995
+a(S'Justin Timberlake'
+p1996
+S'TKO'
+p1997
+tp1998
+a(S'Linkin Park X Steve Aoki'
+p1999
+S'A Light That Never Comes'
+p2000
+tp2001
+a(S'Daughtry'
+p2002
+S'Waiting For Superman'
+p2003
+tp2004
+a(S'Imagine Dragons'
+p2005
+S'Monster'
+p2006
+tp2007
+a(S'Kid Ink Featuring Chris Brown'
+p2008
+S'Show Me'
+p2009
+tp2010
+a(S'Avicii'
+p2011
+S'You Make Me'
+p2012
+tp2013
+a(S'Martin Garrix'
+p2014
+S'Animals'
+p2015
+tp2016
+a(S'Gavin DeGraw'
+p2017
+S'Best I Ever Had'
+p2018
+tp2019
+a(S'Juicy J Featuring Wale & Trey Songz'
+p2020
+S'Bounce It'
+p2021
+tp2022
+a(S'Parmalee'
+p2023
+S'Carolina'
+p2024
+tp2025
+a(S'Armin van Buuren Featuring Trevor Guthrie'
+p2026
+S'This Is What It Feels Like'
+p2027
+tp2028
+a(S'Macklemore & Ryan Lewis Featuring ScHoolboy Q & Hollis'
+p2029
+S'White Walls'
+p2030
+tp2031
+a(S'Mike WiLL Made-It Featuring Miley Cyrus, Wiz Khalifa & Juicy J'
+p2032
+S'23'
+p2033
+tp2034
+a(S'Drake Featuring 2 Chainz & Big Sean'
+p2035
+S'All Me'
+p2036
+tp2037
+a(S'Drake'
+p2038
+S'The Language'
+p2039
+tp2040
+a(S'Drake'
+p2041
+S'Furthest Thing'
+p2042
+tp2043
+a(S'Drake'
+p2044
+S'Too Much'
+p2045
+tp2046
+a(S'Drake Featuring Jay Z'
+p2047
+S'Pound Cake / Paris Morton Music 2'
+p2048
+tp2049
+a(S'Drake'
+p2050
+S'From Time'
+p2051
+tp2052
+a(S'Drake'
+p2053
+S'Own It'
+p2054
+tp2055
+a(S'Drake'
+p2056
+S'Tuscan Leather'
+p2057
+tp2058
+a(S'Zedd Featuring Hayley Williams'
+p2059
+S'Stay The Night'
+p2060
+tp2061
+a(S'Drake'
+p2062
+S'Come Thru'
+p2063
+tp2064
+a(S'Drake'
+p2065
+S'Worst Behavior'
+p2066
+tp2067
+a(S'Lorde'
+p2068
+S'Team'
+p2069
+tp2070
+a(S"Kanye West Featuring Cam'ron & Consequence"
+p2071
+S'Gone'
+p2072
+tp2073
+a(S'Katy Perry'
+p2074
+S'Walking On Air'
+p2075
+tp2076
+a(S'YG X Jeezy X Rich Homie Quan'
+p2077
+S'My Hitta'
+p2078
+tp2079
+a(S'Lorde'
+p2080
+S'Tennis Court'
+p2081
+tp2082
+a(S'Jason Derulo'
+p2083
+S'Marry Me'
+p2084
+tp2085
+a(S'Justin Bieber'
+p2086
+S'Heartbreaker'
+p2087
+tp2088
+a(S'Drake Featuring Jhene Aiko'
+p2089
+S'From Time'
+p2090
+tp2091
+a(S'Sevyn Streeter Featuring Chris Brown'
+p2092
+S"It Won't Stop"
+p2093
+tp2094
+a(S'David Nail'
+p2095
+S"Whatever She's Got"
+p2096
+tp2097
+a(S'Eminem'
+p2098
+S'Survival'
+p2099
+tp2100
+a(S'YG Featuring Jeezy & Rich Homie Quan'
+p2101
+S'My Hitta'
+p2102
+tp2103
+a(S'Miley Cyrus'
+p2104
+S'Adore You'
+p2105
+tp2106
+a(S'Pitbull Featuring Ke$ha'
+p2107
+S'Timber'
+p2108
+tp2109
+a(S'Pearl Jam'
+p2110
+S'Sirens'
+p2111
+tp2112
+a(S'Glee Cast'
+p2113
+S'Make You Feel My Love'
+p2114
+tp2115
+a(S'Miley Cyrus'
+p2116
+S'Drive'
+p2117
+tp2118
+a(S'K. Michelle'
+p2119
+S'V.S.O.P.'
+p2120
+tp2121
+a(S'Jake Owen'
+p2122
+S'Days Of Gold'
+p2123
+tp2124
+a(S'Miley Cyrus'
+p2125
+S'Someone Else'
+p2126
+tp2127
+a(S'Miranda Lambert'
+p2128
+S'All Kinds Of Kinds'
+p2129
+tp2130
+a(S'Chase Rice'
+p2131
+S'Ready Set Roll'
+p2132
+tp2133
+a(S'Eminem'
+p2134
+S'Rap God'
+p2135
+tp2136
+a(S'Justin Bieber'
+p2137
+S'All That Matters'
+p2138
+tp2139
+a(S'Alison Gold'
+p2140
+S'Chinese Food'
+p2141
+tp2142
+a(S'Avril Lavigne Featuring Chad Kroeger'
+p2143
+S'Let Me Go'
+p2144
+tp2145
+a(S'Florida Georgia Line'
+p2146
+S'Stay'
+p2147
+tp2148
+a(S'Tegan And Sara'
+p2149
+S'Closer'
+p2150
+tp2151
+a(S'Eric Paslay'
+p2152
+S'Friday Night'
+p2153
+tp2154
+a(S'Zac Brown Band'
+p2155
+S'Sweet Annie'
+p2156
+tp2157
+a(S'Darius Rucker'
+p2158
+S'Radio'
+p2159
+tp2160
+a(S'The Band Perry'
+p2161
+S"Don't Let Me Be Lonely"
+p2162
+tp2163
+a(S'Cole Swindell'
+p2164
+S"Chillin' It"
+p2165
+tp2166
+a(S'ScHoolboy Q Featuring Kendrick Lamar'
+p2167
+S'Collard Greens'
+p2168
+tp2169
+a(S'Lady Gaga Featuring R. Kelly'
+p2170
+S'Do What U Want'
+p2171
+tp2172
+a(S'Justin Bieber'
+p2173
+S'Hold Tight'
+p2174
+tp2175
+a(S'Katy Perry'
+p2176
+S'Unconditionally'
+p2177
+tp2178
+a(S'Taylor Swift'
+p2179
+S'Sweeter Than Fiction'
+p2180
+tp2181
+a(S'August Alsina & Trinidad James'
+p2182
+S'I Luv This Sh*t'
+p2183
+tp2184
+a(S'Eric Church'
+p2185
+S'The Outsiders'
+p2186
+tp2187
+a(S'Tyga & Justin Bieber'
+p2188
+S'Wait For A Minute'
+p2189
+tp2190
+a(S'Travie McCoy Featuring Jason Mraz'
+p2191
+S'Rough Water'
+p2192
+tp2193
+a(S'Rihanna'
+p2194
+S'What Now'
+p2195
+tp2196
+a(S'Eminem Featuring Rihanna'
+p2197
+S'The Monster'
+p2198
+tp2199
+a(S'One Direction'
+p2200
+S'Story Of My Life'
+p2201
+tp2202
+a(S'Lady Gaga'
+p2203
+S'Venus'
+p2204
+tp2205
+a(S'Justin Bieber'
+p2206
+S'Recovery'
+p2207
+tp2208
+a(S'Michael Jackson'
+p2209
+S'Thriller'
+p2210
+tp2211
+a(S'Lady Gaga'
+p2212
+S'Dope'
+p2213
+tp2214
+a(S'A Great Big World Featuring Christina Aguilera'
+p2215
+S'Say Something'
+p2216
+tp2217
+a(S'Beyonce'
+p2218
+S'Get Me Bodied'
+p2219
+tp2220
+a(S'Justin Bieber'
+p2221
+S'Bad Day'
+p2222
+tp2223
+a(S'James Wolpert'
+p2224
+S'A Case Of You'
+p2225
+tp2226
+a(S'Britney Spears'
+p2227
+S'Perfume'
+p2228
+tp2229
+a(S'Luke Bryan'
+p2230
+S'Drink A Beer'
+p2231
+tp2232
+a(S'Lady Antebellum'
+p2233
+S'Compass'
+p2234
+tp2235
+a(S'Hunter Hayes Featuring Jason Mraz'
+p2236
+S"Everybody's Got Somebody But Me"
+p2237
+tp2238
+a(S'Eminem Featuring Sia'
+p2239
+S'Beautiful Pain'
+p2240
+tp2241
+a(S'Bon Jovi'
+p2242
+S"Livin' On A Prayer"
+p2243
+tp2244
+a(S'A Great Big World & Christina Aguilera'
+p2245
+S'Say Something'
+p2246
+tp2247
+a(S'Matthew Schuler'
+p2248
+S'Hallelujah'
+p2249
+tp2250
+a(S'Justin Bieber'
+p2251
+S'All Bad'
+p2252
+tp2253
+a(S'August Alsina Featuing Trinidad James'
+p2254
+S'I Luv This Sh*t'
+p2255
+tp2256
+a(S'American Authors'
+p2257
+S'Best Day Of My Life'
+p2258
+tp2259
+a(S'Jon Pardi'
+p2260
+S'Up All Night'
+p2261
+tp2262
+a(S'One Direction'
+p2263
+S'Diana'
+p2264
+tp2265
+a(S'One Direction'
+p2266
+S'Midnight Memories'
+p2267
+tp2268
+a(S'Enya'
+p2269
+S'Only Time'
+p2270
+tp2271
+a(S'Sage The Gemini Featuring IamSu!'
+p2272
+S'Gas Pedal'
+p2273
+tp2274
+a(S'Justin Bieber Featuring R. Kelly'
+p2275
+S'PYD'
+p2276
+tp2277
+a(S'August Alsina Featuring Trinidad James'
+p2278
+S'I Luv This Sh*t'
+p2279
+tp2280
+a(S'Kanye West'
+p2281
+S'Bound 2'
+p2282
+tp2283
+a(S'John Newman'
+p2284
+S'Love Me Again'
+p2285
+tp2286
+a(S'One Direction'
+p2287
+S'Strong'
+p2288
+tp2289
+a(S'T-Pain Featuring B.o.B'
+p2290
+S'Up Down (Do This All Day)'
+p2291
+tp2292
+a(S'Ariana Grande'
+p2293
+S'Last Christmas'
+p2294
+tp2295
+a(S'Justin Bieber'
+p2296
+S'Roller Coaster'
+p2297
+tp2298
+a(S'Demi Lovato'
+p2299
+S'Let It Go'
+p2300
+tp2301
+a(S'Florida Georgia Line Featuring Luke Bryan'
+p2302
+S'This Is How We Roll'
+p2303
+tp2304
+a(S'Will Champlin'
+p2305
+S'At Last'
+p2306
+tp2307
+a(S'Idina Menzel'
+p2308
+S'Let It Go'
+p2309
+tp2310
+a(S'Jason Aldean'
+p2311
+S'When She Says Baby'
+p2312
+tp2313
+a(S'Enrique Iglesias'
+p2314
+S'Heart Attack'
+p2315
+tp2316
+a(S'Fall Out Boy'
+p2317
+S'Alone Together'
+p2318
+tp2319
+a(S'Pentatonix'
+p2320
+S'Little Drummer Boy'
+p2321
+tp2322
+a(S'Justin Bieber'
+p2323
+S'Change Me'
+p2324
+tp2325
+a(S'Avicii'
+p2326
+S'Hey Brother'
+p2327
+tp2328
+a(S'John Mayer Featuring Katy Perry'
+p2329
+S'Who You Love'
+p2330
+tp2331
+a(S'Childish Gambino'
+p2332
+S'I. Crawl'
+p2333
+tp2334
+a(S'Frankie Ballard'
+p2335
+S'Helluva Life'
+p2336
+tp2337
+a(S'Kelly Clarkson'
+p2338
+S'Underneath The Tree'
+p2339
+tp2340
+a(S'Lupe Fiasco Featuring Ed Sheeran'
+p2341
+S'Old School Love'
+p2342
+tp2343
+a(S'Tamar Braxton'
+p2344
+S'All The Way Home'
+p2345
+tp2346
+a(S'Arctic Monkeys'
+p2347
+S'Do I Wanna Know?'
+p2348
+tp2349
+a(S'Justin Bieber Featuring Chance The Rapper'
+p2350
+S'Confident'
+p2351
+tp2352
+a(S'Rebecca Black & Dave Days'
+p2353
+S'Saturday'
+p2354
+tp2355
+a(S'Tessanne Chin'
+p2356
+S'Bridge Over Troubled Water'
+p2357
+tp2358
+a(S'Lea Michele'
+p2359
+S'Cannonball'
+p2360
+tp2361
+a(S'Aloe Blacc'
+p2362
+S'The Man'
+p2363
+tp2364
+a(S'Jacquie Lee'
+p2365
+S'Angel'
+p2366
+tp2367
+a(S'R. Kelly Featuring 2 Chainz'
+p2368
+S'My Story'
+p2369
+tp2370
+a(S'Childish Gambino'
+p2371
+S'V. 3005'
+p2372
+tp2373
+a(S'Beyonce Featuring Jay-Z'
+p2374
+S'Drunk In Love'
+p2375
+tp2376
+a(S'Nat King Cole'
+p2377
+S'The Christmas Song (Merry Christmas To You)'
+p2378
+tp2379
+a(S'Brenda Lee'
+p2380
+S"Rockin' Around The Christmas Tree"
+p2381
+tp2382
+a(S'Tessanne Chin'
+p2383
+S'I Have Nothing'
+p2384
+tp2385
+a(S'Brantley Gilbert'
+p2386
+S'Bottoms Up'
+p2387
+tp2388
+a(S'Beyonce'
+p2389
+S'XO'
+p2390
+tp2391
+a(S'Tessanne Chin & Adam Levine'
+p2392
+S'Let It Be'
+p2393
+tp2394
+a(S'Jason Derulo Featuring 2 Chainz'
+p2395
+S'Talk Dirty'
+p2396
+tp2397
+a(S'Ty Dolla $ign Featuring B.o.B'
+p2398
+S'Paranoid'
+p2399
+tp2400
+a(S'Beyonce Featuring Drake'
+p2401
+S'Mine'
+p2402
+tp2403
+a(S'Dierks Bentley'
+p2404
+S'I Hold On'
+p2405
+tp2406
+a(S'DJ Snake & Lil Jon'
+p2407
+S'Turn Down For What'
+p2408
+tp2409
+a(S'Kristen Bell, Agatha Lee Monn & Katie Lopez'
+p2410
+S'Do You Want To Build A Snowman?'
+p2411
+tp2412
+a(S'Kristen Bell & Idina Menzel'
+p2413
+S'For The First Time In Forever'
+p2414
+tp2415
+a(S'Demi Lovato'
+p2416
+S'Neon Lights'
+p2417
+tp2418
+a(S'Beyonce Featuring Jay Z'
+p2419
+S'Drunk In Love'
+p2420
+tp2421
+a(S'The Fray'
+p2422
+S"Love Don't Die"
+p2423
+tp2424
+a(S'Jerrod Niemann'
+p2425
+S'Drink To That All Night'
+p2426
+tp2427
+a(S'Bruno Mars'
+p2428
+S'Young Girls'
+p2429
+tp2430
+a(S'Dan + Shay'
+p2431
+S'19 You + Me'
+p2432
+tp2433
+a(S'Pharrell Williams'
+p2434
+S'Happy'
+p2435
+tp2436
+a(S'Lucy Hale'
+p2437
+S'You Sound Good To Me'
+p2438
+tp2439
+a(S'Beyonce'
+p2440
+S'Partition'
+p2441
+tp2442
+a(S'Randy Houser'
+p2443
+S'Goodnight Kiss'
+p2444
+tp2445
+a(S'Thomas Rhett'
+p2446
+S'Get Me Some Of That'
+p2447
+tp2448
+a(S'Eric Church'
+p2449
+S'Give Me Back My Hometown'
+p2450
+tp2451
+a(S'J. Cole Featuring Amber Coffman & The Cults'
+p2452
+S'She Knows'
+p2453
+tp2454
+a(S'Flo Rida'
+p2455
+S'How I Feel'
+p2456
+tp2457
+a(S'SoMo'
+p2458
+S'Ride'
+p2459
+tp2460
+a(S'Shakira Featuring Rihanna'
+p2461
+S"Can't Remember To Forget You"
+p2462
+tp2463
+a(S'Chris Brown Featuring Lil Wayne & French Montana Or & Too $hort'
+p2464
+S'Loyal'
+p2465
+tp2466
+a(S'Rascal Flatts'
+p2467
+S'Rewind'
+p2468
+tp2469
+a(S'Blake Shelton'
+p2470
+S"Doin' What She Likes"
+p2471
+tp2472
+a(S'Calvin Harris Featuring Ayah Marar'
+p2473
+S'Thinking About You'
+p2474
+tp2475
+a(S'Cash Cash Featuring Bebe Rexha'
+p2476
+S'Take Me Home'
+p2477
+tp2478
+a(S'Thompson Square'
+p2479
+S"Everything I Shouldn't Be Thinking About"
+p2480
+tp2481
+a(S'Hillsong UNITED'
+p2482
+S'Oceans (Where Feet May Fail)'
+p2483
+tp2484
+a(S'Austin Mahone Featuring Pitbull'
+p2485
+S'Mmm Yeah'
+p2486
+tp2487
+a(S'ScHoolboy Q'
+p2488
+S'Man Of The Year'
+p2489
+tp2490
+a(S'Enrique Iglesias Featuring Marco Antonio Solis'
+p2491
+S'El Perdedor'
+p2492
+tp2493
+a(S'Hunter Hayes'
+p2494
+S'Invisible'
+p2495
+tp2496
+a(S'Trey Songz'
+p2497
+S'Na Na'
+p2498
+tp2499
+a(S'The 1975'
+p2500
+S'Chocolate'
+p2501
+tp2502
+a(S'Rico Love'
+p2503
+S"They Don't Know"
+p2504
+tp2505
+a(S'Romeo Santos Featuring Drake'
+p2506
+S'Odio'
+p2507
+tp2508
+a(S'Kacey Musgraves'
+p2509
+S'Follow Your Arrow'
+p2510
+tp2511
+a(S'Keith Urban'
+p2512
+S'Cop Car'
+p2513
+tp2514
+a(S'Eric Church'
+p2515
+S'A Man Who Was Gonna Die Young'
+p2516
+tp2517
+a(S'K. Michelle'
+p2518
+S"Can't Raise A Man"
+p2519
+tp2520
+a(S'Imagine Dragons'
+p2521
+S'On Top Of The World'
+p2522
+tp2523
+a(S'Jhene Aiko'
+p2524
+S'The Worst'
+p2525
+tp2526
+a(S'Christina Perri'
+p2527
+S'Human'
+p2528
+tp2529
+a(S'Brett Eldredge'
+p2530
+S'Beat Of The Music'
+p2531
+tp2532
+a(S'Tegan And Sara Featuring The Lonely Island'
+p2533
+S'Everything Is AWESOME!!!'
+p2534
+tp2535
+a(S'Miranda Lambert'
+p2536
+S'Automatic'
+p2537
+tp2538
+a(S'Young Thug'
+p2539
+S'Stoner'
+p2540
+tp2541
+a(S'Buck 22 Featuring Billy Ray Cyrus'
+p2542
+S'Achy Breaky 2'
+p2543
+tp2544
+a(S'Mariah Carey'
+p2545
+S"You're Mine (Eternal)"
+p2546
+tp2547
+a(S'MKTO'
+p2548
+S'Classic'
+p2549
+tp2550
+a(S'Ellie Goulding'
+p2551
+S'Explosions'
+p2552
+tp2553
+a(S'Lorde'
+p2554
+S'Glory And Gore'
+p2555
+tp2556
+a(S'Naughty Boy Featuring Sam Smith'
+p2557
+S'La La La'
+p2558
+tp2559
+a(S'U2'
+p2560
+S'Ordinary Love'
+p2561
+tp2562
+a(S'Justin Moore'
+p2563
+S"Lettin' The Night Roll"
+p2564
+tp2565
+a(S'The Chainsmokers'
+p2566
+S'#SELFIE'
+p2567
+tp2568
+a(S'Justin Timberlake'
+p2569
+S'Not A Bad Thing'
+p2570
+tp2571
+a(S'Pitbull Featuring G.R.L.'
+p2572
+S'Wild Wild Love'
+p2573
+tp2574
+a(S'Fitz And The Tantrums'
+p2575
+S'The Walker'
+p2576
+tp2577
+a(S'Paramore'
+p2578
+S"Ain't It Fun"
+p2579
+tp2580
+a(S'Neon Trees'
+p2581
+S'Sleeping With A Friend'
+p2582
+tp2583
+a(S'Coldplay'
+p2584
+S'Magic'
+p2585
+tp2586
+a(S'Chris Brown Featuring Lil Wayne & French Montana Or Too $hort'
+p2587
+S'Loyal'
+p2588
+tp2589
+a(S'Phillip Phillips'
+p2590
+S'Raging Fire'
+p2591
+tp2592
+a(S'Young Money Featuring Drake'
+p2593
+S'Trophies'
+p2594
+tp2595
+a(S'Rick Ross Featuring Kanye West & Big Sean'
+p2596
+S'Sanctified'
+p2597
+tp2598
+a(S'Rick Ross Featuring JAY Z'
+p2599
+S'The Devil Is A Lie'
+p2600
+tp2601
+a(S'Iggy Azalea Featuring Charli XCX'
+p2602
+S'Fancy'
+p2603
+tp2604
+a(S'Wisin Featuring Jennifer Lopez & Ricky Martin'
+p2605
+S'Adrenalina'
+p2606
+tp2607
+a(S'Soko'
+p2608
+S'We Might Be Dead By Tomorrow'
+p2609
+tp2610
+a(S'Kristen Bell & Santino Fontana'
+p2611
+S'Love Is An Open Door'
+p2612
+tp2613
+a(S'YG Featuring Drake'
+p2614
+S'Who Do You Love?'
+p2615
+tp2616
+a(S'Luke Bryan'
+p2617
+S'Play It Again'
+p2618
+tp2619
+a(S'Eminem Featuring Nate Ruess'
+p2620
+S'Headlights'
+p2621
+tp2622
+a(S'Sara Evans'
+p2623
+S'Slow Me Down'
+p2624
+tp2625
+a(S'Ty Dolla $ign Featuring Wiz Khalifa & DJ Mustard'
+p2626
+S'Or Nah'
+p2627
+tp2628
+a(S'Tiesto'
+p2629
+S'Red Lights'
+p2630
+tp2631
+a(S'Jennifer Lopez Featuring French Montana'
+p2632
+S'I Luh Ya Papi'
+p2633
+tp2634
+a(S'Future Featuring Pharrell, Pusha T & Casino'
+p2635
+S'Move That Doh'
+p2636
+tp2637
+a(S'Disclosure Featuring Sam Smith'
+p2638
+S'Latch'
+p2639
+tp2640
+a(S'Calvin Harris'
+p2641
+S'Summer'
+p2642
+tp2643
+a(S'Tim McGraw'
+p2644
+S"Lookin' For That Girl"
+p2645
+tp2646
+a(S'Ellie Goulding'
+p2647
+S'Beating Heart'
+p2648
+tp2649
+a(S'Chris Brown Featuring Lil Wayne & French Montana Or Too $hort Or Tyga'
+p2650
+S'Loyal'
+p2651
+tp2652
+a(S'Shakira'
+p2653
+S'Empire'
+p2654
+tp2655
+a(S'Lady Gaga'
+p2656
+S'G.U.Y.'
+p2657
+tp2658
+a(S'The Black Keys'
+p2659
+S'Fever'
+p2660
+tp2661
+a(S'Rixton'
+p2662
+S'Me And My Broken Heart'
+p2663
+tp2664
+a(S'B.o.B Featuring Priscilla'
+p2665
+S'John Doe'
+p2666
+tp2667
+a(S'Jake Owen'
+p2668
+S"Beachin'"
+p2669
+tp2670
+a(S'Tyler Farr'
+p2671
+S'Whiskey In My Water'
+p2672
+tp2673
+a(S'5 Seconds Of Summer'
+p2674
+S'She Looks So Perfect'
+p2675
+tp2676
+a(S'Sam Smith'
+p2677
+S'Stay With Me'
+p2678
+tp2679
+a(S'KONGOS'
+p2680
+S'Come With Me Now'
+p2681
+tp2682
+a(S'Ed Sheeran'
+p2683
+S'Sing'
+p2684
+tp2685
+a(S'Pitbull Featuring Jennifer Lopez & Claudia Leitte'
+p2686
+S'We Are One (Ole Ola) [The 2014 FIFA World Cup Official Song]'
+p2687
+tp2688
+a(S'KCamp Featuring 2 Chainz'
+p2689
+S'Cut Her Off'
+p2690
+tp2691
+a(S'Katy Perry'
+p2692
+S'Birthday'
+p2693
+tp2694
+a(S'Bastille'
+p2695
+S'Bad Blood'
+p2696
+tp2697
+a(S'will.i.am Featuring Miley Cyrus, French Montana, Wiz Khalifa & DJ Mustard'
+p2698
+S"Feelin' Myself"
+p2699
+tp2700
+a(S'Ingrid Michaelson'
+p2701
+S'Girls Chase Boys'
+p2702
+tp2703
+a(S'Lana Del Rey'
+p2704
+S'West Coast'
+p2705
+tp2706
+a(S'One Direction'
+p2707
+S'You & I'
+p2708
+tp2709
+a(S'OneRepublic'
+p2710
+S'Love Runs Out'
+p2711
+tp2712
+a(S'Coldplay'
+p2713
+S'Midnight'
+p2714
+tp2715
+a(S'Lee Brice'
+p2716
+S"I Don't Dance"
+p2717
+tp2718
+a(S'Nico & Vinz'
+p2719
+S'Am I Wrong'
+p2720
+tp2721
+a(S'Wiz Khalifa'
+p2722
+S'We Dem Boyz'
+p2723
+tp2724
+a(S'Dustin Lynch'
+p2725
+S"Where It's At"
+p2726
+tp2727
+a(S'Avril Lavigne'
+p2728
+S'Hello Kitty'
+p2729
+tp2730
+a(S'Josh Kaufman'
+p2731
+S'Stay With Me'
+p2732
+tp2733
+a(S'Chris Young'
+p2734
+S'Who I Am With You'
+p2735
+tp2736
+a(S'Billy Currington'
+p2737
+S'We Are Tonight'
+p2738
+tp2739
+a(S'MAGIC!'
+p2740
+S'Rude'
+p2741
+tp2742
+a(S'Joe Nichols'
+p2743
+S'Yeah'
+p2744
+tp2745
+a(S'Craig Morgan'
+p2746
+S"Wake Up Lovin' You"
+p2747
+tp2748
+a(S'Future Featuring Kanye West'
+p2749
+S'I Won'
+p2750
+tp2751
+a(S'Ariana Grande Featuring Iggy Azalea'
+p2752
+S'Problem'
+p2753
+tp2754
+a(S'Michael Jackson & Justin Timberlake'
+p2755
+S'Love Never Felt So Good'
+p2756
+tp2757
+a(S'Coldplay'
+p2758
+S'A Sky Full Of Stars'
+p2759
+tp2760
+a(S'Jason Derulo Featuring Snoop Dogg'
+p2761
+S'Wiggle'
+p2762
+tp2763
+a(S'Christina Grimmie'
+p2764
+S"Hold On, We're Going Home"
+p2765
+tp2766
+a(S'Enrique Iglesias Featuring Descemer Bueno & Gente de Zona'
+p2767
+S'Bailando'
+p2768
+tp2769
+a(S'Brantley Gilbert'
+p2770
+S"My Baby's Guns N' Roses"
+p2771
+tp2772
+a(S'Iggy Azalea'
+p2773
+S'Work'
+p2774
+tp2775
+a(S'Blake Shelton Featuring Gwen Sebastian'
+p2776
+S'My Eyes'
+p2777
+tp2778
+a(S'Craig Campbell'
+p2779
+S"Keep Them Kisses Comin'"
+p2780
+tp2781
+a(S'Katy Tiz'
+p2782
+S'The Big Bang'
+p2783
+tp2784
+a(S'Usher'
+p2785
+S'Good Kisser'
+p2786
+tp2787
+a(S'Josh Kaufman'
+p2788
+S"I Can't Make You Love Me"
+p2789
+tp2790
+a(S'Sia'
+p2791
+S'Chandelier'
+p2792
+tp2793
+a(S'Christina Grimmie'
+p2794
+S'How To Love'
+p2795
+tp2796
+a(S'Sara Bareilles'
+p2797
+S'I Choose You'
+p2798
+tp2799
+a(S'Pharrell'
+p2800
+S'Come Get It Bae'
+p2801
+tp2802
+a(S'Brad Paisley'
+p2803
+S'River Bank'
+p2804
+tp2805
+a(S'Tinashe Featuring ScHoolboy Q'
+p2806
+S'2 On'
+p2807
+tp2808
+a(S'Brantley Gilbert'
+p2809
+S'17 Again'
+p2810
+tp2811
+a(S'5 Seconds Of Summer'
+p2812
+S"Don't Stop"
+p2813
+tp2814
+a(S'Dustin Lynch'
+p2815
+S"Where It's At (Yep, Yep)"
+p2816
+tp2817
+a(S'Ed Sheeran'
+p2818
+S'One'
+p2819
+tp2820
+a(S'Dierks Bentley'
+p2821
+S'Drunk On A Plane'
+p2822
+tp2823
+a(S'Kid Ink Featuring Chris Brown'
+p2824
+S'Main Chick'
+p2825
+tp2826
+a(S'The Band Perry'
+p2827
+S'Chainsaw'
+p2828
+tp2829
+a(S'Jake Worthington'
+p2830
+S'Heaven'
+p2831
+tp2832
+a(S'Michael Jackson'
+p2833
+S'Billie Jean'
+p2834
+tp2835
+a(S'Miranda Lambert Duet With Carrie Underwood'
+p2836
+S"Somethin' Bad"
+p2837
+tp2838
+a(S'Michael Jackson'
+p2839
+S'Slave To The Rhythm'
+p2840
+tp2841
+a(S'Nicki Minaj'
+p2842
+S'Pills N Potions'
+p2843
+tp2844
+a(S'Christina Grimmie & Adam Levine'
+p2845
+S'Somebody That I Used To Know'
+p2846
+tp2847
+a(S'Christina Grimmie'
+p2848
+S"Can't Help Falling In Love"
+p2849
+tp2850
+a(S'Lady Antebellum'
+p2851
+S'Bartender'
+p2852
+tp2853
+a(S'Sam Smith'
+p2854
+S'Leave Your Lover'
+p2855
+tp2856
+a(S'Shakira'
+p2857
+S'Dare (La La La)'
+p2858
+tp2859
+a(S'5 Seconds Of Summer'
+p2860
+S'Good Girls'
+p2861
+tp2862
+a(S'Lil Wayne Featuring Drake'
+p2863
+S'Believe Me'
+p2864
+tp2865
+a(S'Tove Lo'
+p2866
+S'Habits (Stay High)'
+p2867
+tp2868
+a(S'Lana Del Rey'
+p2869
+S'Shades Of Cool'
+p2870
+tp2871
+a(S'Jason Derulo'
+p2872
+S'Trumpets'
+p2873
+tp2874
+a(S'John Mayer'
+p2875
+S'XO'
+p2876
+tp2877
+a(S'George Strait'
+p2878
+S'I Got A Car'
+p2879
+tp2880
+a(S'Pharrell Williams'
+p2881
+S'Come Get It Bae'
+p2882
+tp2883
+a(S'Tim McGraw Featuring Faith Hill'
+p2884
+S"Meanwhile Back At Mama's"
+p2885
+tp2886
+a(S'Florida Georgia Line Ft. Jason Derulo & Luke Bryan'
+p2887
+S'This Is How We Roll'
+p2888
+tp2889
+a(S'Charli XCX'
+p2890
+S'Boom Clap'
+p2891
+tp2892
+a(S'Sam Smith'
+p2893
+S"I'm Not The Only One"
+p2894
+tp2895
+a(S'Lana Del Rey'
+p2896
+S'Ultraviolence'
+p2897
+tp2898
+a(S'Little Big Town'
+p2899
+S'Day Drinking'
+p2900
+tp2901
+a(S'Becky G'
+p2902
+S'Shower'
+p2903
+tp2904
+a(S'ScHoolboy Q Featuring BJ The Chicago Kid'
+p2905
+S'Studio'
+p2906
+tp2907
+a(S'Tiesto Featuring Matthew Koma'
+p2908
+S'Wasted'
+p2909
+tp2910
+a(S'Eric Paslay'
+p2911
+S'Song About A Girl'
+p2912
+tp2913
+a(S'AJR'
+p2914
+S"I'm Ready"
+p2915
+tp2916
+a(S'PSY Featuring Snoop Dogg'
+p2917
+S'Hangover'
+p2918
+tp2919
+a(S'Ed Sheeran'
+p2920
+S"Don't"
+p2921
+tp2922
+a(S'Brantley Gilbert Featuring Justin Moore & Thomas Rhett'
+p2923
+S'Small Town Throwdown'
+p2924
+tp2925
+a(S'Clean Bandit Featuring Jess Glynne'
+p2926
+S'Rather Be'
+p2927
+tp2928
+a(S'Cole Swindell'
+p2929
+S'Hope You Get Lonely Tonight'
+p2930
+tp2931
+a(S'Jamie N Commons & X Ambassadors'
+p2932
+S'Jungle'
+p2933
+tp2934
+a(S'Maroon 5'
+p2935
+S'Maps'
+p2936
+tp2937
+a(S'5 Seconds Of Summer'
+p2938
+S'Kiss Me Kiss Me'
+p2939
+tp2940
+a(S'Ed Sheeran'
+p2941
+S'Afire Love'
+p2942
+tp2943
+a(S'T.I. Featuring Iggy Azalea'
+p2944
+S'No Mediocre'
+p2945
+tp2946
+a(S'Kenny Chesney'
+p2947
+S'American Kids'
+p2948
+tp2949
+a(S'Jennifer Lopez'
+p2950
+S'First Love'
+p2951
+tp2952
+a(S'Shawn Mendes'
+p2953
+S'Life Of The Party'
+p2954
+tp2955
+a(S'Robin Thicke'
+p2956
+S'Get Her Back'
+p2957
+tp2958
+a(S'Jeremih Featuring YG'
+p2959
+S"Don't Tell 'Em"
+p2960
+tp2961
+a(S'Vance Joy'
+p2962
+S'Riptide'
+p2963
+tp2964
+a(S'Sam Hunt'
+p2965
+S'Leave The Night On'
+p2966
+tp2967
+a(S'Ca$h Out'
+p2968
+S'She Twerkin'
+p2969
+tp2970
+a(S'Ariana Grande Featuring Zedd'
+p2971
+S'Break Free'
+p2972
+tp2973
+a(S'5 Seconds Of Summer'
+p2974
+S'Amnesia'
+p2975
+tp2976
+a(S'Trey Songz'
+p2977
+S'Foreign'
+p2978
+tp2979
+a(S'Chris Brown Featuring Usher & Rick Ross'
+p2980
+S'New Flame'
+p2981
+tp2982
+a(S'Busta Rhymes Featuring Eminem'
+p2983
+S'Calm Down'
+p2984
+tp2985
+a(S'Iggy Azalea Featuring Rita Ora'
+p2986
+S'Black Widow'
+p2987
+tp2988
+a(S'Afrojack Featuring Wrabel'
+p2989
+S'Ten Feet Tall'
+p2990
+tp2991
+a(S'Florida Georgia Line'
+p2992
+S'Dirt'
+p2993
+tp2994
+a(S'Fifth Harmony'
+p2995
+S'Bo$$'
+p2996
+tp2997
+a(S'John Legend'
+p2998
+S'You & I (Nobody In The World)'
+p2999
+tp3000
+a(S'Colbie Caillat'
+p3001
+S'Try'
+p3002
+tp3003
+a(S'Meghan Trainor'
+p3004
+S'All About That Bass'
+p3005
+tp3006
+a(S'Echosmith'
+p3007
+S'Cool Kids'
+p3008
+tp3009
+a(S'Migos'
+p3010
+S'Fight Night'
+p3011
+tp3012
+a(S'Eli Young Band'
+p3013
+S'Dust'
+p3014
+tp3015
+a(S'Frankie Ballard'
+p3016
+S'Sunshine & Whiskey'
+p3017
+tp3018
+a(S'5 Seconds Of Summer'
+p3019
+S"Everything I Didn't Say"
+p3020
+tp3021
+a(S'Weird Al Yankovic'
+p3022
+S'Word Crimes'
+p3023
+tp3024
+a(S'Luke Bryan'
+p3025
+S'Roller Coaster'
+p3026
+tp3027
+a(S'Rich Gang Featuring Young Thug & Rich Homie Quan'
+p3028
+S'Lifestyle'
+p3029
+tp3030
+a(S'Kiesza'
+p3031
+S'Hideaway'
+p3032
+tp3033
+a(S'Jason Aldean'
+p3034
+S"Burnin' It Down"
+p3035
+tp3036
+a(S'Drake'
+p3037
+S'0 To 100 / The Catch Up'
+p3038
+tp3039
+a(S'"Weird Al" Yankovic'
+p3040
+S'Word Crimes'
+p3041
+tp3042
+a(S'Troye Sivan'
+p3043
+S'Happy Little Pill'
+p3044
+tp3045
+a(S'Milky Chance'
+p3046
+S'Stolen Dance'
+p3047
+tp3048
+a(S'Jessie J, Ariana Grande & Nicki Minaj'
+p3049
+S'Bang Bang'
+p3050
+tp3051
+a(S'Maroon 5'
+p3052
+S'It Was Always You'
+p3053
+tp3054
+a(S'Maddie & Tae'
+p3055
+S'Girl In A Country Song'
+p3056
+tp3057
+a(S'Hilary Duff'
+p3058
+S'Chasing The Sun'
+p3059
+tp3060
+a(S'Katy Perry'
+p3061
+S'This Is How We Do'
+p3062
+tp3063
+a(S'Bobby Shmurda'
+p3064
+S'Hot Boy'
+p3065
+tp3066
+a(S'Rae Sremmurd'
+p3067
+S'No Flex Zone!!'
+p3068
+tp3069
+a(S'Rita Ora'
+p3070
+S'I Will Never Let You Down'
+p3071
+tp3072
+a(S'Nicki Minaj'
+p3073
+S'Anaconda'
+p3074
+tp3075
+a(S'Jack & Jack'
+p3076
+S'Wild Life'
+p3077
+tp3078
+a(S'Pitbull Featuring John Ryan'
+p3079
+S'Fireball'
+p3080
+tp3081
+a(S'Rae Sremmurd'
+p3082
+S'No Flex Zone'
+p3083
+tp3084
+a(S'Eric Church'
+p3085
+S'Cold One'
+p3086
+tp3087
+a(S'T.I. Featuring Young Thug'
+p3088
+S'About The Money'
+p3089
+tp3090
+a(S'Ariana Grande Featuring Big Sean'
+p3091
+S'Best Mistake'
+p3092
+tp3093
+a(S'Juicy J, Wiz Khalifa & Ty Dolla $ign Featuring Kill The Noise & Madsonik'
+p3094
+S'Shell Shocked'
+p3095
+tp3096
+a(S'Tyga Featuring Young Thug'
+p3097
+S'Hookah'
+p3098
+tp3099
+a(S'Hozier'
+p3100
+S'Take Me To Church'
+p3101
+tp3102
+a(S'The Swon Brothers'
+p3103
+S'Later On'
+p3104
+tp3105
+a(S'Taylor Swift'
+p3106
+S'Shake It Off'
+p3107
+tp3108
+a(S'Blake Shelton'
+p3109
+S'Neon Light'
+p3110
+tp3111
+a(S'Maroon 5'
+p3112
+S'Animals'
+p3113
+tp3114
+a(S'Mr. Probz'
+p3115
+S'Waves'
+p3116
+tp3117
+a(S'Steve Aoki, Chris Lake & Tujamo Featuring Kid Ink'
+p3118
+S'Delirious (Boneless)'
+p3119
+tp3120
+a(S'Rich Homie Quan Featuring Problem'
+p3121
+S'Walk Thru'
+p3122
+tp3123
+a(S'Eminem Featuring Sia'
+p3124
+S'Guts Over Fear'
+p3125
+tp3126
+a(S'Beyonce Featuring Nicki Minaj Or Chimamanda Ngozi Adichie'
+p3127
+S'***Flawless'
+p3128
+tp3129
+a(S'Usher Featuring Nicki Minaj'
+p3130
+S'She Came To Give It To You'
+p3131
+tp3132
+a(S'Keith Urban'
+p3133
+S'Somewhere In My Car'
+p3134
+tp3135
+a(S'TeeFLii Featuring 2 Chainz'
+p3136
+S'24 Hours'
+p3137
+tp3138
+a(S'Jason Aldean'
+p3139
+S"Sweet Little Somethin'"
+p3140
+tp3141
+a(S'Jeezy Featuring Jay Z'
+p3142
+S'Seen It All'
+p3143
+tp3144
+a(S'Mary Lambert'
+p3145
+S'Secrets'
+p3146
+tp3147
+a(S'Trey Songz Featuring Nicki Minaj'
+p3148
+S'Touchin, Lovin'
+p3149
+tp3150
+a(S'DJ Khaled Featuring Chris Brown, August Alsina, Future, & Jeremih'
+p3151
+S'Hold You Down'
+p3152
+tp3153
+a(S'Big & Rich'
+p3154
+S'Look At You'
+p3155
+tp3156
+a(S'Fall Out Boy'
+p3157
+S'Centuries'
+p3158
+tp3159
+a(S'Calvin Harris Featuring John Newman'
+p3160
+S'Blame'
+p3161
+tp3162
+a(S'Jason Aldean'
+p3163
+S'Two Night Town'
+p3164
+tp3165
+a(S'Nick Jonas'
+p3166
+S'Jealous'
+p3167
+tp3168
+a(S'Train'
+p3169
+S'Angel In Blue Jeans'
+p3170
+tp3171
+a(S'Lil Jon Featuring Tyga'
+p3172
+S'Bend Ova'
+p3173
+tp3174
+a(S'Meghan Trainor'
+p3175
+S'Dear Future Husband'
+p3176
+tp3177
+a(S'Jennifer Lopez Featuring Iggy Azalea Or Pitbull'
+p3178
+S'Booty'
+p3179
+tp3180
+a(S'Jason Aldean'
+p3181
+S'Gonna Know We Were Here'
+p3182
+tp3183
+a(S'August Alsina'
+p3184
+S'No Love'
+p3185
+tp3186
+a(S'Florida Georgia Line'
+p3187
+S'Sun Daze'
+p3188
+tp3189
+a(S'The Script'
+p3190
+S'Superheroes'
+p3191
+tp3192
+a(S'Chris Brown'
+p3193
+S'X'
+p3194
+tp3195
+a(S'Wiz Khalifa Featuring Snoop Dogg & Ty Dolla $ign'
+p3196
+S'You And Your Friends'
+p3197
+tp3198
+a(S'Kendrick Lamar'
+p3199
+S'i'
+p3200
+tp3201
+a(S'Jason Aldean'
+p3202
+S'Tonight Looks Good On You'
+p3203
+tp3204
+a(S'Big Sean Featuring E-40'
+p3205
+S"I Don't F**k With You"
+p3206
+tp3207
+a(S'Florida Georgia Line'
+p3208
+S'Anything Goes'
+p3209
+tp3210
+a(S'Rae Sremmurd'
+p3211
+S'No Type'
+p3212
+tp3213
+a(S'I LOVE MAKONNEN Featuring Drake'
+p3214
+S'Tuesday'
+p3215
+tp3216
+a(S'Migos'
+p3217
+S'Handsome And Wealthy'
+p3218
+tp3219
+a(S'Scotty McCreery'
+p3220
+S"Feelin' It"
+p3221
+tp3222
+a(S'Parmalee'
+p3223
+S'Close Your Eyes'
+p3224
+tp3225
+a(S'alt-J'
+p3226
+S'Left Hand Free'
+p3227
+tp3228
+a(S'One Direction'
+p3229
+S'Steal My Girl'
+p3230
+tp3231
+a(S'Carrie Underwood'
+p3232
+S'Something In The Water'
+p3233
+tp3234
+a(S'Jason Aldean'
+p3235
+S"Just Gettin' Started"
+p3236
+tp3237
+a(S'Florida Georgia Line'
+p3238
+S"Bumpin' The Night"
+p3239
+tp3240
+a(S'Lorde'
+p3241
+S'Yellow Flicker Beat'
+p3242
+tp3243
+a(S'Alesso Featuring Tove Lo'
+p3244
+S'Heroes (We Could Be)'
+p3245
+tp3246
+a(S'OG Maco'
+p3247
+S'U Guessed It'
+p3248
+tp3249
+a(S'Tim McGraw'
+p3250
+S'Shotgun Rider'
+p3251
+tp3252
+a(S'Jimmy Fallon Featuring will.i.am'
+p3253
+S'EW!'
+p3254
+tp3255
+a(S'DJ Khaled Featuring Chris Brown, August Alsina, Future & Jeremih'
+p3256
+S'Hold You Down'
+p3257
+tp3258
+a(S'Florida Georgia Line'
+p3259
+S"Sippin' On Fire"
+p3260
+tp3261
+a(S'Ed Sheeran'
+p3262
+S'Thinking Out Loud'
+p3263
+tp3264
+a(S'Avicii'
+p3265
+S'The Days'
+p3266
+tp3267
+a(S'Ariana Grande & The Weeknd'
+p3268
+S'Love Me Harder'
+p3269
+tp3270
+a(S'Brad Paisley'
+p3271
+S'Perfect Storm'
+p3272
+tp3273
+a(S'OG Maco Featuring 2 Chainz'
+p3274
+S'U Guessed It'
+p3275
+tp3276
+a(S'Fergie'
+p3277
+S'L.A.LOVE (la la)'
+p3278
+tp3279
+a(S'Yo Gotti'
+p3280
+S'Errrbody'
+p3281
+tp3282
+a(S'Kid Ink Featuring Usher & Tinashe'
+p3283
+S'Body Language'
+p3284
+tp3285
+a(S'Taylor Swift'
+p3286
+S'Out Of The Woods'
+p3287
+tp3288
+a(S'Nico & Vinz'
+p3289
+S'In Your Arms'
+p3290
+tp3291
+a(S'Jessie J Featuring 2 Chainz'
+p3292
+S"Burnin' Up"
+p3293
+tp3294
+a(S'Glen Campbell'
+p3295
+S"I'm Not Gonna Miss You"
+p3296
+tp3297
+a(S'Bobby Shmurda'
+p3298
+S'Bobby Bitch'
+p3299
+tp3300
+a(S'The Weeknd'
+p3301
+S'Often'
+p3302
+tp3303
+a(S'Lee Brice'
+p3304
+S'Drinking Class'
+p3305
+tp3306
+a(S'Gwen Stefani'
+p3307
+S"Baby Don't Lie"
+p3308
+tp3309
+a(S'Taylor Swift'
+p3310
+S'Welcome To New York'
+p3311
+tp3312
+a(S'DeJ Loaf'
+p3313
+S'Try Me'
+p3314
+tp3315
+a(S'Calvin Harris Featuring Ellie Goulding'
+p3316
+S'Outside'
+p3317
+tp3318
+a(S'Flo Rida Featuring Sage The Gemini & Lookas'
+p3319
+S'G.D.F.R.'
+p3320
+tp3321
+a(S'Eric Church'
+p3322
+S'Talladega'
+p3323
+tp3324
+a(S'Iggy Azalea Featuring M0'
+p3325
+S'Beg For It'
+p3326
+tp3327
+a(S'Meghan Trainor'
+p3328
+S'Lips Are Movin'
+p3329
+tp3330
+a(S'David Guetta Featuring Sam Martin'
+p3331
+S'Dangerous'
+p3332
+tp3333
+a(S'Snootie Wild Featuring K Camp'
+p3334
+S'Made Me'
+p3335
+tp3336
+a(S'RaeLynn'
+p3337
+S'God Made Girls'
+p3338
+tp3339
+a(S'Taylor Swift'
+p3340
+S'Blank Space'
+p3341
+tp3342
+a(S'Imagine Dragons'
+p3343
+S'I Bet My Life'
+p3344
+tp3345
+a(S'Nicki Minaj Featuring Drake, Lil Wayne & Chris Brown'
+p3346
+S'Only'
+p3347
+tp3348
+a(S'Taylor Swift'
+p3349
+S'Style'
+p3350
+tp3351
+a(S'OK Go'
+p3352
+S"I Won't Let You Down"
+p3353
+tp3354
+a(S'Ella Henderson'
+p3355
+S'Ghost'
+p3356
+tp3357
+a(S'Taylor Swift'
+p3358
+S'Wildest Dreams'
+p3359
+tp3360
+a(S'Taylor Swift'
+p3361
+S'Bad Blood'
+p3362
+tp3363
+a(S'Kenny Chesney'
+p3364
+S"Til It's Gone"
+p3365
+tp3366
+a(S'Selena Gomez'
+p3367
+S'The Heart Wants What It Wants'
+p3368
+tp3369
+a(S'One Direction'
+p3370
+S'Ready To Run'
+p3371
+tp3372
+a(S'Shawn Mendes'
+p3373
+S'Something Big'
+p3374
+tp3375
+a(S'Brett Eldredge'
+p3376
+S'Mean To Me'
+p3377
+tp3378
+a(S'Darius Rucker'
+p3379
+S'Homegrown Honey'
+p3380
+tp3381
+a(S'Walk The Moon'
+p3382
+S'Shut Up + Dance'
+p3383
+tp3384
+a(S'Mark Ronson Featuring Bruno Mars'
+p3385
+S'Uptown Funk!'
+p3386
+tp3387
+a(S'One Direction'
+p3388
+S'18'
+p3389
+tp3390
+a(S'One Direction'
+p3391
+S'Where Do Broken Hearts Go'
+p3392
+tp3393
+a(S'WALK THE MOON'
+p3394
+S'Shut Up And Dance'
+p3395
+tp3396
+a(S'Thomas Rhett'
+p3397
+S'Make Me Wanna'
+p3398
+tp3399
+a(S'Ne-Yo Featuring Juicy J'
+p3400
+S'She Knows'
+p3401
+tp3402
+a(S'Pentatonix'
+p3403
+S'Mary, Did You Know?'
+p3404
+tp3405
+a(S'One Direction'
+p3406
+S'Night Changes'
+p3407
+tp3408
+a(S'Band Aid 30'
+p3409
+S"Do They Know It's Christmas? (2014)"
+p3410
+tp3411
+a(S'Nicki Minaj Featruing Skylar Grey'
+p3412
+S'Bed Of Lies'
+p3413
+tp3414
+a(S'O.T. Genasis'
+p3415
+S'CoCo'
+p3416
+tp3417
+a(S'Idina Menzel Duet With Michael Buble'
+p3418
+S"Baby It's Cold Outside"
+p3419
+tp3420
+a(S'Matt McAndrew'
+p3421
+S'Take Me To Church'
+p3422
+tp3423
+a(S'Usher Featuring Juicy J'
+p3424
+S"I Don't Mind"
+p3425
+tp3426
+a(S'One Direction'
+p3427
+S'Stockholm Syndrome'
+p3428
+tp3429
+a(S'James Newton Howard Featuring Jennifer Lawrence'
+p3430
+S'The Hanging Tree'
+p3431
+tp3432
+a(S'Beyonce'
+p3433
+S'7/11'
+p3434
+tp3435
+a(S'Ariana Grande'
+p3436
+S'Santa Tell Me'
+p3437
+tp3438
+a(S'OneRepublic'
+p3439
+S'I Lived'
+p3440
+tp3441
+a(S'Craig Wayne Boyd'
+p3442
+S'I Walk The Line'
+p3443
+tp3444
+a(S'Luke Bryan'
+p3445
+S'I See You'
+p3446
+tp3447
+a(S'Fifth Harmony'
+p3448
+S'Sledgehammer'
+p3449
+tp3450
+a(S'Pitbull & Ne-Yo'
+p3451
+S'Time Of Our Lives'
+p3452
+tp3453
+a(S'Ed Sheeran'
+p3454
+S'Make It Rain'
+p3455
+tp3456
+a(S'Matt McAndrew'
+p3457
+S"The Blower's Daughter"
+p3458
+tp3459
+a(S'Lillywood & Robin Schulz'
+p3460
+S'Prayer In C'
+p3461
+tp3462
+a(S'Sheppard'
+p3463
+S'Geronimo'
+p3464
+tp3465
+a(S'Blake Shelton Featuring Ashley Monroe'
+p3466
+S'Lonely Tonight'
+p3467
+tp3468
+a(S'Randy Houser'
+p3469
+S'Like A Cowboy'
+p3470
+tp3471
+a(S'Taylor John Williams'
+p3472
+S'Royals'
+p3473
+tp3474
+a(S'Craig Wayne Boyd'
+p3475
+S'The Old Rugged Cross'
+p3476
+tp3477
+a(S'J. Cole'
+p3478
+S'Wet Dreamz'
+p3479
+tp3480
+a(S'Matt McAndrew'
+p3481
+S'Make It Rain'
+p3482
+tp3483
+a(S'Sam Smith'
+p3484
+S'Have Yourself A Merry Little Christmas'
+p3485
+tp3486
+a(S'The White Buffalo & The Forest Rangers'
+p3487
+S'Come Join The Murder'
+p3488
+tp3489
+a(S'J. Cole'
+p3490
+S'No Role Modelz'
+p3491
+tp3492
+a(S'Chris Jamison'
+p3493
+S'When I Was Your Man'
+p3494
+tp3495
+a(S'Charli XCX'
+p3496
+S'Break The Rules'
+p3497
+tp3498
+a(S'Matt McAndrew'
+p3499
+S'Wasted Love'
+p3500
+tp3501
+a(S'Craig Wayne Boyd'
+p3502
+S"My Baby's Got A Smile On Her Face"
+p3503
+tp3504
+a(S'Nicki Minaj Featuring Beyonce'
+p3505
+S'Feeling Myself'
+p3506
+tp3507
+a(S'Chris Jamison'
+p3508
+S'Velvet'
+p3509
+tp3510
+a(S'Chris Jamison & Adam Levine'
+p3511
+S'Lost Without U'
+p3512
+tp3513
+a(S'Jessie J'
+p3514
+S'Masterpiece'
+p3515
+tp3516
+a(S'Damien'
+p3517
+S'Soldier'
+p3518
+tp3519
+a(S'Matt McAndrew & Adam Levine'
+p3520
+S'Lost Stars'
+p3521
+tp3522
+a(S'Nicki Minaj Featuring Ariana Grande'
+p3523
+S'Get On Your Knees'
+p3524
+tp3525
+a(S'J. Cole'
+p3526
+S'Apparently'
+p3527
+tp3528
+a(S'Chris Young'
+p3529
+S'Lonely Eyes'
+p3530
+tp3531
+a(S'The Weeknd'
+p3532
+S'Earned It (Fifty Shades Of Grey)'
+p3533
+tp3534
+a(S'Nicki Minaj Featuring Skylar Grey'
+p3535
+S'Bed Of Lies'
+p3536
+tp3537
+a(S'Prince Royce Featuring Snoop Dogg'
+p3538
+S'Stuck On A Feeling'
+p3539
+tp3540
+a(S'French Montana Featuring Jeremih'
+p3541
+S'Bad B*tch'
+p3542
+tp3543
+a(S'Becky G'
+p3544
+S"Can't Stop Dancin'"
+p3545
+tp3546
+a(S'Meghan Trainor'
+p3547
+S'Title'
+p3548
+tp3549
+a(S'Kanye West Featuring Paul McCartney'
+p3550
+S'Only One'
+p3551
+tp3552
+a(S'Rae Sremmurd Featuring Nicki Minaj & Young Thug'
+p3553
+S'Throw Sum Mo'
+p3554
+tp3555
+a(S'Sam Hunt'
+p3556
+S'Take Your Time'
+p3557
+tp3558
+a(S'Jake Owen'
+p3559
+S"What We Ain't Got"
+p3560
+tp3561
+a(S'Tyler Farr'
+p3562
+S'A Guy Walks Into A Bar'
+p3563
+tp3564
+a(S'Chase Bryant'
+p3565
+S'Take It On Back'
+p3566
+tp3567
+a(S'Cole Swindell'
+p3568
+S"Ain't Worth The Whiskey"
+p3569
+tp3570
+a(S'G-Eazy Featuring Remo'
+p3571
+S'I Mean It'
+p3572
+tp3573
+a(S'Sia'
+p3574
+S'Elastic Heart'
+p3575
+tp3576
+a(S'Chris Brown & Tyga'
+p3577
+S'Ayo'
+p3578
+tp3579
+a(S'Ellie Goulding'
+p3580
+S'Love Me Like You Do'
+p3581
+tp3582
+a(S'Fall Out Boy'
+p3583
+S'Irresistible'
+p3584
+tp3585
+a(S'Sophia Grace'
+p3586
+S'Best Friends'
+p3587
+tp3588
+a(S'I Prevail'
+p3589
+S'Blank Space'
+p3590
+tp3591
+a(S'B.o.B Featuring Trey Songz'
+p3592
+S'Not For Long'
+p3593
+tp3594
+a(S'Omarion Featuring Chris Brown & Jhene Aiko'
+p3595
+S'Post To Be'
+p3596
+tp3597
+a(S'Hoodie Allen Featuring Ed Sheeran'
+p3598
+S'All About It'
+p3599
+tp3600
+a(S'Maroon 5'
+p3601
+S'Sugar'
+p3602
+tp3603
+a(S'Kelly Clarkson'
+p3604
+S'Heartbeat Song'
+p3605
+tp3606
+a(S'Zac Brown Band'
+p3607
+S'Homegrown'
+p3608
+tp3609
+a(S'Fall Out Boy'
+p3610
+S'Uma Thurman'
+p3611
+tp3612
+a(S'Common & John Legend'
+p3613
+S'Glory'
+p3614
+tp3615
+a(S'Dierks Bentley'
+p3616
+S'Say You Do'
+p3617
+tp3618
+a(S'Wale Featuring Jeremih'
+p3619
+S'The Body'
+p3620
+tp3621
+a(S'Rihanna & Kanye West & Paul McCartney'
+p3622
+S'FourFiveSeconds'
+p3623
+tp3624
+a(S'Nicki Minaj Featuring Drake & Lil Wayne'
+p3625
+S'Truffle Butter'
+p3626
+tp3627
+a(S'Fifth Harmony Featuring Kid Ink'
+p3628
+S'Worth It'
+p3629
+tp3630
+a(S'Fetty Wap'
+p3631
+S'Trap Queen'
+p3632
+tp3633
+a(S'Natalie La Rose Featuring Jeremih'
+p3634
+S'Somebody'
+p3635
+tp3636
+a(S'Fall Out Boy'
+p3637
+S'Immortals'
+p3638
+tp3639
+a(S'Trey Songz'
+p3640
+S'Slow Motion'
+p3641
+tp3642
+a(S'Imagine Dragons'
+p3643
+S'Shots'
+p3644
+tp3645
+a(S'George Ezra'
+p3646
+S'Budapest'
+p3647
+tp3648
+a(S'Nick Jonas'
+p3649
+S'Chains'
+p3650
+tp3651
+a(S'Tove Lo'
+p3652
+S'Talking Body'
+p3653
+tp3654
+a(S'Ciara'
+p3655
+S'I Bet'
+p3656
+tp3657
+a(S'Missy "Misdemeanor" Elliott'
+p3658
+S'Work It'
+p3659
+tp3660
+a(S'Missy "Misdemeanor" Elliott'
+p3661
+S'Get Ur Freak On'
+p3662
+tp3663
+a(S'Big Sean Featuring Drake'
+p3664
+S'Blessings'
+p3665
+tp3666
+a(S'Sam Smith'
+p3667
+S'Lay Me Down'
+p3668
+tp3669
+a(S'Shawn Mendes'
+p3670
+S'A Little Too Much'
+p3671
+tp3672
+a(S'Kid Ink Featuring Chris Brown'
+p3673
+S'Hotel'
+p3674
+tp3675
+a(S'A-Trak + Milo & Otis Featuring Rich Kidz'
+p3676
+S'Out The Speakers'
+p3677
+tp3678
+a(S'Little Big Town'
+p3679
+S'Girl Crush'
+p3680
+tp3681
+a(S'Drake'
+p3682
+S'Energy'
+p3683
+tp3684
+a(S'Miranda Lambert'
+p3685
+S'Little Red Wagon'
+p3686
+tp3687
+a(S'Ariana Grande'
+p3688
+S'One Last Time'
+p3689
+tp3690
+a(S'Drake Featuring PARTYNEXTDOOR'
+p3691
+S'Preach'
+p3692
+tp3693
+a(S'Drake'
+p3694
+S'Legend'
+p3695
+tp3696
+a(S'Drake'
+p3697
+S'10 Bands'
+p3698
+tp3699
+a(S'Drake Featuring Lil Wayne'
+p3700
+S'Used To'
+p3701
+tp3702
+a(S'The Weeknd'
+p3703
+S'Where You Belong'
+p3704
+tp3705
+a(S'Andy Grammer'
+p3706
+S"Honey, I'm Good."
+p3707
+tp3708
+a(S'Annie Lennox'
+p3709
+S'I Put A Spell On You'
+p3710
+tp3711
+a(S'Empire Cast Featuring Jussie Smollett'
+p3712
+S'Keep Your Money'
+p3713
+tp3714
+a(S'Florence + The Machine'
+p3715
+S'What Kind Of Man'
+p3716
+tp3717
+a(S'Taylor Swift'
+p3718
+S'Wonderland'
+p3719
+tp3720
+a(S'Drake'
+p3721
+S'Know Yourself'
+p3722
+tp3723
+a(S'Drake'
+p3724
+S"No Tellin'"
+p3725
+tp3726
+a(S'Drake'
+p3727
+S'6 God'
+p3728
+tp3729
+a(S'Drake'
+p3730
+S'Now & Forever'
+p3731
+tp3732
+a(S'Drake'
+p3733
+S'6 Man'
+p3734
+tp3735
+a(S'Wiz Khalifa & Iggy Azalea'
+p3736
+S'Go Hard Or Go Home'
+p3737
+tp3738
+a(S'Zedd Featuring Selena Gomez'
+p3739
+S'I Want You To Know'
+p3740
+tp3741
+a(S'Kid Rock'
+p3742
+S'First Kiss'
+p3743
+tp3744
+a(S'Empire Cast Featuring Jussie Smollett & Yazz'
+p3745
+S"You're So Beautiful"
+p3746
+tp3747
+a(S'Big Sean Featuring Kanye West'
+p3748
+S'All Your Fault'
+p3749
+tp3750
+a(S'Taylor Swift'
+p3751
+S'You Are In Love'
+p3752
+tp3753
+a(S'Tori Kelly'
+p3754
+S'Nobody Love'
+p3755
+tp3756
+a(S'A Thousand Horses'
+p3757
+S'Smoke'
+p3758
+tp3759
+a(S'Keith Urban Featuring Eric Church'
+p3760
+S"Raise 'Em Up"
+p3761
+tp3762
+a(S'Big Sean Featuring Kanye West & John Legend'
+p3763
+S'One Man Can Change The World'
+p3764
+tp3765
+a(S'Silento'
+p3766
+S'Watch Me'
+p3767
+tp3768
+a(S'Big Sean'
+p3769
+S'Paradise'
+p3770
+tp3771
+a(S'Kanye West Featuring Theophilus London, Allan Kingdom & Paul McCartney'
+p3772
+S'All Day'
+p3773
+tp3774
+a(S'Empire Cast Featuring Estelle & Jussie Smollett'
+p3775
+S'Conqueror'
+p3776
+tp3777
+a(S'Carly Rae Jepsen'
+p3778
+S'I Really Like You'
+p3779
+tp3780
+a(S'Taylor Swift'
+p3781
+S'New Romantics'
+p3782
+tp3783
+a(S'Billy Currington'
+p3784
+S"Don't It"
+p3785
+tp3786
+a(S'Cashmere Cat Featuring Ariana Grande'
+p3787
+S'Adore'
+p3788
+tp3789
+a(S'Eric Paslay'
+p3790
+S"She Don't Love You"
+p3791
+tp3792
+a(S'Meek Mill'
+p3793
+S'Monster'
+p3794
+tp3795
+a(S'Skrillex & Diplo Featuring Justin Bieber'
+p3796
+S'Where Are U Now'
+p3797
+tp3798
+a(S'Mumford & Sons'
+p3799
+S'Believe'
+p3800
+tp3801
+a(S'Jason Derulo'
+p3802
+S'Want To Want Me'
+p3803
+tp3804
+a(S'Luke Bryan'
+p3805
+S'Games'
+p3806
+tp3807
+a(S'LunchMoney Lewis'
+p3808
+S'Bills'
+p3809
+tp3810
+a(S'Echosmith'
+p3811
+S'Bright'
+p3812
+tp3813
+a(S'Kenny Chesney With Grace Potter'
+p3814
+S'Wild Child'
+p3815
+tp3816
+a(S'Tim McGraw With Catherine Dunn'
+p3817
+S'Diamond Rings And Old Barstools'
+p3818
+tp3819
+a(S'Carrie Underwood'
+p3820
+S'Little Toy Guns'
+p3821
+tp3822
+a(S'Wiz Khalifa Featuring Charlie Puth'
+p3823
+S'See You Again'
+p3824
+tp3825
+a(S'Kendrick Lamar'
+p3826
+S'King Kunta'
+p3827
+tp3828
+a(S'Kendrick Lamar'
+p3829
+S'The Blacker The Berry'
+p3830
+tp3831
+a(S'Kendrick Lamar'
+p3832
+S'Alright'
+p3833
+tp3834
+a(S'Twenty One Pilots'
+p3835
+S'Fairly Local'
+p3836
+tp3837
+a(S'Kendrick Lamar Featuring George Clinton & Thundercat'
+p3838
+S"Wesley's Theory"
+p3839
+tp3840
+a(S'Kendrick Lamar Featuring Bilal. Anna Wise & Thundercat'
+p3841
+S'These Walls'
+p3842
+tp3843
+a(S'Kendrick Lamar Featuring Bilal, Anna Wise & Snoop Dogg'
+p3844
+S'Institutionalized'
+p3845
+tp3846
+a.

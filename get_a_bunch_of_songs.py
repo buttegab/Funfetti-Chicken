@@ -6,6 +6,8 @@ Gets a frikkin' *ton* of songs from Billboard. NOTE THAT THIS TAKES A WHILE TO R
 import requests
 import time
 import random
+import pickle
+from os.path import exists
 from bs4 import BeautifulSoup
 
 
@@ -30,6 +32,9 @@ def get_three_years_of_billboard_songs():
         # Uses requests and BeautifulSoup to get artists & songs from that URL, and adds it to the list of artists and songs.
 
         r = requests.get(url)
+        while r.status_code != 200:
+            time.sleep(60)
+            r = requests.get(url)
         html_file = r.text.encode('ascii', 'ignore')
         page = BeautifulSoup(html_file)
 
@@ -53,7 +58,7 @@ def get_three_years_of_billboard_songs():
             year += 1
 
         # waits a little while, because otherwise the billboard server identifies it as an attack, virus, or glitch (and stops answering):
-        time.sleep(random.choice([i + j for j in range(10)]))
+        # time.sleep(random.choice([90 + j for j in range(40)]))
 
     condensed_list = []
 
@@ -64,4 +69,11 @@ def get_three_years_of_billboard_songs():
     return condensed_list
 
 if __name__ == "__main__":
-    print get_three_years_of_billboard_songs()
+    huge_song_list = get_three_years_of_billboard_songs()
+    if exists('billboard_song_list.txt'):
+        print "found it"
+        pass
+    else:
+        f = open('billboard_song_list.txt', 'w')
+        f.seek(0,0)
+        pickle.dump(huge_song_list, f)
