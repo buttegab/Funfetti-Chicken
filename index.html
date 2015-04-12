@@ -84,6 +84,63 @@ weeks 5-6: finish algorithms, add the food side, combine the algorithms into one
 
 <p>We plan to give a brief summary of what our project is, what the finished product will look like, and what we have so far. The rest of the time will be allotted to surveying the group about the key questions we have listed above and facilitating general discussion of our ideas and chosen methods.</p>
 
+<hr>
+
+<h3>
+<a id="after-the-review" class="anchor" href="#after-the-review" aria-hidden="true"><span class="octicon octicon-link"></span></a>After the Review:</h3>
+
+<h3>
+<a id="feedback-and-decisions" class="anchor" href="#feedback-and-decisions" aria-hidden="true"><span class="octicon octicon-link"></span></a>Feedback and Decisions:</h3>
+
+<p>The advice we received on machine learning was that we should try to look for trends in the data, and that thought pushed us towards Association rule learning because it is effective at finding correlations between variables, which is exactly what we are looking for. For generating the training data, we were told that the Rovi API was a good option for getting the moods of songs, saving us the trouble of having to manually listen to songs and enter in how we thought they felt. This API allows us to get an unbiased opinion on the mood of the songs. </p>
+
+<h3>
+<a id="review-process-reflection" class="anchor" href="#review-process-reflection" aria-hidden="true"><span class="octicon octicon-link"></span></a>Review process reflection:</h3>
+
+<p>The review was an overall success. We got the questions we needed answered answered and we got interesting new leads regarding everything we were concerned about. We may have provided too little context for the groups to be of a large help in regard to the machine learning, but we had decided it was too hard to get a good enough understanding of machine learning to really help our team in a short period of time. In regard to the agenda, we stuck to it fairly well, only needing to backtrack and re-explain things once or twice. The time we allotted for general discussion was very rewarding and worth the effort. We are going to plan our discussion of machine learning a little better and try to present people with the opportunity to go beyond what we even considered. </p>
+
+<hr>
+
+<h3>
+<a id="preparation--framing-document-for-team-funfetti-chicken" class="anchor" href="#preparation--framing-document-for-team-funfetti-chicken" aria-hidden="true"><span class="octicon octicon-link"></span></a>Preparation &amp; Framing Document for team Funfetti Chicken:</h3>
+
+<h3>
+<a id="background-and-context-1" class="anchor" href="#background-and-context-1" aria-hidden="true"><span class="octicon octicon-link"></span></a>Background and Context:</h3>
+
+<pre><code>Our project is based on taking a song, finding relevant information (e.g., lyrics, tempo, key) about it, and translating that to a sentiment. As a bit of a "flourish," the sentiments will then be mapped to an appropriate food with a (very subjective) pseudo-dictionary of our own devising.
+Currently, we've written and assembled the bulk of the "infrastructure" needed to get song information in the first place, and have built a small database of songs &amp; song data for us to access online. The "moving parts" which we currently have are:
+    - Song data harvesting--using Echo Nest API to search for, and retrieve, information about a song.
+    - Database construction/storage - automating Echo Nest searches, and storing information (like tempo, name, artist) in a song_data object which is then preserved (with the Pickle module) for future reference.
+    - Lyrics harvesting - getting lyrics from the web for a song using requests (a web accessing package) and string parsing (to turn the web output into something which python can "eval").
+    - Lyrics sentiment analysis - using Pattern to get the overall "mood" of a song's lyrics. The lyrics themselves come from the aforementioned lyrics harvesting.
+    - Song gathering - getting songs from the "Billboard" top 100 weekly songs. Uses HTML to gather songs from several years of Billboard data, and then collate this information into a list of ("artist","song") tuples which can then be passed on to the database construction.
+</code></pre>
+
+<h3>
+<a id="key-questions-1" class="anchor" href="#key-questions-1" aria-hidden="true"><span class="octicon octicon-link"></span></a>Key Questions:</h3>
+
+<pre><code>We've created something to get, and store, nearly every bit of information we could want about a song. However, we're somewhat at a loss for what to do next.
+In particular: we want to use a machine learning approach to prepare our sentiment-classifying algorithm. We've got a couple of major questions as to how this can be addressed:
+    - What sort of machine learning algorithms and/or packages would be best to use?
+        - Relatedly, what approach should we take?
+            - Should we, say, have an input of (tempo, key, lyric_sentiment, etc) and an output of (happiness, anger, etc)?            
+            - Or is it better to just train for a single output: say, 3-4 variables in and 1 out?
+        -Relevant info: None of us know anything about writing an algorithm for ML. We could try to as a stretch goal, but it would be handy to adapt existing libraries/tools.
+
+    - How should we acquire training data?
+        - We can get very general/vague information from the "Rovi" API - should we just get the moods for a lot of songs, and use some to train and some to test?
+        - Alternatively, should we try to use human classification to get initial training data?
+        - (Or, something else?)
+</code></pre>
+
+<h3>
+<a id="agenda-1" class="anchor" href="#agenda-1" aria-hidden="true"><span class="octicon octicon-link"></span></a>Agenda:</h3>
+
+<pre><code>1. Begin with a brief overview of our project, and the state we're at right now.
+2. Move on to ideating on the ML front. We've addressed most of our pressing concerns vis-a-vis gathering information, songs, etc. in the first place - but, now we're uncertain what to *do* with this data; as such, this seems like a good focus.
+3. Depending on which ideas seem promising (and, using a few of our current ideas/possibilities), some "Technical discussion" as to what sorts of structures, algorithms, packages, etc. could be used to make ML ideas work.
+</code></pre>
+
 <h3>
 <a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
 
