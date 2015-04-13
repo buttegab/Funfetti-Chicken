@@ -16,7 +16,7 @@ def add_lyrics_and_song_data_to_database(artist, song):
     if exists('song_database.txt'):
         f = open('song_database.txt', 'r+')
         song_list = pickle.load(f)
-        current_entry = Song_data(artist, song))
+        current_entry = Song_data(artist, song)
         if current_entry.id in [previous_entry.id for previous_entry in song_list]:
             print "Song '" + song + "' already in database."
             return
@@ -38,4 +38,4 @@ if __name__ == "__main__":
         list_of_songs_to_add = []
     list_of_songs_to_add.extend([('Bob Dylan', 'Like a Rolling Stone'), ('Maroon 5', 'Sugar'), ('Ellie Goulding', 'Love Me Like You Do'), ('Taylor Swift', 'Style'), ('Taylor Swift', 'Blank Space'), ('Hozier', 'Take Me to Church'), ('WALK THE MOON', 'Shut Up And Dance'), ('Ariana Grande', 'One Last Time'), ('Sia', 'Chandelier'), ('Eric Paslay', 'She Don\'t Love You'), ('Red Hot Chili Peppers', 'Under the Bridge'), ('Rihanna', 'Stay'), ('A Great Big World', 'Say Something')]) # a couple baselines b/c woohoo music.
     for entry in list_of_songs_to_add:
-        add_lyrics_and_song_to_database(entry[0], entry[1])
+        add_lyrics_and_song_data_to_database(entry[0], entry[1])
