@@ -25,12 +25,14 @@ class Song_data:
     def __init__(self, artist, name):
         self.artist = artist
         self.name = name
-        current_song = song.search(artist = artist, title = name)[0]
-        self.id = current_song.id
-        # self.id = current_song.id
-        self.parameter_dict = {'mood': 'when the api key works, this will return the mood via get_mood(self.name)'},{x: current_song.audio_summary[x] for x in ['tempo', 'mode', 'key', 'danceability', 'acousticness', 'speechiness', 'loudness', 'energy']}
-        self.lyrics = get_lyrics(artist, name)
-
+        temp = song.search(artist = artist, title = name)
+        if len(temp) != 0:
+            current_song = temp[0]
+            self.id = current_song.id
+            self.parameter_dict = {'mood': 'when the api key works, this will return the mood via get_mood(self.name)'},{x: current_song.audio_summary[x] for x in ['tempo', 'mode', 'key', 'danceability', 'acousticness', 'speechiness', 'loudness', 'energy']}
+            self.lyrics = get_lyrics(artist, name)
+        else:
+            self.id = 'SONG NOT FOUND'
 
     def __str__(self):
         return self.name + " - " + self.artist
