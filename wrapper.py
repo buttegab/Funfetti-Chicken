@@ -5,6 +5,7 @@ from songtext import get_lyrics # get_lyrics(artist, song) -> string
 from make_echonest_database import Song_data # class which features a ton of info.
 from os.path import exists
 import pickle
+import time
 
 
 
@@ -37,5 +38,9 @@ if __name__ == "__main__":
     else:
         list_of_songs_to_add = []
     list_of_songs_to_add.extend([('Bob Dylan', 'Like a Rolling Stone'), ('Maroon 5', 'Sugar'), ('Ellie Goulding', 'Love Me Like You Do'), ('Taylor Swift', 'Style'), ('Taylor Swift', 'Blank Space'), ('Hozier', 'Take Me to Church'), ('WALK THE MOON', 'Shut Up And Dance'), ('Ariana Grande', 'One Last Time'), ('Sia', 'Chandelier'), ('Eric Paslay', 'She Don\'t Love You'), ('Red Hot Chili Peppers', 'Under the Bridge'), ('Rihanna', 'Stay'), ('A Great Big World', 'Say Something')]) # a couple baselines b/c woohoo music.
-    for entry in list_of_songs_to_add:
-        add_lyrics_and_song_data_to_database(entry[0], entry[1])
+    waiting_index = 0
+    for (x, y) in list_of_songs_to_add:
+        add_lyrics_and_song_data_to_database(x, y)
+        waiting_index += 1
+        if waiting_index%40 == 0:
+            time.sleep(120) # conforming to api rate limits
