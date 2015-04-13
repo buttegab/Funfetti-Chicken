@@ -1,11 +1,15 @@
+"""readme:
+Go to http://docs.python-requests.org/en/latest/user/install/ and do what it sayss to install requests.
+Thats it.
+This readme is essential.
+"""
+
 import requests
 import urllib   # urlencode function
 import urllib2  # urlopen function (better than urllib version)
 import json
 import math
 
-artist = 'coldplay'
-song = 'clocks'
 
 def get_json(url):
     """
@@ -18,45 +22,22 @@ def get_json(url):
     return response_data
 
 
+def get_lyrics(artist, song):
+    """
+    Gets lyrics for the given song, if it can be found in the database.
+    """
+    url = 'http://api.lyricsnmusic.com/songs?api_key=[5358b25688164e6c2f771954f17460&q]=' + artist+ '%20'+ song
+    r = requests.get(url)
+    r_text = r.text
+    r_text = r_text.replace('false', 'False')
+    r_text = r_text.replace('true', 'True')
+    r_text = r_text.replace('null', 'None') # converting to something Python understands
+    r_text_as_data_structure = eval(r_text)
+    if len(r_text_as_data_structure) != 0:
+        r_text_dictionary = r_text_as_data_structure[0]
+        return r_text_dictionary['snippet'] #returns a verse's worth of lyrics, which is all we can automatically get b/c copyright law in the APIs.
+    else:
+        return '' #means that nothing was found; as such, this is an empty string. This is to prevent a fatal error in the event that for some reason no song is found.
 
-#url = 'http://developer.echonest.com/api/v4/song/search?api_key=3D2CNVOKTHG046F7R&format=json&artist=radiohead&title=creep&bucket=id:lyricfind-US&limit=true&bucket=tracks'
-url = 'http://api.lyricsnmusic.com/songs?api_key=[5358b25688164e6c2f771954f17460&q]=' + artist+ '%20'+ song
-r = requests.get(url)
-r_text = r.text
-#print r["context"][0]
-# print r_text
-
-# r_text.replace()
-
-r_text_pythonic = r_text.replace('false', 'False')
-rtp = r_text_pythonic.replace('true', 'True')
-rtp2 = rtp.replace('null', 'None')
-
-r_text_as_list = eval(rtp2)
-# print r_text_as_list
-
-# print r_text_as_list[0]
-test_dictionary = r_text_as_list[0]
-print test_dictionary['snippet']
-print test_dictionary['context']
-
-test_dictionary = r_text_as_list[2]
-print " "
-print test_dictionary['snippet']
-
-#test_dictionary = r_text_as_list[6]
-#print test_dictionary['snippet']
-#print test_dictionary['context']
-
-#print test_dictionary['context']
-
-# print type(r)
-# r = 
-
-#responsedata = get_json(url)
-#print responsedata
-"""readme:
-Go to http://docs.python-requests.org/en/latest/user/install/ and do what it sayss to install requests.
-Thats it.
-This readme is essential.
-"""
+if __name__ == "__main__":
+    print get_lyrics('Fall Out Boy', 'Immortals')

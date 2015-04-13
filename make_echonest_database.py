@@ -17,6 +17,7 @@ import string
 from os.path import exists
 import json
 import urllib2 
+from songtext import get_lyrics
 
 config.ECHO_NEST_API_KEY = "NOLYZICKJ6J3JQ7LS"
 
@@ -28,6 +29,8 @@ class Song_data:
         self.id = current_song.id
         # self.id = current_song.id
         self.parameter_dict = {'mood': 'when the api key works, this will return the mood via get_mood(self.name)'},{x: current_song.audio_summary[x] for x in ['tempo', 'mode', 'key', 'danceability', 'acousticness', 'speechiness', 'loudness', 'energy']}
+        self.lyrics = get_lyrics(artist, name)
+
 
     def __str__(self):
         return self.name + " - " + self.artist

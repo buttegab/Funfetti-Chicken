@@ -27,7 +27,7 @@ def get_three_years_of_billboard_songs():
 
         # "creates" a new URL to parse.
         url = 'http://www.billboard.com/charts/hot-100/%04d-%02d-%02d' % (year, month, day)
-        print url # Feel free to comment this. It's just a "progress bar" of sorts, and helps diagnose if something goes wrong.
+        print url # Feel free to comment this out. It's just a "progress bar" of sorts, and helps diagnose if something goes wrong.
 
         # Uses requests and BeautifulSoup to get artists & songs from that URL, and adds it to the list of artists and songs.
 
@@ -58,22 +58,30 @@ def get_three_years_of_billboard_songs():
             year += 1
 
         # waits a little while, because otherwise the billboard server identifies it as an attack, virus, or glitch (and stops answering):
-        # time.sleep(random.choice([90 + j for j in range(40)]))
 
+        time.sleep(random.choice([i for i in range(20, 2, 40)]))
+
+    return artist_and_song_list
+
+def condense_list(input_list):
+    """
+    Simplifies a list to only list songs/artists one time.
+    """
     condensed_list = []
 
-    for entry in artist_and_song_list:
+    for entry in input_list:
         if entry not in condensed_list:
             condensed_list.append(entry)
 
     return condensed_list
 
+
 if __name__ == "__main__":
-    huge_song_list = get_three_years_of_billboard_songs()
     if exists('billboard_song_list.txt'):
-        print "found it"
-        pass
+        print "list already found"
     else:
+        huge_song_list = get_three_years_of_billboard_songs()
+        less_huge_song_list = condense_list(huge_song_list)
         f = open('billboard_song_list.txt', 'w')
         f.seek(0,0)
-        pickle.dump(huge_song_list, f)
+        pickle.dump(less_huge_song_list, f)
