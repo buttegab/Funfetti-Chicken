@@ -42,5 +42,6 @@ if __name__ == "__main__":
     for (x, y) in list_of_songs_to_add:
         add_lyrics_and_song_data_to_database(x, y)
         waiting_index += 1
+        print waiting_index # so that in the event of connection loss or unknown error in the middle, you don't need to redo the entire thing.
         if waiting_index%40 == 0:
             time.sleep(120) # conforming to api rate limits
