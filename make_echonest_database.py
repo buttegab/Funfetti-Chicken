@@ -25,32 +25,36 @@ class Song_data:
     def __init__(self, artist, name):
         self.artist = artist
         self.name = name
-        temp = song.search(artist = artist, title = name)
-        if len(temp) != 0:
+        temp = song.search(artist = artist, title = name) # This searches echonest's song database for the artist and title, and returns the pyechonest information for it.
+        if len(temp) != 0: #checks whether there were results. If there were, it takes the first result and stores the key + tempo + mode + etc. data for it.
             current_song = temp[0]
             self.id = current_song.id
-            self.parameter_dict = {'mood': 'when the api key works, this will return the mood via get_mood(self.name)'},{x: current_song.audio_summary[x] for x in ['tempo', 'mode', 'key', 'danceability', 'acousticness', 'speechiness', 'loudness', 'energy']}
-            self.lyrics = get_lyrics(artist, name)
+            self.parameter_dict = {'mood': get_mood(self.name)},{x: current_song.audio_summary[x] for x in ['tempo', 'mode', 'key', 'danceability', 'acousticness', 'speechiness', 'loudness', 'energy']}
+            self.lyrics = get_lyrics(artist, name) # Calls get_lyrics function from the songtext.py file.
         else:
-            self.id = 'SONG NOT FOUND'
+            self.id = 'SONG NOT FOUND' #If there weren't results, it sets the ID as 'SONG NOT FOUND'.
 
     def __str__(self):
-        return self.name + " - " + self.artist
+        return self.name + " - " + self.artist # Makes the object print out as "Name - Artist" rather than <object Song_data @ some_place_with_some_numbers.1234512451512>
 
-def get_mood(name):
-    title = 'name'
+def get_mood(name): # Note: I'm not sure what this function is doing. Well, more specifically - this function will return a bunch of information, but in a big list-dictionary-thing. Do we have something to convert this "data" into relevant 'mood' info like "happiness", "sadness", "excitedness", etc? -Matt
+    title = 'name' # Should 'name' be a string here?.. :/ -Matt
     url = str('http://api.rovicorp.com/data/v1.1/song/info?track='+title+'&country=US&language=en&format=json&apikey=a4779rmf2wq6h9w4af6hryzh&sig=890aca71f1beff8562793e1c170ce4c2')
     data = json.load(urllib2.urlopen(url))
     return data
 
 def print_test_info():
+    """
+        Tests to see whether the basic calls for the Song_data class are working. If Song_data initialization works correctly, then this should print out known info for a song which we're positive exists--in this case, Bob Dylan's 'Like a Rolling Stone'
+    """
     like_a_rolling_stone = Song_data('Bob Dylan', 'Like a Rolling Stone')
     print(like_a_rolling_stone)
     print like_a_rolling_stone.parameter_dict['tempo']
 
 def add_song_to_database(artist, name):
     """
-    TODO: Make it not duplicate songs, in a more efficient manner.
+        This function loads and/or creates a pickled_songs.txt file, with pickle. This file stores a list of Song_data objects.
+        The function then generates the artist, name Song_data object. If song isn't already in the database, it adds it to the database, and then pickles/packages it back up.
     """
     if exists('pickled_songs.txt'):
         f = open('pickled_songs.txt', 'r+')
@@ -70,13 +74,4 @@ def add_song_to_database(artist, name):
 
 if __name__ == "__main__":
     for (x,y) in [('Bob Dylan', 'Like a Rolling Stone'), ('Maroon 5', 'Sugar'), ('Ellie Goulding', 'Love Me Like You Do'), ('Taylor Swift', 'Style'), ('Taylor Swift', 'Blank Space'), ('Hozier', 'Take Me to Church'), ('WALK THE MOON', 'Shut Up And Dance'), ('Ariana Grande', 'One Last Time'), ('Sia', 'Chandelier'), ('Eric Paslay', 'She Don\'t Love You'), ('Red Hot Chili Peppers', 'Under the Bridge'), ('Rihanna', 'Stay'), ('A Great Big World', 'Say Something')]:
-        add_song_to_database(x, y)
-        #pass
-    # print_test_info();
-    # if exists('pickled_songs.txt'):
-    #     f = open('pickled_songs.txt', 'r+')
-    #     song_list = pickle.load(f)
-    # else:
-    #     song_list = [Song_data(x,y) for (x,y) in [('Bob Dylan', 'Like a Rolling Stone'), ('Maroon 5', 'Sugar'), ('Ellie Goulding', 'Love Me Like You Do'), ('Taylor Swift', 'Style'), ('Taylor Swift', 'Blank Space'), ('Hozier', 'Take Me to Church'), ('WALK THE MOON', 'Shut Up And Dance'), ('Ariana Grande', 'One Last Time'), ('Sia', 'Chandelier'), ('Eric Paslay', 'She Don\'t Love You'), ('Red Hot Chili Peppers', 'Under the Bridge'), ('Rihanna', 'Stay'), ('A Great Big World', 'Say Something')]]
-    #     pickle.dump(song_list, open('pickled_songs.txt', 'w'))
-
+        add_song_to_database(x, y) # This tests out the pickling/generation by making a pickle file with data for the above songs.
