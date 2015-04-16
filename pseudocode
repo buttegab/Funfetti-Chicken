@@ -1,0 +1,10 @@
+
+def mood_finder(song):
+    output_mood = ML_algorithm(song.lyric_sentiment, song.tempo, song.key)
+    return output_mood
+
+def food_finder(mood):
+    [magical food stuff]
+    output food
+
+"mood agent" (app) <--GOOGLE THIS!
