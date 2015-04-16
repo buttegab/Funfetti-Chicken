@@ -68,3 +68,9 @@ print 'liveness:',song.audio_summary['liveness']
 #print 'speechiness:',song.audio_summary['speechiness']
 #print 'time_signature:',song.audio_summary['time_signature']
 print 'danceability:',song.audio_summary['danceability']
+
+def get_mood(name):
+    title = 'name'
+    url = str('http://api.rovicorp.com/data/v1.1/song/info?track='+title+'&country=US&language=en&format=json&apikey=a4779rmf2wq6h9w4af6hryzh&sig=890aca71f1beff8562793e1c170ce4c2')
+    data = json.load(urllib2.urlopen(url))
+    return data
