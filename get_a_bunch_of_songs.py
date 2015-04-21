@@ -13,7 +13,8 @@ from bs4 import BeautifulSoup
 
 def get_three_years_of_billboard_songs():
     """
-    what it says on the tin.
+    what it says on the tin. Goes through three years worth of songs, beginning April 7th 2012, and gets *all* of the "Billboard Top 100" songs from that week -- from the Billboard website. Returns this as a giant list.
+    -Matt
     """
     month_to_length_dictionary = {1: 31, 2: 28, 3:31, 4:30, 5:31, 6:30, 7:31, 8:31, 9:30, 10:31, 11:30, 12:31}
 
@@ -49,7 +50,7 @@ def get_three_years_of_billboard_songs():
 
         # updates the day/date to get the next week's Billboard URL.
 
-        day += 7
+        day += 7 # Adjusts the day, date, and URL by a week so that the next loop gets the next week's songs.
         if day > month_to_length_dictionary[month]:
             day = day%month_to_length_dictionary[month]
             month += 1
@@ -65,7 +66,7 @@ def get_three_years_of_billboard_songs():
 
 def condense_list(input_list):
     """
-    Simplifies a list to only list songs/artists one time.
+    Simplifies a list to only list songs/artists one time. In other words, ['A','A','A','B','C','C','D'] gets turned into ['A','B','C','D']. -M
     """
     condensed_list = []
 
@@ -77,6 +78,9 @@ def condense_list(input_list):
 
 
 if __name__ == "__main__":
+    """
+        If the funciton already ran successfully, then it just says 'list already found.' Otherwise, it runs the get-three-years-of-songs function, condenses the list, and pickles it. -M
+    """
     if exists('billboard_song_list.txt'):
         print "list already found"
     else:
