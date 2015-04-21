@@ -53,18 +53,20 @@ p3 = test_dictionary['snippet']
 
 #Analize lyrics sentiments
 sentiment = sentiment(p1+p2+''+p3)
-print 'lyrics sentiment: ',sentiment
+print 'Lyrics: ',sentiment
 
 #Exact information about the song
 #print song.artist_location
-#print 'tempo:',song.audio_summary['tempo']
-#print 'duration:',song.audio_summary['duration']
-print 'energy:',song.audio_summary['energy']
-#print 'key:',song.audio_summary['key']
-print 'liveness:',song.audio_summary['liveness']
-#print 'loudness:',song.audio_summary['loudness']
-#print 'mode:',song.audio_summary['mode']
+
+print 'Energy:',song.audio_summary['energy']
+print 'Tempo:',song.audio_summary['tempo']
+print 'Mode:',song.audio_summary['mode']
+print 'Key:',song.audio_summary['key']
+print 'Valence:',song.audio_summary['valence']
+print 'Loudness:',song.audio_summary['loudness']
+
+#print 'liveness:',song.audio_summary['liveness']
 #print 'acousticness:' ,song.audio_summary['acousticness']
 #print 'speechiness:',song.audio_summary['speechiness']
 #print 'time_signature:',song.audio_summary['time_signature']
-print 'danceability:',song.audio_summary['danceability']
+#print 'danceability:',song.audio_summary['danceability']
