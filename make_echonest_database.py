@@ -17,6 +17,7 @@ import string
 from os.path import exists
 import json
 import urllib2 
+import pygn
 from songtext import get_lyrics
 
 config.ECHO_NEST_API_KEY = "NOLYZICKJ6J3JQ7LS"
@@ -29,7 +30,7 @@ class Song_data:
         if len(temp) != 0: #checks whether there were results. If there were, it takes the first result and stores the key + tempo + mode + etc. data for it.
             current_song = temp[0]
             self.id = current_song.id
-            self.parameter_dict = {'mood': get_mood(self.name)},{x: current_song.audio_summary[x] for x in ['tempo', 'mode', 'key', 'danceability', 'acousticness', 'speechiness', 'loudness', 'energy']}
+            self.parameter_dict = {'mood': get_mood(self.artist, self.name)},{x: current_song.audio_summary[x] for x in ['tempo', 'mode', 'key', 'danceability', 'acousticness', 'speechiness', 'loudness', 'energy']}
             self.lyrics = get_lyrics(artist, name) # Calls get_lyrics function from the songtext.py file.
         else:
             self.id = 'SONG NOT FOUND' #If there weren't results, it sets the ID as 'SONG NOT FOUND'.
@@ -37,11 +38,11 @@ class Song_data:
     def __str__(self):
         return self.name + " - " + self.artist # Makes the object print out as "Name - Artist" rather than <object Song_data @ some_place_with_some_numbers.1234512451512>
 
-def get_mood(name): # Note: I'm not sure what this function is doing. Well, more specifically - this function will return a bunch of information, but in a big list-dictionary-thing. Do we have something to convert this "data" into relevant 'mood' info like "happiness", "sadness", "excitedness", etc? -Matt
-    title = 'name' # Should 'name' be a string here?.. :/ -Matt
-    url = str('http://api.rovicorp.com/data/v1.1/song/info?track='+title+'&country=US&language=en&format=json&apikey=a4779rmf2wq6h9w4af6hryzh&sig=890aca71f1beff8562793e1c170ce4c2')
-    data = json.load(urllib2.urlopen(url))
-    return data
+def get_mood(artist, name): # Note: I'm not sure what this function is doing. Well, more specifically - this function will return a bunch of information, but in a big list-dictionary-thing. Do we have something to convert this "data" into relevant 'mood' info like "happiness", "sadness", "excitedness", etc? -Matt
+    artist = str(artist)
+    title = str(name) # Should 'name' be a string here?.. :/ -Matt
+    data = pygn.search(clientID='10189056-547D2643844BF1E2B9E85BD85773AEFE', userID='27678235334765580-1FB57EBF64483B1937D128ACEB314A68', artist=artist, track=title)
+    return data['mood']
 
 def print_test_info():
     """
