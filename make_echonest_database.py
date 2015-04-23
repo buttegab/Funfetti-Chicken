@@ -16,11 +16,44 @@ import pickle
 import string
 from os.path import exists
 import json
-import urllib2 
+import urllib2
 import pygn
-from songtext import get_lyrics
+from pattern.en import *
+import requests
+import urllib
+import json
+import math
 
 config.ECHO_NEST_API_KEY = "NOLYZICKJ6J3JQ7LS"
+
+def get_json(url):
+    """
+    Given a properly formatted URL for a JSON web API request, return
+    a Python JSON object containing the response to that request.
+    """
+    f = urllib2.urlopen(url)
+    response_text = f.read()
+    response_data = json.loads(response_text)
+    return response_data
+
+
+def get_lyrics(artist, song):
+    """
+    Gets lyrics for the given song, if it can be found in the lyricsnmusic api.
+    -Matt
+    """
+    url = 'http://api.lyricsnmusic.com/songs?api_key=[5358b25688164e6c2f771954f17460&q]=' + artist+ '%20'+ song
+    r = requests.get(url)
+    r_text = r.text
+    r_text = r_text.replace('false', 'False')
+    r_text = r_text.replace('true', 'True')
+    r_text = r_text.replace('null', 'None') # converting to something Python understands. These lines just replace 'true' with 'True', 'null' with 'None', etc--since java/c++/html/whatever language the api uses has *slightly* different syntax from python :P.
+    r_text_as_data_structure = eval(r_text)
+    if len(r_text_as_data_structure) != 0:
+        r_text_dictionary = r_text_as_data_structure[0]
+        return r_text_dictionary['snippet'] #returns a verse's worth of lyrics, which is all we can automatically get b/c copyright law in the APIs.
+    else:
+        return '' #means that nothing was found; as such, this is an empty string. This is to prevent a fatal error in the event that for some reason no song is found.
 
 class Song_data:
     def __init__(self, artist, name):
@@ -30,8 +63,7 @@ class Song_data:
         if len(temp) != 0: #checks whether there were results. If there were, it takes the first result and stores the key + tempo + mode + etc. data for it.
             current_song = temp[0]
             self.id = current_song.id
-            self.parameter_dict = {'mood': get_mood(self.artist, self.name)},{x: current_song.audio_summary[x] for x in ['tempo', 'mode', 'key', 'danceability', 'acousticness', 'speechiness', 'loudness', 'energy']}
-            self.lyrics = get_lyrics(artist, name) # Calls get_lyrics function from the songtext.py file.
+            self.parameter_dict = {'mood': get_mood(self.artist, self.name)},{'sentiment': sentiment(get_lyrics(artist, name))},{x: current_song.audio_summary[x] for x in ['tempo', 'mode', 'key', 'danceability', 'acousticness', 'speechiness', 'loudness', 'energy']}
         else:
             self.id = 'SONG NOT FOUND' #If there weren't results, it sets the ID as 'SONG NOT FOUND'.
 
@@ -77,5 +109,5 @@ def add_song_to_database(artist, name):
 #     for (x,y) in [('Bob Dylan', 'Like a Rolling Stone'), ('Maroon 5', 'Sugar'), ('Ellie Goulding', 'Love Me Like You Do'), ('Taylor Swift', 'Style'), ('Taylor Swift', 'Blank Space'), ('Hozier', 'Take Me to Church'), ('WALK THE MOON', 'Shut Up And Dance'), ('Ariana Grande', 'One Last Time'), ('Sia', 'Chandelier'), ('Eric Paslay', 'She Don\'t Love You'), ('Red Hot Chili Peppers', 'Under the Bridge'), ('Rihanna', 'Stay'), ('A Great Big World', 'Say Something')]:
 #         add_song_to_database(x, y) # This tests out the pickling/generation by making a pickle file with data for the above songs.
 
-if __name__ == "__main__": # testing the mood-getting api to figure out how that works.
-    gm_response = get_mood("yellow")
+#if __name__ == "__main__": # testing the mood-getting api to figure out how that works.
+    #gm_response = get_mood("yellow")
