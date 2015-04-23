@@ -78,4 +78,5 @@ def add_song_to_database(artist, name):
 #         add_song_to_database(x, y) # This tests out the pickling/generation by making a pickle file with data for the above songs.
 
 if __name__ == "__main__": # testing the mood-getting api to figure out how that works.
-    gm_response = get_mood("yellow")
+    gm_response = get_mood("coldplay", "yellow")
+    print gm_response
