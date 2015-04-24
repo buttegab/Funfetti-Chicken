@@ -18,13 +18,13 @@ def get_three_years_of_billboard_songs():
     """
     month_to_length_dictionary = {1: 31, 2: 28, 3:31, 4:30, 5:31, 6:30, 7:31, 8:31, 9:30, 10:31, 11:30, 12:31}
 
-    year = 2012
-    month = 04
-    day = 07
+    year = 2004
+    month = 03
+    day = 27
 
     artist_and_song_list = []
 
-    for i in range(157):
+    for i in range(200):
 
         # "creates" a new URL to parse.
         url = 'http://www.billboard.com/charts/hot-100/%04d-%02d-%02d' % (year, month, day)
@@ -60,7 +60,7 @@ def get_three_years_of_billboard_songs():
 
         # waits a little while, because otherwise the billboard server identifies it as an attack, virus, or glitch (and stops answering):
 
-        time.sleep(random.choice([i for i in range(20, 2, 40)]))
+        time.sleep(random.choice([i for i in range(20, 40)]))
 
     return artist_and_song_list
 
@@ -81,11 +81,11 @@ if __name__ == "__main__":
     """
         If the funciton already ran successfully, then it just says 'list already found.' Otherwise, it runs the get-three-years-of-songs function, condenses the list, and pickles it. -M
     """
-    if exists('billboard_song_list.txt'):
+    if exists('more_billboard_songs.txt'):
         print "list already found"
     else:
         huge_song_list = get_three_years_of_billboard_songs()
         less_huge_song_list = condense_list(huge_song_list)
-        f = open('billboard_song_list.txt', 'w')
+        f = open('more_billboard_songs.txt', 'w')
         f.seek(0,0)
         pickle.dump(less_huge_song_list, f)

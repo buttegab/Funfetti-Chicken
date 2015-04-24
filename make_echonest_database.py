@@ -34,7 +34,15 @@ class Song_data:
             self.id = current_song.id
             self.lyrics = self.get_lyrics()
             self.parameter_dict = {}
-            self.parameter_dict['mood'] = self.get_mood()
+            self.mood_dict = self.get_mood()
+            if len(self.mood_dict) >= 2:
+                self.mood1 = self.mood_dict['1']['ID']
+                self.mood1_text = self.mood_dict['1']['TEXT']
+                self.mood2 = self.mood_dict['2']['ID']
+                self.mood2_text = self.mood_dict['2']['TEXT']
+            else:
+                self.mood1 = 'N/A'
+            # self.paramete_dict['mood1'] = self.mood_dict['1']['ID']
             self.parameter_dict['sentiment'] = sentiment(self.lyrics)[0]
             for x in ['tempo', 'mode', 'key', 'danceability', 'acousticness', 'speechiness', 'loudness', 'energy']:
                 self.parameter_dict[x] = current_song.audio_summary[x]
@@ -94,4 +102,5 @@ def add_song_to_database(artist, name, db):
 
 if __name__ == "__main__":
     for (x,y) in [('Bob Dylan', 'Like a Rolling Stone'), ('Maroon 5', 'Sugar'), ('Ellie Goulding', 'Love Me Like You Do'), ('Taylor Swift', 'Style'), ('Taylor Swift', 'Blank Space'), ('Hozier', 'Take Me to Church'), ('WALK THE MOON', 'Shut Up And Dance'), ('Ariana Grande', 'One Last Time'), ('Sia', 'Chandelier'), ('Eric Paslay', 'She Don\'t Love You'), ('Red Hot Chili Peppers', 'Under the Bridge'), ('Rihanna', 'Stay'), ('A Great Big World', 'Say Something')]:
-        add_song_to_database(x, y, 'pickled_songs.txt') # This tests out the pickling/generation by making a pickle file with data for the above songs.
+        # print x + ' ' + y 
+        add_song_to_database(x, y, 'ps.txt') # This tests out the pickling/generation by making a pickle file with data for the above songs.
