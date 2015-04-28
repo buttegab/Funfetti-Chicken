@@ -54,4 +54,7 @@ for i in range(len(parameters)):
     accuracy += float(prediction == moodout[i])/len(parameters)
 
 accuracy = accuracy * 100
-print("Accuracy: {}%".format(accuracy))
+if accuracy >= 30:
+	print("Accuracy: {}%".format(accuracy))
+else:
+	print("Accuracy too low, please run again")
