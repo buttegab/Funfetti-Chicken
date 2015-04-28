@@ -1,5 +1,6 @@
 """
-whatevs :P.
+Combines the moods, the training data, and the ML code into one program. This program pulls data from the full_database.txt file. Due to irregularities in the
+prediction code, sometimes multiple runs are necessary in order to return a reasonable prediction.
 
 """
 
