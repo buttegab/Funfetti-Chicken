@@ -26,26 +26,26 @@ config.ECHO_NEST_API_KEY = "NOLYZICKJ6J3JQ7LS"
 class Song_data:
 
     def __init__(self, artist, name):
-        self.artist = artist
-        self.name = name
+        self.artist = artist #artist name
+        self.name = name #song name
         temp = song.search(artist = artist, title = name) # Puts pyechonest info from searching for the song into a temporary variable.
         if len(temp) != 0: #checks whether there were results. If there were, it takes the first result and stores the key + tempo + mode + etc. data for it.
-            current_song = temp[0]
-            self.id = current_song.id
-            self.lyrics = self.get_lyrics()
-            self.parameter_dict = {}
-            self.mood_dict = self.get_mood()
-            if len(self.mood_dict) >= 2:
-                self.mood1 = self.mood_dict['1']['ID']
+            current_song = temp[0] #sets the song to a temporary list spot
+            self.id = current_song.id #sets the song id to a variable
+            self.lyrics = self.get_lyrics() #calls get_lyrics to scrape the lyrics using the song text api
+            self.parameter_dict = {} #creates the parameter list that contains all the useful data
+            self.mood_dict = self.get_mood() #grabs the mood data from the get_mood function using the pygn api
+            if len(self.mood_dict) >= 2: #if there is more than one mood...
+                self.mood1 = self.mood_dict['1']['ID'] #set one to this variable
                 self.mood1_text = self.mood_dict['1']['TEXT']
-                self.mood2 = self.mood_dict['2']['ID']
+                self.mood2 = self.mood_dict['2']['ID'] #and set one to this
                 self.mood2_text = self.mood_dict['2']['TEXT']
             else:
-                self.mood1 = 'N/A'
+                self.mood1 = 'N/A' #if no moods are present, sets the variable to N/A which will disqualify it later for use
             # self.paramete_dict['mood1'] = self.mood_dict['1']['ID']
-            self.parameter_dict['sentiment'] = sentiment(self.lyrics)[0]
-            for x in ['tempo', 'mode', 'key', 'danceability', 'acousticness', 'speechiness', 'loudness', 'energy']:
-                self.parameter_dict[x] = current_song.audio_summary[x]
+            self.parameter_dict['sentiment'] = sentiment(self.lyrics)[0] #sets the sentiment of the lyrics using Pattern
+            for x in ['tempo', 'mode', 'key', 'danceability', 'acousticness', 'speechiness', 'loudness', 'energy']: 
+                self.parameter_dict[x] = current_song.audio_summary[x] #makes a list of the attributes and puts them in a dictionary
         else:
             self.id = 'N/A' #If there weren't results, it sets the ID as 'N/A'.
 

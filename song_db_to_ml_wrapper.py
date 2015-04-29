@@ -1,5 +1,6 @@
 """
-whatevs :P.
+Combines the moods, the training data, and the ML code into one program. This program pulls data from the full_database.txt file. Due to irregularities in the
+prediction code, sometimes multiple runs are necessary in order to return a reasonable prediction.
 
 """
 
@@ -54,4 +55,7 @@ for i in range(len(parameters)):
     accuracy += float(prediction == moodout[i])/len(parameters)
 
 accuracy = accuracy * 100
-print("Accuracy: {}%".format(accuracy))
+if accuracy >= 30:
+	print("Accuracy: {}%".format(accuracy))
+else:
+	print("Accuracy too low, please run again")
