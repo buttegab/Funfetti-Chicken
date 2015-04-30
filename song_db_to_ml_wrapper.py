@@ -12,6 +12,7 @@ import requests
 from pyechonest import config
 config.ECHO_NEST_API_KEY="DCPW87SS20PQ4RXDR"
 from pattern.en import *
+from swampy.Gui import *
 
 
 def get_data(artist, title):
@@ -78,8 +79,27 @@ accuracy = accuracy * 100
 if accuracy <= 30:
 	print("Accuracy too low, please run again")
 
-songdata = get_data('coldplay', 'clocks')
-prediction = lin_clf.predict(songdata)
-if accuracy>= 30:
-    print("Mood: {}".format(prediction))
-    
+def get_mood(artist,track):
+    songdata = get_data(artist,track)
+    prediction = lin_clf.predict(songdata)
+    if accuracy>= 30:
+        #print("Mood: {}".format(prediction))
+        return prediction[0]
+
+foods = {0:'Banana', 1:'Bananas', 2:'Plantain', 3:'Plantains', 4:'Apple Bananas', 5:'Apple Banana', 6:'Florida', 7:'Banana Cream Pie', 8:'Banana Cream Pies', 9:'New Hampshire'}
+
+
+def show_food(artist,track):
+    mood = get_mood(artist,track)
+    text = g.te(width=25, height=1)
+    text.insert(END,foods[mood])
+
+g = Gui()
+g.title('Funfetti Chicken')
+label = g.la(text='Enter a song and artist below')
+artist = g.en(text = 'Rick Astley')
+track = g.en(text = 'Never Gonna Give You Up')
+button = g.bu(text="Feed Me", command=lambda : show_food(artist.get(),track.get()))
+g.mainloop()
+
+# get_mood('coldplay','clocks')
