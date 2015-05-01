@@ -45,10 +45,10 @@ def add_to_db(artist, song, db):
         pickle.dump(song_list, f)
 
 
-wait_index = 4865 # to keep track of api rate limits.
+wait_index = 22600 # to keep track of api rate limits.
 
 
-for (x, y) in full_list[4865:]:
+for (x, y) in full_list[22600:]:
     try:
         add_to_db(x, y, 'fifty_seven_years_database.txt')
     except:
