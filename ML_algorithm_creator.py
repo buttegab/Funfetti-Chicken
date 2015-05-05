@@ -98,15 +98,11 @@ from sklearn.linear_model import LogisticRegression
 parameters_train, parameters_test, moodout_train, moodout_test  = train_test_split(parameters, moodout, train_size=0.8)
 
 val_counts = [moodout_train.count(i) for i in range(len(moods_of_interest))]
-print val_counts
 
 lin_clf = svm.SVC(kernel='linear', C=100000)
 
-print len(parameters_train), len(parameters_test), len(parameters)
 total_weight = sum([1.0/val_counts[v] for v in moodout_train])
-print parameters[0]
 lin_clf.fit(parameters_train, moodout_train, sample_weight=[1.0/val_counts[v]/total_weight for v in moodout_train])
-print lin_clf
 
 prediction_list = []
 accuracy = 0.0
@@ -117,36 +113,27 @@ for i in range(len(parameters_test)):
         accuracy += 1.0/len(parameters_test)
     # accuracy += float(prediction == moodout_test[i] / len(parameters_test))
 
+# #generate confusion matrix
+# confusion = confusion_matrix(moodout_test, prediction_list)
+# print confusion
+# import numpy as np
+# print np.sum(confusion,axis=1)
+# list2 = np.sum(confusion,axis=1)
+# for sumn in range(len(moods_of_interest)):
+#     print(float(confusion[sumn][sumn])/float(list2[sumn]))
 
-confusion = confusion_matrix(moodout_test, prediction_list)
-print confusion
-import numpy as np
-print np.sum(confusion,axis=1)
-list2 = np.sum(confusion,axis=1)
-for sumn in range(len(moods_of_interest)):
-    print(float(confusion[sumn][sumn])/float(list2[sumn]))
-    #print(confusion[sumn][sumn])
-    #print(list2[sumn])
 
 accuracy = accuracy * 100
-print '-----------------'
-print accuracy
-print '-----------------'
 if accuracy <= 30:
     print("Accuracy too low, please run again")
-print '... for clocks:'
-clocks_prediction = lin_clf.predict(get_data('coldplay', 'clocks'))
-print clocks_prediction
-# print 'for bryan ferry slave to love which is apparently the sexiest song ever:'
-# print lin_clf.predict(get_data('bryan ferry', 'slave to love'))
 
 # testing out a possible structure:
+
 def get_food(artist, name):
     mood_to_food = {0: 'Steak', 1: 'Ice Cream', 2: 'a cannoli (nudge nudge wink wink)', 3: 'red bull jell-o', 4: 'Sashimi', 5: 'Grilled Cheese'}
     sd = get_data(artist, name)
     if sd == -1:
-        print "Couldn't find " + artist + ' - ' + name
-        return
+        return "Couldn't find " + artist + ' - ' + name
     predicted_mood = lin_clf.predict(sd)
     spiciness = sd[0] + sd[7]
     lyric_sentiment = sd[8]
@@ -165,14 +152,19 @@ def get_food(artist, name):
     else:
         b = 'Cold '
     c = mood_to_food[predicted_mood[0]]
-    print('For ' + artist + ': ' + name + ', you should eat:\n' + 
+    return('For ' + artist + ': ' + name + ', you should eat:\n' + 
     a + b + c)
 
-if __name__ == "__main__":
-    print '=============================\n========================='
-    get_food('Bastille', 'Pompeii')
-    get_food('Meghan Trainor', 'All about that bass')
-    get_food('A Great Big World', 'Say Something')
-    get_food('Coldplay', 'Clocks')
-    get_food('Korpiklaani', 'Rauta')
+def show_food(artist,track):
+    food = get_food(artist,track)
+    text = g.te(width=42, height=3)
+    text.insert(END,food)
+
+g = Gui()
+g.title('Funfetti Chicken')
+label = g.la(text='Enter a song and artist below')
+artist = g.en(text = 'Rick Astley')
+track = g.en(text = 'Never Gonna Give You Up')
+button = g.bu(text="Feed Me", command=lambda : show_food(artist.get(),track.get()))
+g.mainloop()
 
