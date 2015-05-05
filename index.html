@@ -22,7 +22,8 @@
       <h3>
 <a id="welcome-to-funfetti-chicken" class="anchor" href="#welcome-to-funfetti-chicken" aria-hidden="true"><span class="octicon octicon-link"></span></a>Welcome to Funfetti Chicken</h3>
 
-<p>Funfetti Chicken Poster</p>
+<h3>
+<a id="final-writeup-for-funfetti-chicken" class="anchor" href="#final-writeup-for-funfetti-chicken" aria-hidden="true"><span class="octicon octicon-link"></span></a>Final Writeup for Funfetti Chicken</h3>
 
 <h3>
 <a id="big-idea" class="anchor" href="#big-idea" aria-hidden="true"><span class="octicon octicon-link"></span></a>Big Idea</h3>
@@ -123,111 +124,6 @@ Matching Music to Sentiment, and Sentiment to Food.</p>
 <p>fifty_seven_years_database.txt contains all the artists and song names gathered by bigger_database_creator.py</p>
 
 <p>pygn.py gathers mood information. This saves us from having to generate the “correct” moods for songs ourselves and instead get an impartial third party to do it for us. This allows us to train the ml with thousands of songs easily instead of us having to manually enter in a few hundred over a long period of time.</p>
-
-<hr>
-
-<p>Funfetti Chicken Poster</p>
-
-<h3>
-<a id="big-idea-1" class="anchor" href="#big-idea-1" aria-hidden="true"><span class="octicon octicon-link"></span></a>Big Idea</h3>
-
-<p>Our goal was to generate the perfect meal to complement a song, based on the song’s mood. We wanted to capture the complexities of the music and learn a bit about machine learning by analyzing various factors such as tempo, lyrics and key to predict the song’s mood.</p>
-
-<h3>
-<a id="process-1" class="anchor" href="#process-1" aria-hidden="true"><span class="octicon octicon-link"></span></a>Process</h3>
-
-<pre><code>We wanted to go beyond directly basing food suggestions on lyrics, tempo, or key - all of which we could just use APIs to acquire. As such, we set out to apply machine learning techniques to predict a song’s mood--effectively making our goal the creation of a program which could determine the subjective sentiment, or mood, of a song--using only objective and quantifiable parameters.
-We anticipated having to make a few decisions regarding the format of the mood predictions. For one, we needed to figure out whether they would be ranked on scales such as happy to sad, mellow to angry, etc. or if they would simply be categorized as a set of mood descriptors. Based on that decision, we could determine what kind of machine learning algorithm to use to predict a mood’s classification or scale value.
-In the end, however, it turned out that these decisions were largely made for us. Because machine learning requires a large set of training data in order to work, we had to collect a database of songs and their associated parameters, as well as assign a mood to each of them. It was impractical for us to manually decide on the moods of thousands upon thousands of songs; rather, we elected to use Gracenote’s API. 
-</code></pre>
-
-<p>Gracenote has a substantial collection of the moods of popular songs - determined through human judgment - and was the most accessible and wide-ranging database of human-chosen moods we could find. As such, the Gracenote mood for a song is considered the correct mood for ML training and testing purposes. One side effect of this is that Gracenote’s evaluations are distinct categories (e.g., ‘Empowering’, ‘Melancholy’, ‘Upbeat’), rather than numerical data; as such, we found ourselves taking a classification, rather than calculation, approach to the machine learning.</p>
-
-<h3>
-<a id="attribution-1" class="anchor" href="#attribution-1" aria-hidden="true"><span class="octicon octicon-link"></span></a>Attribution:</h3>
-
-<p>APIs and Packages:
-Echonest API, which provides the numerical data for songs through an API call.
-Pyechonest, a python implementation of Echonest.
-LYRICSnMUSIC API, which provides the first twelve lines of a song’s lyrics through a web call.
-Gracenote API, which provides the mood data used in training and testing.
-Pygn, a python implementation of Gracenote.
-Requests, a python library for getting HTML data from the web.
-BeautifulSoup, a set of tools for harvesting specific information and fields from an HTML file.
-Pickle, which we used to create a persistent database - in turn allowing us to use more training data, with less downtime.
-Pattern, which allowed us to quantify the sentiment of lyrics.
-Scikit-learn, which contains a wide variety of tools and frameworks for machine learning (including Support Vector Classification, which we ultimately used).
-Tkinter, a python library for creating GUIs.
-Swampy, which provides framework for GUIs and accepting user input.
-Billboard, which (among other things) maintains a website listing the top hundred songs for a given week, and has this data for the last few decades stored on a week-by-week basis on their website.</p>
-
-<p>Github, which provides hosting and made git version control easier and more accessible.
-Python (and the Python documentation), which has examples for pretty much every technical detail one could imagine.
-Techniques from StackOverflow - specifically, <a href="http://stackoverflow.com/a/15743618/4698228">http://stackoverflow.com/a/15743618/4698228</a>.</p>
-
-<h3>
-<a id="what-it-does-1" class="anchor" href="#what-it-does-1" aria-hidden="true"><span class="octicon octicon-link"></span></a>What It Does</h3>
-
-<p>Our program takes a song title and artist as input, uses SVC to predict its mood, then returns a food associated with that mood.</p>
-
-<p>This uncertainty (confusion) matrix shows the number of songs our program predicted to fall under a given mood category versus the number of songs which actually had that mood.</p>
-
-<p>[[40 13  4  1  8 29]
- [ 8 54  8 24  6  1]
- [10  7 55 16  6 12]
- [ 1 22 12 61  3  0]
- [ 8 11 10  8 55 10]
- [15  1  7  0  7 67]]</p>
-
-<p>SVC was able to identify a yearning song 24% of the time, a brooding song 43% of the time, an excited song 83% of the time, and an empowering song 65% of the time, making for a total accuracy of 57.5%.</p>
-
-<p>Each mood corresponds to a different food in our mood to food dictionary, which is currently personalized to accommodate the needs of Gabe, who only eats various quantities of bananas and plantains. When he enters the song ‘Never Gonna Give You Up,’ our program categorizes the song as brooding and determines that Gabe should eat bananas. When Gabe listens to yearning songs like Coldplay’s ‘Clocks,’ he tends to lose his appetite, so our program returns that Gabe should only eat a single banana in this instance. If Gabe were to listen to an empowering song, he would be told to eat plantains, and for an excited song a single plantain would be recommended.</p>
-
-<h3>
-<a id="how-it-works-1" class="anchor" href="#how-it-works-1" aria-hidden="true"><span class="octicon octicon-link"></span></a>How It Works</h3>
-
-<p>The central focus of our program is its machine learning aspect, which we built around scikit-learn’s LinearSVC. LinearSVC takes in a large database of songs and their associated parameters (key, tempo, etc.) and learns how these parameters are associated with the mood of each song. Then, given a song with parameters but no mood associated with it, the program is able to predict the song’s mood. The program then refers to a dictionary of moods and their associated foods to return the appropriate food for the song.</p>
-
-<p>In order to create a database of training data for LinearSVC, we scraped hundreds of song titles and artists off of Billboard’s lists and used Echonest’s API to get each song’s associated parameters. We then used the LYRICSnMUSIC API to get a snippet of each song’s lyrics, and used pattern’s sentiment analysis to get a happiness/sadness value for the lyrics. Finally, we used Gracenote’s API to get the song’s mood classifier (one of about 25 different moods). This information was all stored in a Song class for each song, and each song class was pickled and added to the database.
-LinearSVC was then able to analyze the database of songs, determining the relationship between each song’s parameters and its associated mood. After this training process, it could be passed a song whose mood had not yet been determined, and predict what its mood classifier should be. This is where our user would become involved.
-We constructed a simple graphical user interface to ask our user for the title and artist of the song they wanted a food for. When the user submitted this information, our program went through a similar process as it had in constructing the database- it used APIs to find the parameters and lyric sentiment associated with the song, then stored that information in a Song class for that song. However, this time the mood was not included. 
-When LinearSVC was passed the information about the song, it predicted which mood classifier should be associated with the song. From a dictionary which mapped mood classifiers to foods, the program then selected the appropriate food to eat while listening to the song. The name of this food was returned to the user in the GUI.</p>
-
-<h3>
-<a id="readme-1" class="anchor" href="#readme-1" aria-hidden="true"><span class="octicon octicon-link"></span></a>README</h3>
-
-<p>Project Funfetti Chicken
-Matching Music to Sentiment, and Sentiment to Food.</p>
-
-<p>Olin College, Software Design Spring 2015.</p>
-
-<h3>
-<a id="explanation" class="anchor" href="#explanation" aria-hidden="true"><span class="octicon octicon-link"></span></a>EXPLANATION:</h3>
-
-<p>get_a_bunch_of_songs.py is a script which only needs to be run once. It uses the internet to generate a huge list of recently-popular songs, which it then stores in billboard_song_list.txt</p>
-
-<p>billboard_song_list.txt is a text file which contains a list of pickled (artist, song_name) tuples from Billboard.</p>
-
-<p>songtext.py contains a function to get the lyrics from a song. It is used as part of the Song_data object's initialization function.</p>
-
-<p>make_echonest_database.py establishes the Song_data class. When a Song_data object is initialized, with artist &amp; name as its parameters, it automatically calls echonest api to get things like 'tempo' and 'key.' This info then gets stored as parameters for this object. Additionally, the object also stores lyrics gotten from songtext.</p>
-
-<p>wrapper.py is a wrapper. It uses the list from get_a_bunch_of_songs and the class from make_echonest_database, and then makes a big database of Song_data objects - one for every entry in the list of songs. This then gets pickled for later use, under song_database.txt.</p>
-
-<p>song_database.txt is a file containing a list of pickled Song_data objects. In other words, it's a big list of objects which have things like 'name', 'artist', 'mood,' 'lyrics,' etc. as parameters.</p>
-
-<p>all_billboard_songs.txt is a pickled database of song titles and artists acquired by scraping billboard lists. </p>
-
-<p>ML_algorithm_creator is the main code that takes information from the database to train the ml and prompts the user to enter a song and artist, which it returns a corresponding food to.</p>
-
-<p>bigger_database_creator.py takes 57 years of weekly top 100 songs and tries to add them to a database, excepting those that are already a part of the database. This allows us to generate our training and test data for the ml code. Since it’s already been used to create fifty_seven_years_database, this file need not be run unless the database needs to be recreated.</p>
-
-<p>fifty_seven_years_database.txt contains all the artists and song names gathered by bigger_database_creator.py</p>
-
-<p>pygn.py gathers mood information. This saves us from having to generate the “correct” moods for songs ourselves and instead get an impartial third party to do it for us. This allows us to train the ml with thousands of songs easily instead of us having to manually enter in a few hundred over a long period of time.</p>
-
-<h3>
-<a id="final-writeup" class="anchor" href="#final-writeup" aria-hidden="true"><span class="octicon octicon-link"></span></a>Final Writeup</h3>
 
 <hr>
 
