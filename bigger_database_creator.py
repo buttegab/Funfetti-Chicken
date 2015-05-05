@@ -8,21 +8,10 @@ from get_a_bunch_of_songs import condense_list
 import time
 from os.path import exists
 
-h = open('billboard_song_list.txt', 'r+')
-g = open('more_billboard_songs.txt', 'r+')
-f = open('yet_more_billboard_songs.txt', 'r+')
+f = open('all_billboard_songs.txt', 'r+')
 
 tons_of_songs = pickle.load(f)
 full_list = tons_of_songs
-# recent_songs = pickle.load(h)
-# less_recent_songs = pickle.load(g)
-# tons_of_songs.extend(recent_songs)
-# tons_of_songs.extend(less_recent_songs)
-
-# full_list = condense_list(tons_of_songs)
-
-# recent_songs.extend(less_recent_songs)
-# full_list = condense_list(recent_songs)
 
 def add_to_db(artist, song, db):
     """
@@ -33,7 +22,10 @@ def add_to_db(artist, song, db):
         song_list = pickle.load(f)
         curr = make_echonest_database.Song_data(artist, song)
         if curr.id in [prev.id for prev in song_list]:
-            print "Song '" + song + "' already in database."
+            if curr.id == "N/A":
+                print "Could not find " + song + " : " + artist + "in echonest."
+            else:
+                print "Song '" + song + "' already in database."
             return
         song_list.append(curr)
         f.seek(0,0)
@@ -45,10 +37,10 @@ def add_to_db(artist, song, db):
         pickle.dump(song_list, f)
 
 
-wait_index = 22600 # to keep track of api rate limits.
+wait_index = 0 # to keep track of api rate limits.
 
 
-for (x, y) in full_list[22600:]:
+for (x, y) in full_list:
     try:
         add_to_db(x, y, 'fifty_seven_years_database.txt')
     except:
@@ -63,4 +55,4 @@ for (x, y) in full_list[22600:]:
     print wait_index
 
     if wait_index%100 == 0:
-        time.sleep(61)
+        time.sleep(61) # keeping us healthily below the 120 calls per minute requirement. If I were to write this again, I'd add in some sort of time-tracking thing to make it faster / waste less time, but it worked for what it needed to do.
