@@ -1,6 +1,10 @@
 """
 Combines the moods, an "evened-out" subset of the training data, and the ML code into one program. The training data is "evened-out" because that makes linearSVC more accurate: otherwise, that type of ML demonstrates a very strong bias towards whatever was most common in the training data.
 Due to irregularities in the prediction code, sometimes multiple runs are necessary in order to return a reasonably accurate prediction.
+
+URGENT TODO!!!
+The ML algorithm scales the values for the training & test data. That's good, but we NEED TO FIGURE OUT HOW TO DO THAT SAME SCALING AGAIN. We can't just go scale(input) - it'll scale only relative to itself. There's got to be a way, of course--but what?
+/URGENT TODO!!!
 """
 
 from make_echonest_database import Song_data
@@ -24,11 +28,15 @@ def get_lyrics(artist, title):
     r_text = r.text
     for (old, new) in [('false', 'False'), ('true', 'True'), ('null', 'None')]:
         r_text = r_text.replace(old, new)
-    r_text_as_data = eval(r_text)
-    if len(r_text_as_data) != 0:
-        r_text_dict = r_text_as_data[0]
-        return r_text_dict['snippet']
-    else:
+    try:
+        r_text_as_data = eval(r_text)
+        if len(r_text_as_data) != 0:
+            r_text_dict = r_text_as_data[0]
+            return r_text_dict['snippet']
+        else:
+            return ''
+    except:
+        print 'lyrics failure'
         return ''
 
 
@@ -42,7 +50,7 @@ def get_data(artist, title):
         current_song = rkp_results[0] # Takes the most likely match.
     else:
         print "Couldn't find " + artist + " : " + title + "."
-        return
+        return -1
     lyrics = get_lyrics(artist, title)
     lyric_sentiment = sentiment(lyrics)[0] # should get a value between -1.0 and 1.0 for the sentiment
     current_song.audio_summary['sentiment'] = lyric_sentiment
@@ -129,3 +137,42 @@ if accuracy <= 30:
 print '... for clocks:'
 clocks_prediction = lin_clf.predict(get_data('coldplay', 'clocks'))
 print clocks_prediction
+# print 'for bryan ferry slave to love which is apparently the sexiest song ever:'
+# print lin_clf.predict(get_data('bryan ferry', 'slave to love'))
+
+# testing out a possible structure:
+def get_food(artist, name):
+    mood_to_food = {0: 'Steak', 1: 'Ice Cream', 2: 'a cannoli (nudge nudge wink wink)', 3: 'red bull jell-o', 4: 'Sashimi', 5: 'Grilled Cheese'}
+    sd = get_data(artist, name)
+    if sd == -1:
+        print "Couldn't find " + artist + ' - ' + name
+        return
+    predicted_mood = lin_clf.predict(sd)
+    spiciness = sd[0] + sd[7]
+    lyric_sentiment = sd[8]
+    if lyric_sentiment > .5:
+        a = 'Funfetti on '
+    elif lyric_sentiment > 0:
+        a = 'Cheese on '
+    elif lyric_sentiment == 0:
+        a = "Bowl o' "
+    elif lyric_sentiment > -0.5:
+        a = "Lukewarm hot fudge on "
+    else:
+        a = 'Tears on '
+    if spiciness > 125:
+        b = 'Hot '
+    else:
+        b = 'Cold '
+    c = mood_to_food[predicted_mood[0]]
+    print('For ' + artist + ': ' + name + ', you should eat:\n' + 
+    a + b + c)
+
+if __name__ == "__main__":
+    print '=============================\n========================='
+    get_food('Bastille', 'Pompeii')
+    get_food('Meghan Trainor', 'All about that bass')
+    get_food('A Great Big World', 'Say Something')
+    get_food('Coldplay', 'Clocks')
+    get_food('Korpiklaani', 'Rauta')
+
