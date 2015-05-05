@@ -1,5 +1,6 @@
 """
-shelf explanatory
+Creates a large database for use with the ml code. Collects and formats the artists and song names required for the the other code to gather information
+and then for the ml to learn and train on. Scans the last 57 years of data for the top 100 songs for every week off the billboard website. 
 """
 
 import pickle
@@ -15,7 +16,7 @@ full_list = tons_of_songs
 
 def add_to_db(artist, song, db):
     """
-    what it says on the tin.
+    Adds song name and artist to database.
     """
     if exists(db):
         f = open(db, 'r+')
@@ -39,7 +40,7 @@ def add_to_db(artist, song, db):
 
 wait_index = 0 # to keep track of api rate limits.
 
-
+#controls what is added to the database and handles errors and exceptions
 for (x, y) in full_list:
     try:
         add_to_db(x, y, 'fifty_seven_years_database.txt')
