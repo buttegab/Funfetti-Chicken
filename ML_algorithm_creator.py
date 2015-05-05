@@ -89,8 +89,8 @@ for i in usable_songs:
     parameters.append([i.parameter_dict[k] for k in ['tempo', 'mode', 'key', 'danceability', 'acousticness', 'speechiness', 'loudness', 'energy','sentiment']])
     moodout.append(mood_to_int[i.mood1_text])
 
-from sklearn.preprocessing import scale
-parameters = scale(parameters) # svm isn't scale-insensitive, so pre-scaling it is handy.
+# from sklearn.preprocessing import scale
+# parameters = scale(parameters) # svm isn't scale-insensitive, so pre-scaling it is handy.
 
 from sklearn.cross_validation import train_test_split
 from sklearn.linear_model import LogisticRegression
@@ -111,25 +111,20 @@ for i in range(len(parameters_test)):
     prediction_list.append(prediction)
     if prediction == moodout_test[i]:
         accuracy += 1.0/len(parameters_test)
-    # accuracy += float(prediction == moodout_test[i] / len(parameters_test))
-
-# #generate confusion matrix
-# confusion = confusion_matrix(moodout_test, prediction_list)
-# print confusion
-# import numpy as np
-# print np.sum(confusion,axis=1)
-# list2 = np.sum(confusion,axis=1)
-# for sumn in range(len(moods_of_interest)):
-#     print(float(confusion[sumn][sumn])/float(list2[sumn]))
-
 
 accuracy = accuracy * 100
 if accuracy <= 30:
     print("Accuracy too low, please run again")
-
-# testing out a possible structure:
+print 'ACCURACY********'
+print accuracy
+print '-----------------'
+if accuracy <= 30:
+    print("Accuracy too low, please run again")
 
 def get_food(artist, name):
+    """
+    TODO: Scale parameters. Get hot, cold, etc working properly. New dictionary might also be nice.
+    """
     mood_to_food = {0: 'Steak', 1: 'Ice Cream', 2: 'a cannoli (nudge nudge wink wink)', 3: 'red bull jell-o', 4: 'Sashimi', 5: 'Grilled Cheese'}
     sd = get_data(artist, name)
     if sd == -1:
@@ -137,13 +132,13 @@ def get_food(artist, name):
     predicted_mood = lin_clf.predict(sd)
     spiciness = sd[0] + sd[7]
     lyric_sentiment = sd[8]
-    if lyric_sentiment > .5:
+    if lyric_sentiment > .33:
         a = 'Funfetti on '
     elif lyric_sentiment > 0:
         a = 'Cheese on '
     elif lyric_sentiment == 0:
         a = "Bowl o' "
-    elif lyric_sentiment > -0.5:
+    elif lyric_sentiment > -0.33:
         a = "Lukewarm hot fudge on "
     else:
         a = 'Tears on '
@@ -152,19 +147,19 @@ def get_food(artist, name):
     else:
         b = 'Cold '
     c = mood_to_food[predicted_mood[0]]
-    return('For ' + artist + ': ' + name + ', you should eat:\n' + 
-    a + b + c)
+    return a+b+c
+   
+def show_food(artist, track):
+    text = g.te(width=25, height=1)
+    text.insert(END, get_food(artist, track))
 
-def show_food(artist,track):
-    food = get_food(artist,track)
-    text = g.te(width=42, height=3)
-    text.insert(END,food)
 
-g = Gui()
-g.title('Funfetti Chicken')
-label = g.la(text='Enter a song and artist below')
-artist = g.en(text = 'Rick Astley')
-track = g.en(text = 'Never Gonna Give You Up')
-button = g.bu(text="Feed Me", command=lambda : show_food(artist.get(),track.get()))
-g.mainloop()
-
+if __name__ == "__main__":
+    print '==========================\n========================='
+    g = Gui()
+    g.title('Funfetti Chicken')
+    label = g.la(text='Enter a song and artist below')
+    artist = g.en(text = 'Rick Astley')
+    track = g.en(text = 'Never Gonna Give You Up')
+    button = g.bu(text="Feed Me", command=lambda : show_food(artist.get(),track.get()))
+    g.mainloop()
