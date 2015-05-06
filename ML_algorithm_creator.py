@@ -126,6 +126,7 @@ def get_food(artist, name):
     TODO: Scale parameters. Get hot, cold, etc working properly. New dictionary might also be nice.
     """
     mood_to_food = {0: 'Steak', 1: 'Ice Cream', 2: 'a cannoli (nudge nudge wink wink)', 3: 'red bull jell-o', 4: 'Sashimi', 5: 'Grilled Cheese'}
+    mood_to_word = {0: 'Empowering', 1: 'Excited', 2: 'Sensual', 3: 'Energizing', 4: 'Lively', 5: 'Sentimental'}
     sd = get_data(artist, name)
     if sd == -1:
         return "Couldn't find " + artist + ' - ' + name
@@ -147,7 +148,8 @@ def get_food(artist, name):
     else:
         b = 'Cold '
     c = mood_to_food[predicted_mood[0]]
-    return a+b+c
+    d = ' - ' + mood_to_word[predicted_mood[0]]
+    return a+b+c+d
    
 def show_food(artist, track):
     text = g.te(width=25, height=1)
